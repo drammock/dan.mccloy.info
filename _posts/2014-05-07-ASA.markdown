@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "ASA Providence"
+date: 2014-05-07 00:00:00
+---
+
+Had a great time at the Acoustical Society meeting in Providence this week. <more /> I presented my poster [“Effects of cognitive load on selective and divided auditory spatial attention”][div]; responses were generally quite favorable, though traffic was constant enough that I had little time to explore the other posters.  !more! The panel discussion following the special session on Determinants of Speech Perception was especially lively and thought-provoking, centering mostly on what speech scientists mean by phonetic or phonological “categories,” and including a call to action for models of speech processing to take into account what is neurobiologically plausible given our current knowledge of functional neuroanatomy.
+
+[div]:   http://dan.mccloy.info/pubs/McCloyLee2014_DivAttnCogLoad.pdf

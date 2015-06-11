@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Murmur in pre-Proto-Indo-European"
+date: 2014-12-16 00:00:00
+---
+ “Did murmur spread in pre-Proto-Indo-European?” is now published in *Indogermanische Forschungen*.<more /> The paper (co-written with Charles Barrack and [Richard Wright](http://depts.washington.edu/phonlab/people/wright.htm)) discusses the unusual distribution of stop consonant phonations in reconstructions of Proto-Indo-European, and a possible explanation for why it might genuinely have been so. The published version is [here](http://dx.doi.org/10.1515/if-2014-0009) and the pre-publication manuscript is [here](/pubs/BarrackEtAl2014_PIEmurmur.pdf).

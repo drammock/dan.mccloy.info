@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "phonR 1.0-1 released"
+date: 2015-03-06 00:00:00
+---
+`phonR` version 1.0-1 has been released on CRAN.<more /> This is a major update that includes many bugfixes, new features, and enhanced compatibility with basic R plotting functions (in other words, lots of the graphical parameters like `xlim` and `font.main` that work in a standard call to `plot()` now work in `phonR::plotVowels()` as well). The [development website](https://github.com/drammock/phonR) is now structured to be compatible with `devtools::install_github()`, so as new features or bugfixes get introduced they can be easily used by installing the development version via `devtools::install_github('drammock/phonR')`. There is also an extensive [tutorial vignette](http://drammock.github.io/phonR) to help both new users and those transitioning from older versions of the package.

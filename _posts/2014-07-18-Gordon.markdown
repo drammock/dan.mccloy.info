@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Gordon Research Conference"
+date: 2014-07-18 00:00:00
+---
+
+The 2014 Gordon Research Conference on the Auditory System drew to a close yesterday (or rather, early this morning). <more /> UW was (I think) the best represented institution, comprising 10 of the roughly 100 conferees. I presented my poster [“Listener strategy and performance in linguistic and non-linguistic auditory divided attention tasks”][poster]. The conference cuts a sharp contrast with larger conferences like ASA, ARO, or SFN; all food and drink is provided, and the site design and small attendance list makes it easy to find and talk to anyone you want to meet or catch up with. The research was broad (as foreshadowed by the conference title: “Encoding in the auditory system: from genes to behavior”), and the quality of the talks and posters was superb.
+
+[poster]:   http://dan.mccloy.info/pubs/McCloyEtAl2014_GordonConfPoster.pdf

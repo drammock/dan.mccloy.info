@@ -1,0 +1,20 @@
+name: "Daniel McCloy"
+description: "Daniel McCloy, postdoctoral research fellow, Laboratory for Auditory Brain Science and Neuroengineering, Institute for Learning and Brain Sciences, University of Washington"
+url: "dan.mccloy.info"
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "highlight", "strikethrough", "superscript"]
+permalink: pretty
+highlight: pygments
+
+scholar:
+  style: ./bib/_apa-custom.csl
+  locale: en
+  sort_by: none
+  order: ascending
+  source: ./bib
+  bibliography: McCloy_CV.bib
+  bibliography_template: "%{reference}"
+
+author:
+  orcid: 0000-0002-7572-3241

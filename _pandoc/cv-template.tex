@@ -1,0 +1,102 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+\documentclass[12pt, oneside]{article}
+\usepackage{color, url, fontspec, calc, paralist, enumitem, fancyhdr, natbib, bibentry, tabu, booktabs}
+\usepackage[letterpaper, margin=0.875in]{geometry}
+\usepackage[shortcuts]{extdash}
+\usepackage[parfill]{parskip}
+\usepackage[compact]{titlesec}
+\usepackage[xetex]{hyperref}
+\hypersetup{
+    pdftitle={Curriculum Vitae - Daniel McCloy},
+    pdfauthor={Daniel R. McCloy},
+    pdfsubject={Linguistics},
+    pdfkeywords={linguistics, phonetics, speech perception},
+%    bookmarksnumbered=true,
+%    bookmarksopen=true,
+%    bookmarksopenlevel=0,
+    colorlinks=true,
+%    anchorcolor=black
+%    citecolor=black,
+    filecolor=urlGreen,
+    linkcolor=black,
+%    menucolor=black,
+%    runcolor=black,
+    urlcolor=urlGreen,
+    pdfstartview=Fit,
+%    pdfpagemode=UseOutlines,
+    unicode=true
+}
+% FONTS
+\setmainfont[Numbers={Lining}]{Linux Libertine O}
+\newfontfamily\tit[Scale=1.2]{Linux Libertine O Semibold}%{Linux Libertine O Semibold}
+\newfontfamily\osf[Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
+\newfontfamily\disp[Scale=2]{Linux Libertine Display O}
+\newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
+\newfontfamily\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}
+%\newcommand{\supc}[1]{\textsc{#1}}
+% COLORS
+\definecolor{lightGray}{gray}{0.75}
+\definecolor{midGray}{gray}{0.4}
+\definecolor{darkGray}{gray}{0.25}
+\definecolor{urlGreen}{rgb}{0.1,0.5,0.1}
+% FORMATTING
+%\newenvironment{itm}{\begin{itemize}[leftmargin=*]}{\end{itemize}}
+\renewcommand{\labelitemi}{•}
+\renewcommand{\labelitemii}{◦}
+\renewcommand{\labelitemiii}{—}
+\renewcommand{\url}{\begingroup \def\UrlLeft{}\def\UrlRight{}\urlstyle{same}\Url}
+\newcommand{\furl}[1]{\urlstyle{same}\url{#1}}
+\newcommand{\gurl}[1]{{\color{urlGreen}\urlstyle{same}\url{#1}}}
+\newcommand{\fref}[2]{\urlstyle{same}\href{#1}{#2}}
+
+\titlespacing{\section}{0pt}{*3}{*-0.5}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0} %{command}{L-margin}{aboveskip}{belowskip}
+\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+\titleformat{\subsection}[hang]{\textbf\color{darkGray}}{\thesubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+%\titleformat{\subsubsection}[hang]{}{\thesubsubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+
+\setlength{\topmargin}{-0.25in}
+\setlength{\headheight}{0.75in}
+\setlength{\headsep}{0.125in}
+\setlength{\textheight}{7.875in}
+\setlength{\footskip}{0.375in}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\renewcommand{\headrule}{}
+
+\chead[]{\fancyplain{}{%
+	\begin{tabu} to \textwidth {@{}l X r@{}}
+		\everyrow{\rowfont{\color{midGray}}}
+		\color{midGray}\cvpg{curriculum vitae (page \thepage)} & & \color{midGray}\disp{DANIEL R. M\kern-1pt\supc{\raisebox{\heightof{M}-\heightof{c}}{c}}\kern0.5pt CLOY} \\ \taburulecolor{lightGray}\midrule
+		Postdoctoral Research Fellow & & Laboratory for Auditory Brain Science \& Neuroengineering\\
+	\end{tabu}
+}}
+
+\cfoot[]{%
+	\fancyplain{}{\color{midGray}%
+	\begin{tabu} to \textwidth {@{}l X r@{}}
+		\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:drmccloy@uw.edu}{drmccloy@uw.edu}\endgroup & & \begingroup\hypersetup{urlcolor=midGray}\furl{http://dan.mccloy.info}\endgroup \\ \taburulecolor{lightGray}\midrule
+		University of Washington & & 1715 NE Columbia Rd • Portage Bay Bldg • Rm 368\\ 
+		Institute for Learning \& Brain Sciences & & Box 357988 • Seattle WA • 98195-7988\\  %  • (206) 685 4662
+	\end{tabu}
+}}
+
+\errorcontextlines 10000
+\raggedbottom{}
+\begin{document}
+\nobibliography{../bib/McCloy_CV}
+\bibliographystyle{../bib/_apa-custom}
+\raggedright{}
+%\color{darkGray}
+
+$body$
+
+\end{document}
+
+%\begingroup\hypersetup{urlcolor=darkGray} 
+%\input{job}
+%\input{education}
+%\endgroup

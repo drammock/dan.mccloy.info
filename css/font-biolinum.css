@@ -1,0 +1,8 @@
+/* Linux Biolinum: a lot like Optima */
+@font-face { font-family: 'biolinum'; src: url('../fonts/LinBiolinum_R.woff') format('woff'); }
+@font-face { font-family: 'biolinum'; src: url('../fonts/LinBiolinum_RI.woff') format('woff'); font-style: italic; }
+@font-face { font-family: 'biolinum'; src: url('../fonts/LinBiolinum_RB.woff') format('woff'); font-weight: bold; }
+@font-face { font-family: 'biolinum-keyboard'; src: url('../fonts/LinBiolinum_K.woff') format('woff'); }
+
+.bio { font-family: "biolinum"; }
+.bio .kbd { font-family: "biolinum-keyboard"; }

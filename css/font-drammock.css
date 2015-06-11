@@ -1,0 +1,24 @@
+/* custom font made with fontello, for navigation icons */
+@font-face {
+	font-family: 'drammock';
+	src: url('../fonts/drammock.eot?69332455');
+	src: url('../fonts/drammock.woff?69332455') format('woff'),
+		 url('../fonts/drammock.eot?69332455#iefix') format('embedded-opentype'),
+		 url('../fonts/drammock.ttf?69332455') format('truetype'),
+		 url('../fonts/drammock.svg?69332455#drammock') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* class definitions */
+[class^="icon-"]:before, [class*=" icon-"]:before { font-family: "drammock"; }
+
+.icon-orcid:before { content: '\00A0\f007'; } /* '' */
+.icon-gpg:before { content: '\00A0\f023'; }   /* '' */
+.icon-li:before { content: '\00A0\f08c'; }    /* '' */
+.icon-gh:before { content: '\00A0\f092'; }    /* '' */
+.icon-pl:before { content: '\00A0\f0d4'; }    /* '' */
+.icon-brain:before { content: '\00A0\f0f0'; } /* '' */
+.icon-ncbi:before { content: '\00A0\f0f1'; }  /* '' */
+.icon-doc:before { content: '\00A0\f15c'; }   /* '' */
+.icon-env:before { content: '\00A0\f199'; }   /* '' */
+.icon-sch:before { content: '\00A0\f19d'; }   /* '' */

@@ -1,0 +1,17 @@
+/* Linux Libertine: a classic serif */
+@font-face { font-family: 'libertine'; src: url('../fonts/LinLibertine_R.woff') format('woff'); }
+@font-face { font-family: 'libertine'; src: url('../fonts/LinLibertine_RI.woff') format('woff'); font-style: italic; }
+@font-face { font-family: 'libertine'; src: url('../fonts/LinLibertine_RB.woff') format('woff'); font-weight: bold; }
+@font-face { font-family: 'libertine'; src: url('../fonts/LinLibertine_RBI.woff') format('woff'); font-weight: bold; font-style: italic; }
+@font-face { font-family: 'libertine-semi'; src: url('../fonts/LinLibertine_RZ.woff') format('woff'); }
+@font-face { font-family: 'libertine-semi'; src: url('../fonts/LinLibertine_RZI.woff') format('woff'); font-style: italic; }
+@font-face { font-family: 'libertine-display'; src: url('../fonts/LinLibertine_DR.woff') format('woff'); }
+@font-face { font-family: 'libertine-inline'; src: url('../fonts/LinLibertine_I.woff') format('woff'); }
+@font-face { font-family: 'libertine-mono'; src: url('../fonts/LinLibertine_M.woff') format('woff'); }
+
+/* class definitions */
+.lib { font-family: "libertine"; }
+.lib .med { font-family: "libertine-semi"; }
+.lib .dsp { font-family: "libertine-display"; }
+.lib .inl { font-family: "libertine-inline"; text-transform: uppercase; }
+.lib .mon { font-family: "libertine-mono"; }

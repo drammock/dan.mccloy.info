@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "ASA San Francisco"
+date: 2013-12-07 00:14:41
+---
+
+Had a great time at the Acoustical Society meeting in San Francisco this week, and ended the trip with a visit to [CCRMA][ccrma] at Stanford and dinner with Malcolm Slaney. <more /> I presented my poster [“Effects of auditory spatial attention in a semantic classification task”][div] despite having completely lost my voice by the time the friday poster session rolled around. 
+
+[ccrma]: https://ccrma.stanford.edu/
+[div]:   http://dan.mccloy.info/pubs/McCloyLee2013_DivAttnSem.pdf
