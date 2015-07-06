@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Curriculum Vitae"
+title:  "Curriculum Vitæ"
 ---
 # Overview
 My research interests include auditory neuroscience, speech perception, acoustic phonetics, and phonetic and phonological typology. More specifically, I work on auditory attention in multitalker environments, individual differences in intelligibility, and distinctive feature theory.
