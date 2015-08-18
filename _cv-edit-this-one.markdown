@@ -6,7 +6,7 @@ title:  "Curriculum Vitæ"
 My research interests include auditory neuroscience, speech perception, acoustic phonetics, and phonetic and phonological typology. More specifically, I work on auditory attention in multitalker environments, individual differences in intelligibility, and distinctive feature theory.
 
 # Current position
-Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks.
+Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding the ways in which the same listening task can be more or less effortful for different listeners.
 
 # Education
 - PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](http://hdl.handle.net/1773/23472)). Committee: [Richard Wright](http://depts.washington.edu/phonlab/people/wright.htm) (chair), [Erick Gallun](http://www.ncrar.research.va.gov/AboutUs/Staff/Gallun_A.asp), [Sharon Hargus](http://faculty.washington.edu/sharon/), [Gina-Anne Levow](http://faculty.washington.edu/levow/).
@@ -20,6 +20,7 @@ A BibTeX file containing reference information for all listed publications is av
 
 - **Manuscripts & work-in-progress**
     - [@McCloy-ProsodyIntel]
+    - [@McCloyEtAl-PupilVocodeReverb]
 - **Peer-reviewed articles**
     - [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf)).
     - [@McCloyEtAl2014-crossDialect]  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
@@ -63,10 +64,10 @@ A BibTeX file containing reference information for all listed publications is av
 
 # Software & corpora
 - Co-editor of [PHOIBLE Online](http://phoible.org/), a database of over 1600 phonological inventories.
-- Co-developer of the [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/).
+- Co-developer of the [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 - Co-developer of the python library “[expyfun: Experimental paradigm functions](http://github.com/LABSN/expyfun)” doi:[10.5281/zenodo.11640](http://dx.doi.org/10.5281/zenodo.11640).
 - Developer of the R package “[phonR: Tools for Phoneticians and Phonologists](http://drammock.github.io/phonR/).” doi:[10.5281/zenodo.15878](http://dx.doi.org/10.5281/zenodo.15878).
-- Developer of the Praat script library “[Praat Semi-Auto](http://github.com/drammock/praat-semiauto/).”
+- Developer of the Praat script library “[Praat Semi-Auto](http://github.com/drammock/praat-semiauto/),” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough.
 
 # Academic employment
 - Postdoctoral Research Fellow, UW Laboratory for Auditory Brain Science & Neuroengineering (2013–present).
@@ -95,6 +96,7 @@ A BibTeX file containing reference information for all listed publications is av
     - President, Society of Undergraduate Philosophers, UW Philosophy Department (2000–2002).
     - Member, Undergraduate Affairs & Curriculum Committees, UW Philosophy Department (2001–2002).
 - **Other**
+    - Workshop participant, [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
     - Discussion leader, UW Biomedical Research Integrity series (2013).
     - Webmaster, [Cyberling Blog](http://blog.cyberling.org/) (2010–2013).
     - Webmaster, UW Linguistics Society (2010–2012).
