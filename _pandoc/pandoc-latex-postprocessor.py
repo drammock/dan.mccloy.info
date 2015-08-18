@@ -12,6 +12,10 @@ with open(infile, 'r') as f, open(outfile, 'w') as g:
 		line = line.replace('\itemsep1pt\parskip0pt\parsep0pt', '')
 		# italicize the '-er' suffix
 		line = line.replace('{-er}', '\\emph{–er}')
+		# convert bold to smallcaps. DANGER! Very fragile, side effects likely.
+		if '\\textbf{' in line:
+			line = line.replace('\\textbf{', '\\textbf{\\MakeLowercase{\osf ')
+			line = line.replace('}', '}}')
 		# allow line breaking at the hyphens
 		line = line.replace('re-Proto-Indo-European', 're\-/Proto\-/Indo\-/European')
 		# avoid italics crashing in LABS^N
