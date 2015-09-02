@@ -20,6 +20,7 @@ A BibTeX file containing reference information for all listed publications is av
 
 - **Manuscripts & work-in-progress**
     - [@McCloy-ProsodyIntel]
+    - [@McCloyEtAl-PupilMethods]
     - [@McCloyEtAl-PupilVocodeReverb]
 - **Peer-reviewed articles**
     - [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf)).
