@@ -8,6 +8,7 @@ with open(infile, 'r') as f, open(outfile, 'w') as g:
 		line = line.replace('\\citep', '\\bibentry')
 		# don't number sections:
 		line = line.replace('\\section{', '\\section*{')
+		line = line.replace('\\subsection{', '\\subsection*{')
 		# pandoc generates this, don't remember why I object to it
 		line = line.replace('\itemsep1pt\parskip0pt\parsep0pt', '')
 		# italicize the '-er' suffix

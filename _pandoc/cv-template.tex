@@ -42,8 +42,8 @@
 \definecolor{urlGreen}{rgb}{0.1,0.5,0.1}
 % FORMATTING
 %\newenvironment{itm}{\begin{itemize}[leftmargin=*]}{\end{itemize}}
-\renewcommand{\labelitemi}{•}
-\renewcommand{\labelitemii}{◦}
+\renewcommand{\labelitemi}{◦}
+\renewcommand{\labelitemii}{•}
 \renewcommand{\labelitemiii}{—}
 \renewcommand{\url}{\begingroup \def\UrlLeft{}\def\UrlRight{}\urlstyle{same}\Url}
 \newcommand{\furl}[1]{\urlstyle{same}\url{#1}}
@@ -54,7 +54,9 @@
 \titlespacing{\subsection}{0pt}{*0}{*0}
 \titlespacing{\subsubsection}{0pt}{*0}{*0} %{command}{L-margin}{aboveskip}{belowskip}
 \titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
-\titleformat{\subsection}[hang]{\textbf\color{darkGray}}{\thesubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+\titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+%\titleformat{\subsection}[hang]{\textbf\color{darkGray}}{\thesubsection}{*0}{}%
+%\titleformat{\subsection}[hang]{\textbf\color{darkGray}}{\thesubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
 %\titleformat{\subsubsection}[hang]{}{\thesubsubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
 
 \setlength{\topmargin}{-0.25in}

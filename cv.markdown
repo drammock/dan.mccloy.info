@@ -18,34 +18,39 @@ Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](
 # Publications
 A BibTeX file containing reference information for all listed publications is available [here](../bib/McCloy_CV.bib).
 
-- **Manuscripts & work-in-progress**
-    - {% reference McCloy-ProsodyIntel %}
-    - {% reference McCloyEtAl-PupilMethods %}
-    - {% reference McCloyEtAl-PupilVocodeReverb %}
-- **Peer-reviewed articles**
-    - {% reference McCloyLee2015-DivAttnSem %}  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf)).
-    - {% reference McCloyEtAl2014-crossDialect %}  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
-    - {% reference BarrackEtAl2014-murmur %}  ([Pre-publication manuscript](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
-    - {% reference SouzaEtAl2013-familiarity %}  ([Pre-publication manuscript](../pubs/SouzaEtAl_FamiliarTalkerPrepub.pdf))
-    - {% reference MoranEtAl2012-language %}  ([Pre-publication manuscript](http://hdl.handle.net/1773/25269) | [Data and R script](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
-- **Technical reports**
-    - {% reference McCloy2012-phonR %}  ([PDF](../pubs/McCloy2012_phonR.pdf))
-- **Conference proceedings & working papers**
-    - {% reference McCloyEtAl2014-poma %}  ([PDF](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
-    - {% reference McCloy2014-indo %}  ([PDF](../pubs/McCloy2014_IndoMorphophonetics.pdf))
-    - {% reference McCloy2013-er %}  ([PDF](http://hdl.handle.net/1773/25273))
-    - {% reference McCloy2010-nwlcProc %}  ([PDF](http://hdl.handle.net/1773/25270))
-- **Conference presentations**
-    - {% reference McCloyEtAl2014-GordonConfPoster %} ([Poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
-    - {% reference McCloyLee2014-dasCogLoad %} ([Poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
-    - {% reference KishlineEtAl2014-TempOrder %} ([Poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
-    - {% reference McCloyLee2013-divAttnSem %} ([Poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
-    - {% reference McCloy2013-summerschool %}  ([Poster](http://hdl.handle.net/1773/25274))
-    - {% reference McCloyEtAl2013-cuny %}  ([Slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-    - {% reference McCloyEtAl2012-asaIntel %}  ([Poster](http://hdl.handle.net/1773/25272))
-    - {% reference MoranEtAl2012-lsa %}  ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://elanguage.net/journals/lsameeting/article/view/2857))
-    - {% reference McCloy2011-asaIndo %}  ([Poster](http://hdl.handle.net/1773/25271))
-    - {% reference McCloy2010-nwlcPres %}
+## Manuscripts & work in progress
+- {% reference McCloy-ProsodyIntel %}
+- {% reference McCloyEtAl-PupilMethods %}
+- {% reference McCloyEtAl-PupilVocodeReverb %}
+- {% reference McCloyEtAl-ChaharDevoicing %}
+
+## Peer-reviewed articles
+- {% reference McCloyLee2015-DivAttnSem %}  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf)).
+- {% reference McCloyEtAl2014-crossDialect %}  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
+- {% reference BarrackEtAl2014-murmur %}  ([Pre-publication manuscript](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
+- {% reference SouzaEtAl2013-familiarity %}  ([Pre-publication manuscript](../pubs/SouzaEtAl_FamiliarTalkerPrepub.pdf))
+- {% reference MoranEtAl2012-language %}  ([Pre-publication manuscript](http://hdl.handle.net/1773/25269) | [Data and R script](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+
+## Technical reports
+- {% reference McCloy2012-phonR %}  ([PDF](../pubs/McCloy2012_phonR.pdf))
+
+## Conference proceedings & working papers
+- {% reference McCloyEtAl2014-poma %}  ([PDF](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
+- {% reference McCloy2014-indo %}  ([PDF](../pubs/McCloy2014_IndoMorphophonetics.pdf))
+- {% reference McCloy2013-er %}  ([PDF](http://hdl.handle.net/1773/25273))
+- {% reference McCloy2010-nwlcProc %}  ([PDF](http://hdl.handle.net/1773/25270))
+
+## Conference presentations
+- {% reference McCloyEtAl2014-GordonConfPoster %} ([Poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
+- {% reference McCloyLee2014-dasCogLoad %} ([Poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
+- {% reference KishlineEtAl2014-TempOrder %} ([Poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
+- {% reference McCloyLee2013-divAttnSem %} ([Poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
+- {% reference McCloy2013-summerschool %}  ([Poster](http://hdl.handle.net/1773/25274))
+- {% reference McCloyEtAl2013-cuny %}  ([Slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
+- {% reference McCloyEtAl2012-asaIntel %}  ([Poster](http://hdl.handle.net/1773/25272))
+- {% reference MoranEtAl2012-lsa %}  ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://elanguage.net/journals/lsameeting/article/view/2857))
+- {% reference McCloy2011-asaIndo %}  ([Poster](http://hdl.handle.net/1773/25271))
+- {% reference McCloy2010-nwlcPres %}
 
 # Courses taught
 - Introduction to Phonetics (LING 450): Instructor for five-week intensive summer course (2010, 2011).
@@ -80,27 +85,26 @@ A BibTeX file containing reference information for all listed publications is av
 - Tutor, Philosophy Writing Center (2001–2002).
 
 # Academic service
-- **Mentorship**
-    - Mentor, graduate student L. Kishline, UW Dept. of Speech & Hearing Sciences (2014–present).
-    - Member, Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
-    - Mentor, graduate student J. Crowgey, UW Department of Linguistics (2009–2013).
-    - Mentor, undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
-- **Conferences & Reviews**
-    - Reviewer for LSA Annual meeting (2015).
-    - _Ad hoc_ reviewer for _Phonology_ (2012, 2013).
-    - _Ad hoc_ reviewer for _UW Working Papers in Linguistics_ (2007, 2012).
-    - Reviewer for Northwest Linguistics Conference (2008, 2012).
-    - Co-chair, 24th Northwest Linguistics Conference (2008).
-- **Committees**
-    - Member, LSA Committee on Scholarly Communication in Linguistics (2014–present).
-    - Member, LSA Technology Advisory Committee (2013–2014).
-    - President, Society of Undergraduate Philosophers, UW Philosophy Department (2000–2002).
-    - Member, Undergraduate Affairs & Curriculum Committees, UW Philosophy Department (2001–2002).
-- **Other**
-    - Workshop participant, [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
-    - Discussion leader, UW Biomedical Research Integrity series (2013).
-    - Webmaster, [Cyberling Blog](http://blog.cyberling.org/) (2010–2013).
-    - Webmaster, UW Linguistics Society (2010–2012).
+
+## Mentorship
+- Member, Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
+- Mentor, graduate student L. Kishline, UW Dept. of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
+
+## Conferences & Reviews
+- Reviewer for LSA Annual meeting (2015); Northwest Linguistics Conference (2008, 2012).
+- _Ad hoc_ reviewer for _Phonology_ (2012, 2013); _UW Working Papers in Linguistics_ (2007, 2012).
+- Co-chair, 24th Northwest Linguistics Conference (2008).
+
+## Committees
+- Member, LSA Committee on Scholarly Communication in Linguistics (2014–present).
+- Member, LSA Technology Advisory Committee (2013–2014).
+- President, Society of Undergraduate Philosophers, UW Philosophy Department (2000–2002).
+- Member, Undergraduate Affairs & Curriculum Committees, UW Philosophy Department (2001–2002).
+
+## Other
+- Workshop participant, [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
+- Discussion leader, UW Biomedical Research Integrity series (2013).
+- Webmaster, [Cyberling Blog](http://blog.cyberling.org/) (2010–2013); UW Linguistics Society (2010–2012).
 
 # Languages
 - Natural: English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
