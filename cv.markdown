@@ -6,7 +6,7 @@ title:  "Curriculum Vitæ"
 My research interests include auditory neuroscience, speech perception, acoustic phonetics, and phonetic and phonological typology. More specifically, I work on auditory attention in multitalker environments, individual differences in intelligibility, and distinctive feature theory.
 
 # Current position
-Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding the ways in which the same listening task can be more or less effortful for different listeners.
+Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding the ways in which the same listening task can be more or less effortful for different listeners. I’m also involved in a project studying whether EEG is sensitive to non-native consonant contrasts, and another project studying auditory attention and speech processing in adolescents with either central auditory processing disorder or fetal alcohol spectrum disorder.
 
 # Education
 - PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](http://hdl.handle.net/1773/23472)). Committee: [Richard Wright](http://depts.washington.edu/phonlab/people/wright.htm) (chair), [Erick Gallun](http://www.ncrar.research.va.gov/AboutUs/Staff/Gallun_A.asp), [Sharon Hargus](http://faculty.washington.edu/sharon/), [Gina-Anne Levow](http://faculty.washington.edu/levow/).
@@ -20,7 +20,7 @@ A BibTeX file containing reference information for all listed publications is av
 
 ## Manuscripts & work in progress
 - {% reference McCloy-ProsodyIntel %}
-- {% reference McCloyEtAl-PupilMethods %}
+- {% reference McCloyEtAl-PupilMethods %} ([Submitted manuscript](../pubs/McCloyEtAl-pupil-deconvolution-manuscript.pdf))
 - {% reference McCloyEtAl-PupilVocodeReverb %}
 - {% reference McCloyEtAl-ChaharDevoicing %}
 
