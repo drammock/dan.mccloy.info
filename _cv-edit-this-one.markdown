@@ -19,9 +19,9 @@ Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](
 A BibTeX file containing reference information for all listed publications is available [here](../bib/McCloy_CV.bib).
 
 ## Manuscripts & work in progress
-- [@McCloy-ProsodyIntel]
 - [@McCloyEtAl-PupilMethods] ([Submitted manuscript](../pubs/McCloyEtAl-pupil-deconvolution-manuscript.pdf))
 - [@McCloyEtAl-PupilVocodeReverb]
+- [@McCloy-ProsodyIntel]
 - [@McCloyEtAl-ChaharDevoicing]
 
 ## Peer-reviewed articles
