@@ -6,7 +6,7 @@ title:  "Curriculum Vitæ"
 My research interests include auditory neuroscience, speech perception, acoustic phonetics, and phonetic and phonological typology. More specifically, I work on auditory attention in multitalker environments, individual differences in intelligibility, and distinctive feature theory.
 
 # Current position
-Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding the ways in which the same listening task can be more or less effortful for different listeners. I’m also involved in a project studying whether EEG is sensitive to non-native consonant contrasts, and a couple projects studying auditory attention and speech processing in listeners with either central auditory processing disorder, autism spectrum disorder, or fetal alcohol spectrum disorder.
+Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding the ways in which the same listening task can be more or less effortful for different listeners. I’m also involved in a project studying whether EEG reflects within-category differences in perception of non-native consonant contrasts, and peripherally involved in projects studying auditory attention and speech processing in listeners with central auditory processing disorder, autism spectrum disorder, or fetal alcohol spectrum disorder. Projects outside of _[LABS]^N^_ include [the PHOIBLE database](http://phoible.org), and an investigation of vowel devoicing in Chahar Mongolian.
 
 # Education
 - PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](http://hdl.handle.net/1773/23472)). Committee: [Richard Wright](http://depts.washington.edu/phonlab/people/wright.htm) (chair), [Erick Gallun](http://www.ncrar.research.va.gov/AboutUs/Staff/Gallun.asp), [Sharon Hargus](http://faculty.washington.edu/sharon/), [Gina-Anne Levow](http://faculty.washington.edu/levow/).
@@ -19,12 +19,11 @@ Postdoctoral fellow, [Laboratory for Auditory Brain Science & Neuroengineering](
 A BibTeX file containing reference information for all listed publications is available [here](../bib/McCloy_CV.bib).
 
 ## Manuscripts & work in progress
-- [@McCloyEtAl-PupilMethods] ([Submitted manuscript](../pubs/McCloyEtAl-pupil-deconvolution-manuscript.pdf))
 - [@McCloyEtAl-PupilVocodeReverb]
 - [@McCloy-ProsodyIntel]
-- [@McCloyEtAl-ChaharDevoicing]
 
 ## Peer-reviewed articles
+- [@McCloyEtAl2016-PupilMethods]  ([Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf))
 - [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf)).
 - [@McCloyEtAl2014-crossDialect]  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - [@BarrackEtAl2014-murmur]  ([Pre-publication manuscript](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
@@ -41,16 +40,20 @@ A BibTeX file containing reference information for all listed publications is av
 - [@McCloy2010-nwlcProc]  ([PDF](http://hdl.handle.net/1773/25270))
 
 ## Conference presentations
+- [@McCloyEtAl2016-ChaharDevoicing] ([Poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
 - [@McCloyEtAl2014-GordonConfPoster] ([Poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
 - [@McCloyLee2014-dasCogLoad] ([Poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
 - [@KishlineEtAl2014-TempOrder] ([Poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
 - [@McCloyLee2013-divAttnSem] ([Poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
-- [@McCloy2013-summerschool]  ([Poster](http://hdl.handle.net/1773/25274))
-- [@McCloyEtAl2013-cuny]  ([Slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-- [@McCloyEtAl2012-asaIntel]  ([Poster](http://hdl.handle.net/1773/25272))
-- [@MoranEtAl2012-lsa]  ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://elanguage.net/journals/lsameeting/article/view/2857))
-- [@McCloy2011-asaIndo]  ([Poster](http://hdl.handle.net/1773/25271))
+- [@McCloy2013-summerschool] ([Poster](http://hdl.handle.net/1773/25274))
+- [@McCloyEtAl2013-cuny] ([Slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
+- [@McCloyEtAl2012-asaIntel] ([Poster](http://hdl.handle.net/1773/25272))
+- [@MoranEtAl2012-lsa] ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://elanguage.net/journals/lsameeting/article/view/2857))
+- [@McCloy2011-asaIndo] ([Poster](http://hdl.handle.net/1773/25271))
 - [@McCloy2010-nwlcPres]
+
+## Invited talks
+- [@McCloy2016-ucsb]
 
 # Courses taught
 - Introduction to Phonetics (LING 450): Instructor for five-week intensive summer course (2010, 2011).
@@ -71,12 +74,12 @@ A BibTeX file containing reference information for all listed publications is av
 # Software & corpora
 - Co-editor of [PHOIBLE Online](http://phoible.org/), a database of over 1600 phonological inventories.
 - Co-developer of the [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- Co-developer of the python library “[expyfun: Experimental paradigm functions](http://github.com/LABSN/expyfun)” doi:[10.5281/zenodo.11640](http://dx.doi.org/10.5281/zenodo.11640).
+- Co-developer of the python library “[expyfun: Experimental paradigm functions](http://github.com/LABSN/expyfun).” doi:[10.5281/zenodo.11640](http://dx.doi.org/10.5281/zenodo.11640).
 - Developer of the R package “[phonR: Tools for Phoneticians and Phonologists](http://drammock.github.io/phonR/).” doi:[10.5281/zenodo.15878](http://dx.doi.org/10.5281/zenodo.15878).
 - Developer of the Praat script library “[Praat Semi-Auto](http://github.com/drammock/praat-semiauto/),” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough.
 
 # Academic employment
-- Postdoctoral Research Fellow, UW Laboratory for Auditory Brain Science & Neuroengineering (2013–present).
+- Postdoctoral Research Associate, UW Laboratory for Auditory Brain Science & Neuroengineering (2013–present).
 - Research Associate, UW Linguistic Phonetics Laboratory (2010–2013).
 - Teaching Associate for Digital Curriculum Development, Department of Linguistics (2009–2010).
 - Organizer, Cyberling 2009 (NSF-funded workshop at LSA summer institute, UC Berkeley).
@@ -91,9 +94,10 @@ A BibTeX file containing reference information for all listed publications is av
 - Mentor, graduate student L. Kishline, UW Dept. of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
 
 ## Conferences & Reviews
+- Special session organizer, “Quantitative Methodology in Physiological and Psychophysical Data Analysis”, 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - Reviewer for LSA Annual meeting (2015); Northwest Linguistics Conference (2008, 2012).
-- _Ad hoc_ reviewer for _Phonology_ (2012, 2013); _UW Working Papers in Linguistics_ (2007, 2012).
-- Co-chair, 24th Northwest Linguistics Conference (2008).
+- _Ad hoc_ reviewer for _Phonology_ (2012, 2013, 2016); Journal of the Acoustical Society of America (2016); _UW Working Papers in Linguistics_ (2007, 2012).
+- Co-chair, 24th Northwest Linguistics Conference, Seattle (2008).
 
 ## Committees
 - Member, LSA Committee on Scholarly Communication in Linguistics (2014–present).
@@ -108,7 +112,7 @@ A BibTeX file containing reference information for all listed publications is av
 
 # Languages
 - Natural: English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
-- Computational: Python, R (advanced); Praat, LaTeX, Bash, MATLAB (intermediate); HTML, CSS, CSL, Flash/Actionscript 3, BST (fair).
+- Computational: Python, R (advanced); MATLAB (intermediate but rusty).
 
 # Awards and fellowships
 - NIH LRP award (2014).
@@ -130,4 +134,5 @@ A BibTeX file containing reference information for all listed publications is av
 - Solid grasp of scientific method, experimental design, statistical analysis, and model interpretation.
 - Knowledge of and contribution to open-source tools for scientific research.
 - More than ten years’ experience as a graphic designer & web developer. Strong skills in data visualization, color correction, and information structure and flow. Professional-level software skills in Adobe Creative Suite.
+- Facile with many specialized computational tools and languages: Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST, Flash/Actionscript 3.
 - Comfortable in Linux, Windows, and OS X environments.
