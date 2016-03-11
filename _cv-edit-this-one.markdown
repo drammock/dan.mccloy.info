@@ -6,7 +6,7 @@ title:  "Curriculum Vitæ"
 My research interests include auditory neuroscience, speech perception, acoustic phonetics, and phonetic and phonological typology. More specifically, I work on auditory attention in multitalker environments, individual differences in intelligibility, and distinctive feature theory.
 
 # Current position
-Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding the ways in which the same listening task can be more or less effortful for different listeners. I’m also involved in a project studying whether EEG reflects within-category differences in perception of non-native consonant contrasts, and peripherally involved in projects studying auditory attention and speech processing in listeners with central auditory processing disorder, autism spectrum disorder, or fetal alcohol spectrum disorder. Projects outside of _[LABS]^N^_ include [the PHOIBLE database](http://phoible.org), and an investigation of vowel devoicing in Chahar Mongolian.
+Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding how listeners manage attention in spatially complex auditory scenes, and the reasons that the same listening task can be more or less effortful for different listeners. I’m also involved in a project studying whether EEG reflects within-category differences in perception of non-native consonant contrasts, and peripherally involved in projects studying auditory attention and speech processing in listeners with central auditory processing disorder, autism spectrum disorder, or fetal alcohol spectrum disorder. Projects outside of _[LABS]^N^_ include [the PHOIBLE database](http://phoible.org), and an investigation of vowel devoicing in Chahar Mongolian.
 
 # Education
 - PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](http://hdl.handle.net/1773/23472)). Committee: [Richard Wright](http://depts.washington.edu/phonlab/people/wright.htm) (chair), [Erick Gallun](http://www.ncrar.research.va.gov/AboutUs/Staff/Gallun.asp), [Sharon Hargus](http://faculty.washington.edu/sharon/), [Gina-Anne Levow](http://faculty.washington.edu/levow/).
@@ -23,7 +23,7 @@ A BibTeX file containing reference information for all listed publications is av
 - [@McCloy-ProsodyIntel]
 
 ## Peer-reviewed articles
-- [@McCloyEtAl2016-PupilMethods]  ([Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf))
+- [@McCloyEtAl2016-PupilMethods]  ([Published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf)).
 - [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf)).
 - [@McCloyEtAl2014-crossDialect]  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - [@BarrackEtAl2014-murmur]  ([Pre-publication manuscript](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
@@ -91,12 +91,12 @@ A BibTeX file containing reference information for all listed publications is av
 
 ## Mentorship
 - Member, Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
-- Mentor, graduate student L. Kishline, UW Dept. of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
+- Mentor, graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
 
 ## Conferences & Reviews
-- Special session organizer, “Quantitative Methodology in Physiological and Psychophysical Data Analysis”, 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
+- Special session organizer, “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - Reviewer for LSA Annual meeting (2015); Northwest Linguistics Conference (2008, 2012).
-- _Ad hoc_ reviewer for _Phonology_ (2012, 2013, 2016); Journal of the Acoustical Society of America (2016); _UW Working Papers in Linguistics_ (2007, 2012).
+- _Ad hoc_ reviewer for _Phonology_ (2012, 2013, 2016); _The Journal of the Acoustical Society of America_ (2016); _UW Working Papers in Linguistics_ (2007, 2012).
 - Co-chair, 24th Northwest Linguistics Conference, Seattle (2008).
 
 ## Committees
@@ -106,13 +106,9 @@ A BibTeX file containing reference information for all listed publications is av
 - Member, Undergraduate Affairs & Curriculum Committees, UW Philosophy Department (2001–2002).
 
 ## Other
-- Workshop participant, [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
-- Discussion leader, UW Biomedical Research Integrity series (2013).
-- Webmaster, [Cyberling Blog](http://blog.cyberling.org/) (2010–2013); UW Linguistics Society (2010–2012).
-
-# Languages
-- Natural: English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
-- Computational: Python, R (advanced); MATLAB (intermediate but rusty).
+- Workshop participant: [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
+- Discussion leader: UW Biomedical Research Integrity series (2013).
+- Webmaster: [Cyberling Blog](http://blog.cyberling.org/) (2010–2013), UW Linguistics Society (2010–2012).
 
 # Awards and fellowships
 - NIH LRP award (2014).
@@ -122,6 +118,11 @@ A BibTeX file containing reference information for all listed publications is av
 - “Outstanding Graduating Senior,” UW Department of Philosophy (2002).
 - “Outstanding Undergraduate Scholar,” UW Department of Philosophy (2001).
 - _Phi Beta Kappa_ scholarship (2000).
+
+# Languages
+- Natural: English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
+- General-purpose computational: Python, R (advanced); MATLAB, Flash/Actionscript3 (intermediate but rusty).
+- Specialized computational: Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST.
 
 # Professional and scholarly affiliations
 - Member, Association for Research in Otolaryngology (2014–present).
@@ -134,5 +135,4 @@ A BibTeX file containing reference information for all listed publications is av
 - Solid grasp of scientific method, experimental design, statistical analysis, and model interpretation.
 - Knowledge of and contribution to open-source tools for scientific research.
 - More than ten years’ experience as a graphic designer & web developer. Strong skills in data visualization, color correction, and information structure and flow. Professional-level software skills in Adobe Creative Suite.
-- Facile with many specialized computational tools and languages: Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST, Flash/Actionscript 3.
 - Comfortable in Linux, Windows, and OS X environments.
