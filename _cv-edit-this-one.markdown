@@ -19,6 +19,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 A BibTeX file containing reference information for all listed publications is available [here](../bib/McCloy_CV.bib).
 
 ## Manuscripts & work in progress
+- [@HasegawaJohnsonEtAl-UnderresourcedASR]
 - [@McCloyEtAl-PupilVocodeReverb]
 - [@McCloy-ProsodyIntel]
 
