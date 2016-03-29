@@ -28,7 +28,7 @@ A BibTeX file containing reference information for all listed publications is av
 - {% reference McCloyLee2015-DivAttnSem %}  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [code repository](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
 - {% reference McCloyEtAl2014-crossDialect %}  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - {% reference BarrackEtAl2014-murmur %}  ([Pre-publication manuscript](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
-- {% reference SouzaEtAl2013-familiarity %}  ([Pre-publication manuscript](../pubs/SouzaEtAl_FamiliarTalkerPrepub.pdf))
+- {% reference SouzaEtAl2013-familiarity %}  ([Pre-publication manuscript](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
 - {% reference MoranEtAl2012-language %}  ([Pre-publication manuscript](http://hdl.handle.net/1773/25269) | [Data and R script](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
 ## Technical reports
