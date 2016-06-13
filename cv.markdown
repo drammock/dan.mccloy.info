@@ -3,27 +3,30 @@ layout: default
 title:  "Curriculum Vitæ"
 ---
 # Overview
-My research interests include auditory neuroscience, speech perception, acoustic phonetics, and phonetic and phonological typology. More specifically, I work on auditory attention and speech processing in multitalker environments, individual differences in intelligibility, and distinctive feature theory.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I research auditory attention and speech processing in multitalker environments, individual differences in speech intelligibility, and the relationship between speech perception and distinctive feature theory.
 
 # Current position
 Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]<sup>N</sup>_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. Current research projects:
 
 - Investigating the influence of linguistic structure on auditory selective and divided attention
 - Measuring effort-related pupillary response in auditory attention tasks
-- Estimating non-native phone (mis)perception using EEG
-<!--
-I’m working on experiments that test the interaction between auditory attention and speech processing, by manipulating linguistic features of speech stimuli in auditory attention tasks. We’re measuring listener accuracy, response time, and pupil dilation, with the goal of understanding how listeners manage attention in spatially complex auditory scenes, and the reasons that the same listening task can be more or less effortful for different listeners. I’m also involved in a project studying whether EEG reflects within-category differences in perception of non-native consonant contrasts, and peripherally involved in projects studying auditory attention and speech processing in listeners with central auditory processing disorder, autism spectrum disorder, or fetal alcohol spectrum disorder. Projects outside of _[LABS]<sup>N</sup>_ include [the PHOIBLE database](http://phoible.org), and investigations of vowel devoicing in Chahar Mongolian.
--->
+- Predicting non-native phone (mis)perception using EEG
 
 # Education
+## Academic degrees
 - PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](http://hdl.handle.net/1773/23472)). Committee: [Richard Wright](http://depts.washington.edu/phonlab/people/wright.htm) (chair), [Erick Gallun](http://www.ncrar.research.va.gov/AboutUs/Staff/Gallun.asp), [Sharon Hargus](http://faculty.washington.edu/sharon/), [Gina-Anne Levow](http://faculty.washington.edu/levow/).
 - MA in Linguistics (University of Washington, 2009): “The semantics of implicitly relational predicates” ([PDF](http://hdl.handle.net/1773/24799)). Thesis advisor: [Toshiyuki Ogihara](http://faculty.washington.edu/ogihara/).
-- International Chinese Language Program (National Taiwan University, 2008).
-- BA in Philosophy, _cum laude_, with distinction (University of Washington, 2002).
-- BS in Neurobiology, _cum laude_ (University of Washington, 2002).
+- BA in Philosophy (University of Washington, 2002).
+- BS in Neurobiology (University of Washington, 2002).
+
+## Other education / training
+- [Machine Learning](https://www.coursera.org/account/accomplishments/records/FY94856VBP3Q) (Stanford University / Coursera, 2016).
+- [Biomedical Research Integrity Program](http://depts.washington.edu/uwbri/attendance-records/attendance-records) (University of Washington, 2013).
+- Protection of Human Research Subjects: Biomedical, Social/Behavioral, HIPAA (University of Washington / CITI, 2011, 2013).
+- [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
 
 # Research products
-A BibTeX file containing reference information for all listed publications is available [here](../bib/McCloy_CV.bib).
+Reference information for all listed publications is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
 - {% reference McCloyEtAl2016-PupilMethods %}  ([Published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [code/data repository](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
@@ -45,9 +48,6 @@ A BibTeX file containing reference information for all listed publications is av
 ## Manuscripts & work in progress
 - {% reference HasegawaJohnsonEtAl-UnderresourcedASR %}
 - {% reference McCloyEtAl-PupilVocodeReverb %}
-<!--
-- {% reference McCloy-ProsodyIntel %}
--->
 
 ## Invited lectures
 - {% reference McCloy2016-ucsb %}
@@ -66,18 +66,14 @@ A BibTeX file containing reference information for all listed publications is av
 - {% reference McCloy2010-nwlcPres %}
 
 ## Software & corpora
-- Co-editor of [PHOIBLE Online](http://phoible.org/), a database of over 1600 phonological inventories.
-- Co-developer of the [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- Co-developer of the python library “[expyfun: Experimental paradigm functions](http://github.com/LABSN/expyfun).” doi:[10.5281/zenodo.11640](http://dx.doi.org/10.5281/zenodo.11640).
-- Developer of the R package “[phonR: Tools for Phoneticians and Phonologists](http://drammock.github.io/phonR/).” doi:[10.5281/zenodo.15878](http://dx.doi.org/10.5281/zenodo.15878).
-- Developer of the Praat script library “[Praat Semi-Auto](http://github.com/drammock/praat-semiauto/),” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough.
+- Co-editor: [PHOIBLE Online](http://phoible.org/), a database of over 1600 phonological inventories.
+- Co-developer: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- Co-developer: python library “[expyfun: Experimental paradigm functions](http://github.com/LABSN/expyfun).” doi:[10.5281/zenodo.11640](http://dx.doi.org/10.5281/zenodo.11640).
+- Developer: R package “[phonR: Tools for Phoneticians and Phonologists](http://drammock.github.io/phonR/).” doi:[10.5281/zenodo.15878](http://dx.doi.org/10.5281/zenodo.15878).
+- Developer: Praat script library “[Praat Semi-Auto](http://github.com/drammock/praat-semiauto/),” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough.
 
 ## Other research activities
 - Workshop participant: [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
-<!--
-- Postdoctoral Research Associate: UW Laboratory for Auditory Brain Science & Neuroengineering (2013–present).
-- Graduate Research Associate: UW Linguistic Phonetics Laboratory (2010–2013).
--->
 
 # Teaching experience
 
@@ -109,26 +105,19 @@ A BibTeX file containing reference information for all listed publications is av
 - Mentor: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
 
 ## Conferences & Reviews
-- Session organizer: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
+- Session organizer/chair: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - Reviewer: LSA Annual meeting (2015), Northwest Linguistics Conference (2008, 2012).
-- _Ad hoc_ reviewer: _Phonology_ (2012, 2013, 2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012).
-- Workshop organizer: Cyberling 2009 (workshop at LSA summer institute, UC Berkeley).
+- _Ad hoc_ reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012).
 - Co-chair: 24th Northwest Linguistics Conference, Seattle (2008).
 
 ## Committee service
 - Member: LSA Committee on Scholarly Communication in Linguistics (2014–present).
 - Member: LSA Technology Advisory Committee (2013–2014).
-<!--
-- President: Society of Undergraduate Philosophers, UW Philosophy Department (2000–2002).
-- Member: Undergraduate Affairs Committee, UW Philosophy Department (2001–2002).
- -->
 
 ## Other service activities
 - Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
-- Discussion leader: UW Biomedical Research Integrity series (2013).
-<!--
-- Webmaster: [Cyberling Blog](http://blog.cyberling.org/) (2010–2013), UW Linguistics Society (2010–2012).
- -->
+- Participant: Mozilla Open Science Global Code Sprint (2016).
+- Discussion leader: Biomedical Research Integrity Program (2013).
 
 # Awards and fellowships
 - NIH LRP award (2014—2016).
@@ -141,7 +130,7 @@ A BibTeX file containing reference information for all listed publications is av
 
 # Languages
 - Natural: English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
-- Computational: Python, R (advanced); MATLAB, Flash/Actionscript3 (intermediate but rusty).
+- General purpose: Python, R (advanced); Octave/MATLAB, Flash/Actionscript3 (intermediate but rusty).
 - Specialized: Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST.
 
 # Professional and scholarly affiliations
