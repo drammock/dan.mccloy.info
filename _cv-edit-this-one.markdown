@@ -61,7 +61,7 @@ Reference information for all listed publications is available in [this BibTeX f
 - [@McCloy2013-summerschool] ([Poster](http://hdl.handle.net/1773/25274))
 - [@McCloyEtAl2013-cuny] ([Slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
 - [@McCloyEtAl2012-asaIntel] ([Poster](http://hdl.handle.net/1773/25272))
-- [@MoranEtAl2012-lsa] ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://elanguage.net/journals/lsameeting/article/view/2857))
+- [@MoranEtAl2012-lsa] ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
 - [@McCloy2011-asaIndo] ([Poster](http://hdl.handle.net/1773/25271))
 - [@McCloy2010-nwlcPres]
 
@@ -94,6 +94,8 @@ Reference information for all listed publications is available in [this BibTeX f
 - “Linguistics, Cognitive Science, and Philosophy of Mind.”  Guest lecture in PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
 ## Other instructional activities
+- Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
+- Discussion leader: Biomedical Research Integrity Program (2013).
 - Curriculum Development Associate: Department of Linguistics (2009–2010).
 - Tutor: UW Center for Learning and Undergraduate Enrichment (2009).
 - Tutor: Philosophy Writing Center (2001–2002).
@@ -115,9 +117,7 @@ Reference information for all listed publications is available in [this BibTeX f
 - Member: LSA Technology Advisory Committee (2013–2014).
 
 ## Other service activities
-- Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
 - Participant: Mozilla Open Science Global Code Sprint (2016).
-- Discussion leader: Biomedical Research Integrity Program (2013).
 
 # Awards and fellowships
 - NIH LRP award (2014—2016).
