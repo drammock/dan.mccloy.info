@@ -21,7 +21,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 
 ## Other education / training
 - [Machine Learning](https://www.coursera.org/account/accomplishments/records/FY94856VBP3Q) (Stanford University / Coursera, 2016).
-- [Biomedical Research Integrity Program](http://depts.washington.edu/uwbri/attendance-records/attendance-records) (University of Washington, 2013).
+- [Biomedical Research Integrity Program](http://depts.washington.edu/uwbri/attendance-records/attendance-records) (University of Washington, 2013, 2016).
 - Protection of Human Research Subjects: Biomedical, Social/Behavioral, HIPAA (University of Washington / CITI, 2011, 2013).
 - [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
 
@@ -46,8 +46,8 @@ Reference information for all listed publications is available in [this BibTeX f
 - {% reference McCloy2012-phonR %}  ([PDF](../pubs/McCloy2012_phonR.pdf))
 
 ## Manuscripts & work in progress
-- {% reference HasegawaJohnsonEtAl-UnderresourcedASR %}
 - {% reference McCloyEtAl-PupilVocodeReverb %}
+- {% reference HasegawaJohnsonEtAl-UnderresourcedASR %}
 
 ## Invited lectures
 - {% reference McCloy2016-ucsb %}
@@ -95,10 +95,10 @@ Reference information for all listed publications is available in [this BibTeX f
 
 ## Other instructional activities
 - Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
-- Discussion leader: Biomedical Research Integrity Program (2013).
+- Discussion leader: Biomedical Research Integrity Program (2013, 2016).
 - Curriculum Development Associate: Department of Linguistics (2009–2010).
 - Tutor: UW Center for Learning and Undergraduate Enrichment (2009).
-- Tutor: Philosophy Writing Center (2001–2002).
+- Tutor: UW Philosophy Writing Center (2001–2002).
 
 # Academic service
 
@@ -108,8 +108,8 @@ Reference information for all listed publications is available in [this BibTeX f
 
 ## Conferences & Reviews
 - Session organizer/chair: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
-- Reviewer: LSA Annual meeting (2015), Northwest Linguistics Conference (2008, 2012).
-- _Ad hoc_ reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012).
+- Conference referee: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
+- Journal reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012).
 - Co-chair: 24th Northwest Linguistics Conference, Seattle (2008).
 
 ## Committee service

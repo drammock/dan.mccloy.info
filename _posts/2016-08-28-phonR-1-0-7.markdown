@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "phonR 1.0-7 released"
+date: 2016-08-28 00:00:00
+---
+`phonR` version 1.0-7 has been released on CRAN.<more /> This release includes better control over diphthong line/arrow styling, and the ellipses are now drawn as confidence regions for the location of the mean: i.e., they are calculated using Hotelling’s *T²* distribution  (which accounts for sample size) instead of the *χ²* distribution (which yields a true confidence region only if the data are assumed to be the entire population of points rather than a sample drawn from a larger population). For large numbers of tokens the difference should be imperceptible; you’ll only really notice the difference when there are fewer than 10 tokens.
+
+As before, the [tutorial vignette](http://drammock.github.io/phonR) is a good place to get started using the package, and any issues may be reported on [the GitHub repo](https://github.com/drammock/phonR/issues).
