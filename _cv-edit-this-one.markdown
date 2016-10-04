@@ -29,6 +29,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 Reference information for all listed publications is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
+- [@HasegawaJohnsonEtAl2016-UnderresourcedASR]  (manuscript / code repo coming soon)
 - [@McCloyEtAl2016-PupilMethods]  ([Published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [code/data repository](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
 - [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [code repository](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
 - [@McCloyEtAl2014-crossDialect]  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
@@ -47,7 +48,6 @@ Reference information for all listed publications is available in [this BibTeX f
 
 ## Manuscripts & work in progress
 - [@McCloyEtAl-PupilVocodeReverb]
-- [@HasegawaJohnsonEtAl-UnderresourcedASR]
 
 ## Invited lectures
 - [@McCloy2016-ucsb]
@@ -66,11 +66,11 @@ Reference information for all listed publications is available in [this BibTeX f
 - [@McCloy2010-nwlcPres]
 
 ## Software & corpora
-- Co-editor: [PHOIBLE Online](http://phoible.org/), a database of over 1600 phonological inventories.
+- Co-editor: PHOIBLE, a database of over 1600 phonological inventories. ([repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/) | [web](http://phoible.org/)).
 - Co-developer: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- Co-developer: python library “[expyfun: Experimental paradigm functions](http://github.com/LABSN/expyfun).” doi:[10.5281/zenodo.11640](http://dx.doi.org/10.5281/zenodo.11640).
-- Developer: R package “[phonR: Tools for Phoneticians and Phonologists](http://drammock.github.io/phonR/).” doi:[10.5281/zenodo.15878](http://dx.doi.org/10.5281/zenodo.15878).
-- Developer: Praat script library “[Praat Semi-Auto](http://github.com/drammock/praat-semiauto/),” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough.
+- Co-developer: python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
+- Developer: R package “phonR: Tools for Phoneticians and Phonologists.” ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
+- Developer: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
 
 ## Other research activities
 - Workshop participant: [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
@@ -83,12 +83,12 @@ Reference information for all listed publications is available in [this BibTeX f
 - Co-facilitator: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
 
 ## Tutorials & guest lectures
-- “Statistical models for psychophysics: ANOVA vs. mixed models.”  _[LABS]^N^_ presentation (2014).
-- “Advanced vowel plotting with phonR: Normalization, ellipses, polygons, and heatmaps.”  UW Phonetics Lab presentation (2012).
+- “Statistical models for psychophysics: ANOVA vs. mixed models.”  _[LABS]^N^_ (2014).
+- “Advanced vowel plotting with phonR: Normalization, ellipses, polygons, and heatmaps.”  UW Phonetics Lab (2012).
 - “Introduction to R.”  Guest lecture in LING 553: Experimental Phonetics (2012).
-- “Fitting and Plotting Linear Mixed Models in R.”  UW Phonetics Lab presentation (2011).
+- “Fitting and Plotting Linear Mixed Models in R.”  UW Phonetics Lab (2011).
 - “Design guidance for linguistics lecture slides.”  TA Training Workshop, UW Department of Linguistics (2011).
-- “Troubleshooting SNR Problems in Laboratory Recordings.”  UW Phonetics Lab presentation (2011).
+- “Troubleshooting SNR Problems in Laboratory Recordings.”  UW Phonetics Lab (2011).
 - “Teaching Linguistics with Moodle.”  TA Training Workshop, UW Department of Linguistics (2010).
 - “Effective Team Teaching.”  TA Training Workshop, UW Department of Linguistics (2009).
 - “Linguistics, Cognitive Science, and Philosophy of Mind.”  Guest lecture in PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
@@ -103,8 +103,9 @@ Reference information for all listed publications is available in [this BibTeX f
 # Academic service
 
 ## Mentorship
-- Member: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
+- Mentor: Tesla STEM High School team, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
 - Mentor: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
+- Member: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
 
 ## Conferences & Reviews
 - Session organizer/chair: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
