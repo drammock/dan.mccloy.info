@@ -2,6 +2,12 @@
 _site
 _refs
 _plugins
+_extras
+fonts/_old
 
 # files
 _woff-font-test.htm
+
+# generated files
+_cv.md
+
