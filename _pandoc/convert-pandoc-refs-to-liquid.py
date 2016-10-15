@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-infile = '../_cv-edit-this-one.markdown'
-outfile = '../cv.markdown'
+infile = '../_cv-edit-this-one.md'
+outfile = '../cv.md'
 
 with open(infile, 'r') as f, open(outfile, 'w') as g:
 	for line in f:

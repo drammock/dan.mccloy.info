@@ -53,6 +53,7 @@ Reference information for all listed publications is available in [this BibTeX f
 - [@McCloy2016-ucsb]
 
 ## Conference presentations
+- [@McCloyEtAl2014-NWAVRMposter] ([Poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
 - [@McCloyEtAl2016-ChaharDevoicing] ([Poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
 - [@McCloyEtAl2014-GordonConfPoster] ([Poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
 - [@McCloyLee2014-dasCogLoad] ([Poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
@@ -94,6 +95,7 @@ Reference information for all listed publications is available in [this BibTeX f
 - “Linguistics, Cognitive Science, and Philosophy of Mind.”  Guest lecture in PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
 ## Other instructional activities
+- Instructor: [Software Carpentry Workshop](http://software-carpentry.org/) (2016).
 - Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
 - Discussion leader: Biomedical Research Integrity Program (2013, 2016).
 - Curriculum Development Associate: Department of Linguistics (2009–2010).
