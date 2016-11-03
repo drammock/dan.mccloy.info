@@ -29,7 +29,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 Reference information for all listed publications is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
-- [@HasegawaJohnsonEtAl2016-UnderresourcedASR]  (manuscript / code repo coming soon)
+- [@HasegawaJohnsonEtAl2016-UnderresourcedASR]  ([Preprint](../pubs/HasegawaJohnsonEtAl2016_UnderresourcedASR.pdf) | [code repository](https://github.com/ws15code/prob-trans))
 - [@McCloyEtAl2016-PupilMethods]  ([Published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [code/data repository](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
 - [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [code repository](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
 - [@McCloyEtAl2014-crossDialect]  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
