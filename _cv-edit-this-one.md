@@ -29,22 +29,20 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 Reference information for all listed publications is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
-- [@HasegawaJohnsonEtAl2016-UnderresourcedASR]  ([Preprint](../pubs/HasegawaJohnsonEtAl2016_UnderresourcedASR.pdf) | [code repository](https://github.com/ws15code/prob-trans))
-- [@McCloyEtAl2016-PupilMethods]  ([Published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [code/data repository](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
-- [@McCloyLee2015-DivAttnSem]  ([Published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [Pre-publication manuscript](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [code repository](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
-- [@McCloyEtAl2014-crossDialect]  ([Pre-publication manuscript](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
-- [@BarrackEtAl2014-murmur]  ([Pre-publication manuscript](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
-- [@SouzaEtAl2013-familiarity]  ([Pre-publication manuscript](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
-- [@MoranEtAl2012-language]  ([Pre-publication manuscript](http://hdl.handle.net/1773/25269) | [Data and R script](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+- [@HasegawaJohnsonEtAl2016-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2016_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
+- [@McCloyEtAl2016-PupilMethods]  ([published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
+- [@McCloyLee2015-DivAttnSem]  ([published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
+- [@McCloyEtAl2014-crossDialect]  ([preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
+- [@BarrackEtAl2014-murmur]  ([preprint](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
+- [@SouzaEtAl2013-familiarity]  ([preprint](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
+- [@MoranEtAl2012-language]  ([preprint](http://hdl.handle.net/1773/25269) | [Data and R script (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
-## Conference proceedings & working papers
-- [@McCloyEtAl2014-poma]  ([PDF](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
-- [@McCloy2014-indo]  ([PDF](../pubs/McCloy2014_IndoMorphophonetics.pdf))
-- [@McCloy2013-er]  ([PDF](http://hdl.handle.net/1773/25273))
-- [@McCloy2010-nwlcProc]  ([PDF](http://hdl.handle.net/1773/25270))
-
-## Technical reports
-- [@McCloy2012-phonR]  ([PDF](../pubs/McCloy2012_phonR.pdf))
+## Conference proceedings, working papers & technical reports
+- [@McCloyEtAl2014-poma]  ([proceedings](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
+- [@McCloy2014-indo]  ([proceedings](../pubs/McCloy2014_IndoMorphophonetics.pdf))
+- [@McCloy2013-er]  ([institutional repo](http://hdl.handle.net/1773/25273))
+- [@McCloy2012-phonR]  ([original PDF](../pubs/McCloy2012_phonR.pdf) | [updated web version](http://drammock.github.io/phonR/))
+- [@McCloy2010-nwlcProc]  ([institutional repo](http://hdl.handle.net/1773/25270))
 
 ## Manuscripts & work in progress
 - [@McCloyEtAl-PupilVocodeReverb]
@@ -53,18 +51,19 @@ Reference information for all listed publications is available in [this BibTeX f
 - [@McCloy2016-ucsb]
 
 ## Conference presentations
-- [@McCloyEtAl2014-NWAVRMposter] ([Poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
-- [@McCloyEtAl2016-ChaharDevoicing] ([Poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
-- [@McCloyEtAl2014-GordonConfPoster] ([Poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
-- [@McCloyLee2014-dasCogLoad] ([Poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
-- [@KishlineEtAl2014-TempOrder] ([Poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
-- [@McCloyLee2013-divAttnSem] ([Poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
-- [@McCloy2013-summerschool] ([Poster](http://hdl.handle.net/1773/25274))
-- [@McCloyEtAl2013-cuny] ([Slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-- [@McCloyEtAl2012-asaIntel] ([Poster](http://hdl.handle.net/1773/25272))
-- [@MoranEtAl2012-lsa] ([Slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [Extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
-- [@McCloy2011-asaIndo] ([Poster](http://hdl.handle.net/1773/25271))
-- [@McCloy2010-nwlcPres]
+- [@McCloyLee2016-ASAposter] ([poster](../pubs/McCloyLee2016-ASA-EEG.pdf))
+- [@McCloyLee2016-NWAVRMposter] ([poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
+- [@McCloyEtAl2016-ChaharDevoicing] ([poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
+- [@McCloyEtAl2014-GordonConfPoster] ([poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
+- [@McCloyLee2014-dasCogLoad] ([poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
+- [@KishlineEtAl2014-TempOrder] ([poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
+- [@McCloyLee2013-divAttnSem] ([poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
+- [@McCloy2013-summerschool] ([poster](http://hdl.handle.net/1773/25274))
+- [@McCloyEtAl2013-cuny] ([slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
+- [@McCloyEtAl2012-asaIntel] ([poster](http://hdl.handle.net/1773/25272))
+- [@MoranEtAl2012-lsa] ([slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
+- [@McCloy2011-asaIndo] ([poster](http://hdl.handle.net/1773/25271))
+- [@McCloy2010-nwlcPres] ([institutional repo](http://hdl.handle.net/1773/25270))
 
 ## Software & corpora
 - Co-editor: PHOIBLE, a database of over 1600 phonological inventories. ([repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/) | [web](http://phoible.org/)).
@@ -79,6 +78,7 @@ Reference information for all listed publications is available in [this BibTeX f
 # Teaching experience
 
 ## Courses taught
+- Instructor: “Version Control with Git,” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2016).
 - Instructor: Introduction to Phonetics (LING 450), five-week intensive summer course (2010, 2011).
 - Teaching Assistant: Introduction to Linguistics (LING 200), four sections (2008–2009).
 - Co-facilitator: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
@@ -95,7 +95,6 @@ Reference information for all listed publications is available in [this BibTeX f
 - “Linguistics, Cognitive Science, and Philosophy of Mind.”  Guest lecture in PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
 ## Other instructional activities
-- Instructor: [Software Carpentry Workshop](http://software-carpentry.org/) (2016).
 - Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
 - Discussion leader: Biomedical Research Integrity Program (2013, 2016).
 - Curriculum Development Associate: Department of Linguistics (2009–2010).
