@@ -45,7 +45,7 @@ Reference information for all listed research products is available in [this Bib
 - [@McCloy2010-nwlcProc]  ([published version](http://hdl.handle.net/1773/25270))
 
 ## Manuscripts & work in progress
-- [@McCloyEtAl-PupilVocodeReverb] ([manuscript](../pubs/McCloyEtAl-PupilAttnSwitching.pdf) | [supplement](McCloyEtAl-PupilAttnSwitching-supplement.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
+- [@McCloyEtAl-PupilVocodeReverb] ([manuscript](../pubs/McCloyEtAl-PupilAttnSwitching.pdf) | [supplement](../pubs/McCloyEtAl-PupilAttnSwitching-supplement.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
 
 ## Invited lectures
 - [@McCloy2016-ucsb]
@@ -123,7 +123,7 @@ Reference information for all listed research products is available in [this Bib
 - Participant: Mozilla Open Science Global Code Sprint (2016).
 
 # Awards and fellowships
-- NIH LRP award (2014—2016).
+- NIH LRP award (2014–2016).
 - Postdoctoral fellowship (NIH T32), UW Department of Speech and Hearing Sciences (2013–2014).
 - “Research Excellence Award,” UW Department of Linguistics (2013).
 - Foreign Language and Area Studies (FLAS) fellowship for study of Modern Standard Chinese, U.S. Department of Education (2007–2008).
