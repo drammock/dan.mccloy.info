@@ -3,14 +3,14 @@ layout: default
 title:  "Curriculum Vitæ"
 ---
 # Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I research auditory attention and speech processing in multitalker environments, individual differences in speech intelligibility, and the relationship between speech perception and distinctive feature theory.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I research auditory attention and speech processing in multitalker environments, individual differences in speech intelligibility, and the relationship between speech perception and the theory of phonological features.
 
 # Current position
 Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]^N^_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. Current research projects:
 
 - Investigating the influence of linguistic structure on auditory selective and divided attention
 - Measuring effort-related pupillary response in auditory attention tasks
-- Predicting non-native phone (mis)perception using EEG
+- Characterizing speech sound (mis)perception using EEG
 
 # Education
 ## Academic degrees
@@ -26,10 +26,10 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 - [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
 
 # Research products
-Reference information for all listed publications is available in [this BibTeX file](../bib/McCloy_CV.bib).
+Reference information for all listed research products is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
-- [@HasegawaJohnsonEtAl2016-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2016_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
+- [@HasegawaJohnsonEtAl2017-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2016_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
 - [@McCloyEtAl2016-PupilMethods]  ([published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
 - [@McCloyLee2015-DivAttnSem]  ([published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
 - [@McCloyEtAl2014-crossDialect]  ([preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
@@ -40,12 +40,12 @@ Reference information for all listed publications is available in [this BibTeX f
 ## Conference proceedings, working papers & technical reports
 - [@McCloyEtAl2014-poma]  ([proceedings](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
 - [@McCloy2014-indo]  ([proceedings](../pubs/McCloy2014_IndoMorphophonetics.pdf))
-- [@McCloy2013-er]  ([institutional repo](http://hdl.handle.net/1773/25273))
+- [@McCloy2013-er]  ([published version](http://hdl.handle.net/1773/25273))
 - [@McCloy2012-phonR]  ([original PDF](../pubs/McCloy2012_phonR.pdf) | [updated web version](http://drammock.github.io/phonR/))
-- [@McCloy2010-nwlcProc]  ([institutional repo](http://hdl.handle.net/1773/25270))
+- [@McCloy2010-nwlcProc]  ([published version](http://hdl.handle.net/1773/25270))
 
 ## Manuscripts & work in progress
-- [@McCloyEtAl-PupilVocodeReverb]
+- [@McCloyEtAl-PupilVocodeReverb] ([manuscript](../pubs/McCloyEtAl-PupilAttnSwitching.pdf) | [supplement](McCloyEtAl-PupilAttnSwitching-supplement.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
 
 ## Invited lectures
 - [@McCloy2016-ucsb]
@@ -78,6 +78,7 @@ Reference information for all listed publications is available in [this BibTeX f
 # Teaching experience
 
 ## Courses taught
+- Instructor: “The Unix Shell,” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2017).
 - Instructor: “Version Control with Git,” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2016).
 - Instructor: Introduction to Phonetics (LING 450), five-week intensive summer course (2010, 2011).
 - Teaching Assistant: Introduction to Linguistics (LING 200), four sections (2008–2009).
@@ -111,7 +112,7 @@ Reference information for all listed publications is available in [this BibTeX f
 ## Conferences & Reviews
 - Session organizer/chair: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - Conference referee: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
-- Journal reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012).
+- Journal reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012), _Nature_ (2017).
 - Co-chair: 24th Northwest Linguistics Conference, Seattle (2008).
 
 ## Committee service
