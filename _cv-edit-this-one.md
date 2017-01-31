@@ -29,7 +29,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 Reference information for all listed research products is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
-- [@HasegawaJohnsonEtAl2017-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2016_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
+- [@HasegawaJohnsonEtAl2017-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
 - [@McCloyEtAl2016-PupilMethods]  ([published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
 - [@McCloyLee2015-DivAttnSem]  ([published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
 - [@McCloyEtAl2014-crossDialect]  ([preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
