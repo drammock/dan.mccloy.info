@@ -21,6 +21,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 
 ## Other education / training
 - [Machine Learning](https://www.coursera.org/account/accomplishments/records/FY94856VBP3Q) (Stanford University / Coursera, 2016).
+- [Software Carpentry](https://software-carpentry.org/team/) instructor certification (2016).
 - [Biomedical Research Integrity Program](http://depts.washington.edu/uwbri/attendance-records/attendance-records) (University of Washington, 2013, 2016).
 - Protection of Human Research Subjects: Biomedical, Social/Behavioral, HIPAA (University of Washington / CITI, 2011, 2013).
 - [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
@@ -78,22 +79,24 @@ Reference information for all listed research products is available in [this Bib
 # Teaching experience
 
 ## Courses taught
-- Instructor: “The Unix Shell,” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2017).
-- Instructor: “Version Control with Git,” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2016).
 - Instructor: Introduction to Phonetics (LING 450), five-week intensive summer course (2010, 2011).
 - Teaching Assistant: Introduction to Linguistics (LING 200), four sections (2008–2009).
 - Co-facilitator: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
 
 ## Tutorials & guest lectures
+- “Psycholinguistics & Neurolinguistics.” LING 400: Survey of linguistic method and theory (2017).
+- “Spectrograms.” SPHSC 261: The nature of sound (2017).
+- “The Unix Shell.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2017).
+- “Version control with git and GitHub.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2016).
 - “Statistical models for psychophysics: ANOVA vs. mixed models.”  _[LABS]^N^_ (2014).
 - “Advanced vowel plotting with phonR: Normalization, ellipses, polygons, and heatmaps.”  UW Phonetics Lab (2012).
-- “Introduction to R.”  Guest lecture in LING 553: Experimental Phonetics (2012).
+- “Introduction to R.”  LING 553: Experimental Phonetics (2012).
 - “Fitting and Plotting Linear Mixed Models in R.”  UW Phonetics Lab (2011).
 - “Design guidance for linguistics lecture slides.”  TA Training Workshop, UW Department of Linguistics (2011).
 - “Troubleshooting SNR Problems in Laboratory Recordings.”  UW Phonetics Lab (2011).
 - “Teaching Linguistics with Moodle.”  TA Training Workshop, UW Department of Linguistics (2010).
 - “Effective Team Teaching.”  TA Training Workshop, UW Department of Linguistics (2009).
-- “Linguistics, Cognitive Science, and Philosophy of Mind.”  Guest lecture in PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
+- “Linguistics, Cognitive Science, and Philosophy of Mind.” PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
 ## Other instructional activities
 - Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
@@ -120,6 +123,7 @@ Reference information for all listed research products is available in [this Bib
 - Member: LSA Technology Advisory Committee (2013–2014).
 
 ## Other service activities
+- Participant: BrainHack Global (2017).
 - Participant: Mozilla Open Science Global Code Sprint (2016).
 
 # Awards and fellowships
