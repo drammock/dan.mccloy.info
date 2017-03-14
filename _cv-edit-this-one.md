@@ -74,6 +74,8 @@ Reference information for all listed research products is available in [this Bib
 - Developer: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
 
 ## Other research activities
+- Participant: BrainHack Global (2017).
+- Participant: Mozilla Open Science Global Code Sprint (2016).
 - Workshop participant: [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
 
 # Teaching experience
@@ -86,8 +88,8 @@ Reference information for all listed research products is available in [this Bib
 ## Tutorials & guest lectures
 - “Psycholinguistics & Neurolinguistics.” LING 400: Survey of linguistic method and theory (2017).
 - “Spectrograms.” SPHSC 261: The nature of sound (2017).
-- “The Unix Shell.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2017).
-- “Version control with git and GitHub.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2016).
+- “The Unix shell.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2017).
+- “Version control with git.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2016).
 - “Statistical models for psychophysics: ANOVA vs. mixed models.”  _[LABS]^N^_ (2014).
 - “Advanced vowel plotting with phonR: Normalization, ellipses, polygons, and heatmaps.”  UW Phonetics Lab (2012).
 - “Introduction to R.”  LING 553: Experimental Phonetics (2012).
@@ -108,25 +110,22 @@ Reference information for all listed research products is available in [this Bib
 # Academic service
 
 ## Mentorship
-- Mentor: Tesla STEM High School team, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
+- Mentor: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
 - Mentor: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
 - Member: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
 
 ## Conferences & Reviews
 - Session organizer/chair: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - Conference referee: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
-- Journal reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016), _UW Working Papers in Linguistics_ (2007, 2012), _Nature_ (2017).
+- _ad hoc_ journal reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016, 2017), _UW Working Papers in Linguistics_ (2007, 2012), _Nature_ (2017).
 - Co-chair: 24th Northwest Linguistics Conference, Seattle (2008).
 
 ## Committee service
 - Member: LSA Committee on Scholarly Communication in Linguistics (2014–present).
 - Member: LSA Technology Advisory Committee (2013–2014).
 
-## Other service activities
-- Participant: BrainHack Global (2017).
-- Participant: Mozilla Open Science Global Code Sprint (2016).
-
 # Awards and fellowships
+- Postdoctoral fellowship (NIH T32), UW Department of Psychology (2016–2017).
 - NIH LRP award (2014–2016).
 - Postdoctoral fellowship (NIH T32), UW Department of Speech and Hearing Sciences (2013–2014).
 - “Research Excellence Award,” UW Department of Linguistics (2013).
@@ -136,9 +135,8 @@ Reference information for all listed research products is available in [this Bib
 - _Phi Beta Kappa_ scholarship (2000).
 
 # Languages
-- Natural: English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
-- General purpose: Python, R (advanced); Octave/MATLAB, Flash/Actionscript3 (intermediate but rusty).
-- Specialized: Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST.
+- English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
+- Python, R (advanced); Octave/MATLAB (intermediate but rusty); Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST.
 
 # Professional and scholarly affiliations
 - Member, Association for Research in Otolaryngology (2014–present).
