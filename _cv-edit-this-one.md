@@ -30,7 +30,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 Reference information for all listed research products is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
-- [@McCloyEtAl-PupilVocodeReverb] ([preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
+- [@McCloyEtAl-PupilVocodeReverb] ([published version](../pubs/McCloyEtAl2017_PupillometryAttnSwitching.pdf "© 2017 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
 - [@HasegawaJohnsonEtAl2017-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
 - [@McCloyEtAl2016-PupilMethods]  ([published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
 - [@McCloyLee2015-DivAttnSem]  ([published version](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic.pdf "© 2015 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
@@ -125,7 +125,7 @@ Reference information for all listed research products is available in [this Bib
 - Member: LSA Technology Advisory Committee (2013–2014).
 
 # Awards and fellowships
-- Postdoctoral fellowship (NIH T32), UW Department of Psychology (2016–2017).
+- Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2017).
 - NIH LRP award (2014–2016).
 - Postdoctoral fellowship (NIH T32), UW Department of Speech and Hearing Sciences (2013–2014).
 - “Research Excellence Award,” UW Department of Linguistics (2013).
