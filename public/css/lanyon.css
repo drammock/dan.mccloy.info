@@ -48,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "libertine-semi";
   font-weight: normal;
   color: #46008c;
-  /* letter-spacing: -.025rem; */
 }
 h1          { font-size: 1.6rem; margin-top: 0.6rem; }
 .page-title { font-size: 2rem; }
@@ -90,6 +89,13 @@ ul {
 }
 ul li { margin-bottom: 0.4rem; }
 p     { margin-bottom: 0.4rem; }
+
+ul.posts { list-style-type: none; margin-bottom: 2rem; }
+ul.posts li { line-height: 1.75rem; }
+ul.posts span { font: normal 0.8rem "mplus-heavy"; color: #aaa; }
+#prev, #next { font: normal 0.7rem "mplus-heavy"; margin-top: 0.5rem;}
+#prev { float:left; }
+#next { float:right; }
 
 /*
  * Wrapper
@@ -188,7 +194,7 @@ p     { margin-bottom: 0.4rem; }
   visibility: hidden;
   overflow-y: auto;
   font-family: "mplus";
-  font-size: .75rem; /* 15px */
+  font-size: .75rem;
   color: rgba(255,255,255,.6);
   background-color: #202020;
   -webkit-transition: all .25s ease-in-out;
@@ -352,7 +358,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 /* Blog post or page title */
@@ -370,7 +376,7 @@ a.sidebar-nav-item:focus {
 .post-date {
   font: normal smaller "mplus-heavy";
   display: block;
-  margin-top: -.5rem;
+  margin-top: 0;
   margin-bottom: 1rem;
   color: #aaaaaa;
 }
