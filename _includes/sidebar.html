@@ -1,15 +1,51 @@
-<a href="/images/McCloy-mugshot-2014.png"><img src="/images/McCloy-mugshot-2014.png" /></a>
-<ul class='fa-ul'><!--
-fa-file-text     --><li><a href="http://dan.mccloy.info/McCloy_CV.pdf">Curriculum&nbsp;vitae&nbsp;(PDF)<span class="fa icon-doc fa-fw fa-lg"></span></a></li><!-- 
-fa-envelope      --><li><a href="mailto:&#x64;&#x72;&#x6D;&#x63;&#x63;&#x6C;&#x6F;&#x79;&#x40;&#x75;&#x77;&#x2E;&#x65;&#x64;&#x75;">&#x64;&#x72;&#x6D;&#x63;&#x63;&#x6C;&#x6F;&#x79;&#x40;&#x75;&#x77;&#x2E;&#x65;&#x64;&#x75;<span class="fa icon-env fa-fw fa-lg"></span></a></li><!--
-fa-lock          --><li><a href="http://dan.mccloy.info/0x2A5152CE.asc">PGP&nbsp;public&nbsp;key<span class="fa icon-gpg fa-fw fa-lg"></span></a></li><!-- 
-fa-github-square --><li><a href="https://github.com/drammock/">GitHub<span class="fa icon-gh fa-fw fa-lg"></span></a></li><!-- 
-not in fa        --><li><a href="https://orcid.org/0000-0002-7572-3241">ORCID<span class="fa icon-orcid fa-fw fa-lg"></span></a></li><!--
-not in fa        --><!--<li><a href="http://depsy.org/person/330003">depsy<span class="fa icon-depsy fa-fw fa-lg"></span></a></li>--><!--
-not in fa        --><li><a href="https://impactstory.org/u/0000-0002-7572-3241">Impactstory<span class="fa icon-impactstory fa-fw fa-lg"></span></a></li><!--
-not in fa        --><li><a href="http://www.ncbi.nlm.nih.gov/myncbi/browse/collection/46905299/?sort=date&direction=descending">NCBI<span class="fa icon-ncbi fa-fw fa-lg"></span></a></li><!--
-not in fa        --><li><a href="http://scholar.google.com/citations?hl=en&user=zmtbZI8AAAAJ">Google&nbsp;Scholar<span class="fa icon-sch fa-fw fa-lg"></span></a></li><!--
-fa-gp-square     --><li><a href="http://www.google.com/+DanMcCloy">Google+<span class="fa icon-pl fa-fw fa-lg"></span></a></li><!--
-fa-li-square     --><li><a href="http://www.linkedin.com/pub/dan-mccloy/5/33a/89">LinkedIn<span class="fa icon-li fa-fw fa-lg"></span></a></li><!-- 
-not in fa        --><li><a href="http://dan.mccloy.info/images/sagittal_200.gif">My&nbsp;brain<span class="fa icon-brain fa-fw fa-lg"></span></a></li><!--
---></ul>
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked />
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <a href="/images/McCloy-mugshot-2014.png"><img src="/images/McCloy-mugshot-2014.png" /></a>
+    <!-- <p>{{ site.description }}</p> -->
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+<!--    <a class="sidebar-nav-item" href="mailto:&#x64;&#x72;&#x6D;&#x63;&#x63;&#x6C;&#x6F;&#x79;&#x40;&#x75;&#x77;&#x2E;&#x65;&#x64;&#x75;"><span class="fa icon-env fa-fw"></span>&#x64;&#x72;&#x6D;&#x63;&#x63;&#x6C;&#x6F;&#x79;&#x40;&#x75;&#x77;&#x2E;&#x65;&#x64;&#x75;</a> -->
+<!--    <a class="sidebar-nav-item" href="http://dan.mccloy.info/McCloy_CV.pdf"><span class="fa icon-doc fa-fw"></span>Curriculum&nbsp;vitæ</a> -->
+    <a class="sidebar-nav-item" href="http://dan.mccloy.info/0x2A5152CE.asc"><span class="fa icon-gpg fa-fw"></span>PGP&nbsp;public&nbsp;key</a>
+    <a class="sidebar-nav-item" href="https://keybase.io/drammock"><span class="fa icon-keybase fa-fw"></span>Keybase</a>
+    <a class="sidebar-nav-item" href="https://orcid.org/0000-0002-7572-3241"><span class="fa icon-orcid fa-fw"></span>ORCiD</a>
+    <a class="sidebar-nav-item" href="https://github.com/drammock/"><span class="fa icon-gh-circ fa-fw"></span>GitHub</a>
+    <a class="sidebar-nav-item" href="http://www.ncbi.nlm.nih.gov/myncbi/browse/collection/46905299/?sort=date&direction=descending"><span class="fa icon-pubmed fa-fw"></span>NCBI</a>
+    <a class="sidebar-nav-item" href="http://scholar.google.com/citations?hl=en&user=zmtbZI8AAAAJ"><span class="fa icon-sch fa-fw"></span>Google&nbsp;Scholar</a>
+    <a class="sidebar-nav-item" href="https://impactstory.org/u/0000-0002-7572-3241"><span class="fa icon-impactstory fa-fw"></span>Impactstory</a>
+    <a class="sidebar-nav-item" href="http://depsy.org/person/330003"><span class="fa icon-depsy fa-fw"></span>Depsy</a>
+    <!-- <a class="sidebar-nav-item" href="http://www.google.com/+DanMcCloy"><span class="fa icon-pl fa-fw"></span>Google+</a> -->
+    <!-- <a class="sidebar-nav-item" href="http://phdtree.org/scholar/mccloy-daniel-robert/"><span class="fa icon-bike fa-fw"></span>PhD Tree</a> -->
+    <a class="sidebar-nav-item" href="http://www.linkedin.com/pub/dan-mccloy/5/33a/89"><span class="fa icon-li fa-fw"></span>LinkedIn</a>
+    <a class="sidebar-nav-item" href="http://dan.mccloy.info/images/sagittal_200.gif"><span class="fa icon-brain fa-fw"></span>My&nbsp;brain</a>
+    <!-- <a class="sidebar-nav-item" href=""></a> -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      Updated {{ site.time | date: '%Y.%m.%d' }}
+    </p>
+  </div>
+</div>

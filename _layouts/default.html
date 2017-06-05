@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="{{ site.description }}">
-        <!-- Fonts -->
-		<link rel="stylesheet" href="/css/font-awesome-mod.css">
-		<link rel="stylesheet" href="/css/font-drammock.css">
-		<link rel="stylesheet" href="/css/font-libertine.css">
-		<link rel="stylesheet" href="/css/font-charis.css">
-		<link rel="stylesheet" href="/css/font-mplus.css">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-        <!-- Analytics -->
-		<script type="text/javascript" src="/scripts/analytics.js"></script>
-    </head>
-    <body>
-		<div class="header">{% include header.html %}</div>
-		<div class="pagetitle">{{ page.title }}</div>
-		<div class="content">{{ content }}</div>
-		<div class="sidebar">{% include sidebar.html %}</div>
-		<div class="footer">{% include footer.html %}</div>
-	</body>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="layout-reverse sidebar-overlay theme-base-0b">
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+  {% include foot.html %}
 </html>

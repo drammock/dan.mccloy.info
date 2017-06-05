@@ -1,20 +1,41 @@
-name: "Daniel McCloy"
-description: "Daniel McCloy, postdoctoral research fellow, Laboratory for Auditory Brain Science and Neuroengineering, Institute for Learning and Brain Sciences, University of Washington"
-url: "dan.mccloy.info"
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Dan McCloy
+tagline:             'Postdoc (<a href="http://depts.washington.edu/labsn/" target="_blank">LABS<sup>N</sup></a>, <a href="http://ilabs.washington.edu/" target="_blank">I-LABS</a>, <a href="http://www.washington.edu/" target="_blank">University of Washington</a>)'
+description:         'Postdoctoral research fellow, <a href="" target="_blank">Laboratory for Auditory Brain Science and Neuroengineering</a>, Institute for Learning and Brain Sciences, University of Washington'
+url:                 'http://dan.mccloy.info'
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Daniel McCloy
+  orcid:             0000-0002-7572-3241
+  url:               http://dan.mccloy.info
+  email:             drmccloy@uw.edu
+
+# Custom vars
+scholar:
+  style:                   ./bib/_apa-custom.csl
+  locale:                  en
+  sort_by:                 none
+  order:                   ascending
+  source:                  ./bib
+  bibliography:            McCloy_CV.bib
+
+#highlighter: rouge
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  auto_ids: true
+#  syntax_highlighter: rouge
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "highlight", "strikethrough", "superscript"]
-permalink: pretty
-highlight: pygments
 
-scholar:
-  style: ./bib/_apa-custom.csl
-  locale: en
-  sort_by: none
-  order: ascending
-  source: ./bib
-  bibliography: McCloy_CV.bib
-  bibliography_template: "%{reference}"
-
-author:
-  orcid: 0000-0002-7572-3241
+gems: ['jekyll-paginate']

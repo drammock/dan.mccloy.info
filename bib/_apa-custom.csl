@@ -139,7 +139,7 @@
           <if variable="DOI">
             <text variable="DOI" prefix="doi: http://dx.doi.org/"/>
             <!--
-            <text variable="DOI" prefix="doi:&lt;a href=&quot;http://dx.doi.org/" suffix="&quot;&gt;"/>
+            <text variable="DOI" prefix="doi:&lt;a href='http://dx.doi.org/" suffix="'&gt;"/>
             <text variable="DOI" suffix="&lt;/a&gt;"/>
             -->
           </if>
@@ -181,8 +181,8 @@
       <if type="report thesis" match="any">
         <text variable="title" font-style="italic"/>
         <group prefix=" (" suffix=")">
-          <!-- 
-          <text variable="genre"/> 
+          <!--
+          <text variable="genre"/>
           <text variable="institution"/>
           <text variable="number" prefix=" No. "/>
           -->
@@ -201,7 +201,7 @@
       <if type="report" match="any">
         <group delimiter=" ">
           <text variable="publisher-place" suffix=":"/>
-          <text variable="genre"/> 
+          <text variable="genre"/>
           <text variable="issue" prefix="#"/>
           <text variable="institution" prefix="of the "/>
         </group>
@@ -246,7 +246,7 @@
       </if>
     </choose>
   </macro>
-  
+
   <macro name="issued">
     <choose>
       <if variable="status">

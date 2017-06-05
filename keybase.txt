@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/drammock
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dan.mccloy.info
+  * I am drammock (https://keybase.io/drammock) on keybase.
+  * I have a public key ASDyu_iAIY3NIBu85098EybQMaBZiNDk2U3wqUVBExMPCgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f2bbf880218dcd201bbce74f7c1326d031a05988d0e4d94df0a9454113130f0a0a",
+            "host": "keybase.io",
+            "kid": "0120f2bbf880218dcd201bbce74f7c1326d031a05988d0e4d94df0a9454113130f0a0a",
+            "uid": "48e75bff78634b3ff8fc70cc93b25919",
+            "username": "drammock"
+        },
+        "service": {
+            "hostname": "dan.mccloy.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1476407965,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1476407819,
+        "hash": "f3ca4755c78a70125ede6696b99aa4d8538bf4d3edeb36b2dd1896b1fd3cf36d2420aedbbbf9cea28831c00374b37752b36dbff3263c0d93283a44c2f76879f5",
+        "seqno": 675801
+    },
+    "prev": "9562d00a4a49a94c721df06f404167c22b09e462cb1fa7fd2a60da4e647b956a",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8rv4gCGNzSAbvOdPfBMm0DGgWYjQ5NlN8KlFQRMTDwoKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjJiYmY4ODAyMThkY2QyMDFiYmNlNzRmN2MxMzI2ZDAzMWEwNTk4OGQwZTRkOTRkZjBhOTQ1NDExMzEzMGYwYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjJiYmY4ODAyMThkY2QyMDFiYmNlNzRmN2MxMzI2ZDAzMWEwNTk4OGQwZTRkOTRkZjBhOTQ1NDExMzEzMGYwYTBhIiwidWlkIjoiNDhlNzViZmY3ODYzNGIzZmY4ZmM3MGNjOTNiMjU5MTkiLCJ1c2VybmFtZSI6ImRyYW1tb2NrIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJkYW4ubWNjbG95LmluZm8iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc2NDA3OTY1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzY0MDc4MTksImhhc2giOiJmM2NhNDc1NWM3OGE3MDEyNWVkZTY2OTZiOTlhYTRkODUzOGJmNGQzZWRlYjM2YjJkZDE4OTZiMWZkM2NmMzZkMjQyMGFlZGJiYmY5Y2VhMjg4MzFjMDAzNzRiMzc3NTJiMzZkYmZmMzI2M2MwZDkzMjgzYTQ0YzJmNzY4NzlmNSIsInNlcW5vIjo2NzU4MDF9LCJwcmV2IjoiOTU2MmQwMGE0YTQ5YTk0YzcyMWRmMDZmNDA0MTY3YzIyYjA5ZTQ2MmNiMWZhN2ZkMmE2MGRhNGU2NDdiOTU2YSIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQI9iy8POfwDbsiqukKrLsMdTmY35ttQogNH19Xr9rVzDezq2tOe84rXzm7uR19nx78xTXbfP3l08psmmez4EWQWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDe7AUl1pXSIjfjmIDCgW+/dYCH5G2SFcawj9A2VhVuf6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/drammock
+
+==================================================================
