@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'drammock';
+  src: url('../font/drammock.eot?56457057');
+  src: url('../font/drammock.eot?56457057#iefix') format('embedded-opentype'),
+       url('../font/drammock.woff2?56457057') format('woff2'),
+       url('../font/drammock.woff?56457057') format('woff'),
+       url('../font/drammock.ttf?56457057') format('truetype'),
+       url('../font/drammock.svg?56457057#drammock') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'drammock';
+    src: url('../font/drammock.svg?56457057#drammock') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "drammock";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-file-pdf:before { content: '\e800'; } /* '' */
+.icon-file-image:before { content: '\e801'; } /* '' */
+.icon-doi:before { content: '\e802'; } /* '' */
+.icon-keybase:before { content: '\e803'; } /* '' */
+.icon-gpg:before { content: '\e808'; } /* '' */
+.icon-li:before { content: '\e809'; } /* '' */
+.icon-gh:before { content: '\e80a'; } /* '' */
+.icon-pl:before { content: '\e80b'; } /* '' */
+.icon-brain:before { content: '\e80c'; } /* '' */
+.icon-ncbi:before { content: '\e80d'; } /* '' */
+.icon-doc:before { content: '\e80e'; } /* '' */
+.icon-env:before { content: '\e80f'; } /* '' */
+.icon-yt-sq:before { content: '\e811'; } /* '' */
+.icon-overflow:before { content: '\e812'; } /* '' */
+.icon-stack:before { content: '\e813'; } /* '' */
+.icon-bike:before { content: '\e814'; } /* '' */
+.icon-link-ext:before { content: '\e815'; } /* '' */
+.icon-lock-open-alt:before { content: '\e816'; } /* '' */
+.icon-users:before { content: '\e817'; } /* '' */
+.icon-direction:before { content: '\e818'; } /* '' */
+.icon-file-code:before { content: '\e819'; } /* '' */
+.icon-folder-open:before { content: '\e81a'; } /* '' */
+.icon-box:before { content: '\e81b'; } /* '' */
+.icon-rss-sq:before { content: '\e81c'; } /* '' */
+.icon-sliders:before { content: '\e81d'; } /* '' */
+.icon-cog:before { content: '\e81e'; } /* '' */
+.icon-cal:before { content: '\e81f'; } /* '' */
+.icon-file-video:before { content: '\e820'; } /* '' */
+.icon-file-audio:before { content: '\e821'; } /* '' */
+.icon-file-archive:before { content: '\e822'; } /* '' */
+.icon-depsy:before { content: '\e823'; } /* '' */
+.icon-cours-sq:before { content: '\e824'; } /* '' */
+.icon-cours:before { content: '\e825'; } /* '' */
+.icon-depsy-sq:before { content: '\e826'; } /* '' */
+.icon-doi-sq:before { content: '\e827'; } /* '' */
+.icon-sch:before { content: '\e828'; } /* '' */
+.icon-sch-sq:before { content: '\e829'; } /* '' */
+.icon-academia:before { content: '\e82a'; } /* '' */
+.icon-acad-sq:before { content: '\e82b'; } /* '' */
+.icon-impactstory:before { content: '\e832'; } /* '' */
+.icon-impactstory-sq:before { content: '\e833'; } /* '' */
+.icon-open-access:before { content: '\e838'; } /* '' */
+.icon-open-access-sq:before { content: '\e839'; } /* '' */
+.icon-orcid:before { content: '\e840'; } /* '' */
+.icon-orcid-sq:before { content: '\e841'; } /* '' */
+.icon-osf:before { content: '\e842'; } /* '' */
+.icon-osf-sq:before { content: '\e843'; } /* '' */
+.icon-pubmed:before { content: '\e852'; } /* '' */
+.icon-pubmed-sq:before { content: '\e853'; } /* '' */
+.icon-researchgate:before { content: '\e854'; } /* '' */
+.icon-researchgate-sq:before { content: '\e855'; } /* '' */
+.icon-zot:before { content: '\e860'; } /* '' */
+.icon-zotero-sq:before { content: '\e861'; } /* '' */
+.icon-gh-circ:before { content: '\f09b'; } /* '' */

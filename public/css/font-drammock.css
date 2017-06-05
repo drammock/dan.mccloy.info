@@ -1,0 +1,88 @@
+/* custom font made with fontello, for navigation icons */
+@font-face {
+  font-family: 'drammock';
+  src: url('../fonts/drammock.eot?56457057');
+  src: url('../fonts/drammock.eot?56457057#iefix') format('embedded-opentype'),
+       url('../fonts/drammock.woff2?56457057') format('woff2'),
+       url('../fonts/drammock.woff?56457057') format('woff'),
+       url('../fonts/drammock.ttf?56457057') format('truetype'),
+       url('../fonts/drammock.svg?56457057#drammock') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* class definitions */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "drammock";
+  speak: none;
+}
+
+.icon-acad-sq:before          { content: '\e82b\00a0'; } /* '' */
+.icon-academia:before         { content: '\e82a\00a0'; } /* '' */
+.icon-bike:before             { content: '\e814\00a0'; } /* '' */
+.icon-box:before              { content: '\e81b\00a0'; } /* '' */
+.icon-brain:before            { content: '\e80c\00a0'; } /* '' */
+.icon-cal:before              { content: '\e81f\00a0'; } /* '' */
+.icon-cog:before              { content: '\e81e\00a0'; } /* '' */
+.icon-cours-sq:before         { content: '\e824\00a0'; } /* '' */
+.icon-cours:before            { content: '\e825\00a0'; } /* '' */
+.icon-depsy-sq:before         { content: '\e826\00a0'; } /* '' */
+.icon-depsy:before            { content: '\e823\00a0'; } /* '' */
+.icon-direction:before        { content: '\e818\00a0'; } /* '' */
+.icon-doc:before              { content: '\e80e\00a0'; } /* '' */
+.icon-doi-sq:before           { content: '\e827\00a0'; } /* '' */
+.icon-doi:before              { content: '\e802\00a0'; } /* '' */
+.icon-env:before              { content: '\e80f\00a0'; } /* '' */
+.icon-file-archive:before     { content: '\e822\00a0'; } /* '' */
+.icon-file-audio:before       { content: '\e821\00a0'; } /* '' */
+.icon-file-code:before        { content: '\e819\00a0'; } /* '' */
+.icon-file-image:before       { content: '\e801\00a0'; } /* '' */
+.icon-file-pdf:before         { content: '\e800\00a0'; } /* '' */
+.icon-file-video:before       { content: '\e820\00a0'; } /* '' */
+.icon-folder-open:before      { content: '\e81a\00a0'; } /* '' */
+.icon-gh-circ:before          { content: '\f09b\00a0'; } /* '' */
+.icon-gh:before               { content: '\e80a\00a0'; } /* '' */
+.icon-gpg:before              { content: '\e808\00a0'; } /* '' */
+.icon-impactstory-sq:before   { content: '\e833\00a0'; } /* '' */
+.icon-impactstory:before      { content: '\e832\00a0'; } /* '' */
+.icon-keybase:before          { content: '\e803\00a0'; } /* '' */
+.icon-li:before               { content: '\e809\00a0'; } /* '' */
+.icon-link-ext:before         { content: '\e815\00a0'; } /* '' */
+.icon-lock-open-alt:before    { content: '\e816\00a0'; } /* '' */
+.icon-ncbi:before             { content: '\e80d\00a0'; } /* '' */
+.icon-open-access-sq:before   { content: '\e839\00a0'; } /* '' */
+.icon-open-access:before      { content: '\e838\00a0'; } /* '' */
+.icon-orcid-sq:before         { content: '\e841\00a0'; } /* '' */
+.icon-orcid:before            { content: '\e840\00a0'; } /* '' */
+.icon-osf-sq:before           { content: '\e843\00a0'; } /* '' */
+.icon-osf:before              { content: '\e842\00a0'; } /* '' */
+.icon-overflow:before         { content: '\e812\00a0'; } /* '' */
+.icon-pl:before               { content: '\e80b\00a0'; } /* '' */
+.icon-pubmed-sq:before        { content: '\e853\00a0'; } /* '' */
+.icon-pubmed:before           { content: '\e852\00a0'; } /* '' */
+.icon-researchgate-sq:before  { content: '\e855\00a0'; } /* '' */
+.icon-researchgate:before     { content: '\e854\00a0'; } /* '' */
+.icon-rss-sq:before           { content: '\e81c\00a0'; } /* '' */
+.icon-sch-sq:before           { content: '\e829\00a0'; } /* '' */
+.icon-sch:before              { content: '\e828\00a0'; } /* '' */
+.icon-sliders:before          { content: '\e81d\00a0'; } /* '' */
+.icon-stack:before            { content: '\e813\00a0'; } /* '' */
+.icon-users:before            { content: '\e817\00a0'; } /* '' */
+.icon-yt-sq:before            { content: '\e811\00a0'; } /* '' */
+.icon-zot:before              { content: '\e860\00a0'; } /* '' */
+.icon-zotero-sq:before        { content: '\e861\00a0'; } /* '' */
+
+/* .icon-brain:before { content: '\e80c\00A0'; } /* '' */
+/* .icon-depsy:before { content: '\e810\00A0'; } /* '' */
+/* .icon-doc:before { content: '\e80e\00A0'; }   /* '' */
+/* .icon-env:before { content: '\e80f\00A0'; }   /* '' */
+/* .icon-gh:before { content: '\e80a\00A0'; }    /* '' */
+/* .icon-gpg:before { content: '\e808\00A0'; }   /* '' */
+/* .icon-impactstory:before { content: '\e810\00A0'; } /* '' */
+/* .icon-li:before { content: '\e809\00A0'; }    /* '' */
+/* .icon-ncbi:before { content: '\e80d\00A0'; }  /* '' */
+/* .icon-oa:before { content: '\e81a\00A0'; } /* '' */
+/* .icon-orcid:before { content: '\e803\00A0'; } /* '' */
+/* .icon-pl:before { content: '\e80b\00A0'; }    /* '' */
+/* .icon-sch:before { content: '\e802\00A0'; } /* '' */
+/* .icon-so:before { content: '\e812\00A0'; } /* '' */
+/* .icon-zot:before { content: '\e816\00A0'; } /* '' */
