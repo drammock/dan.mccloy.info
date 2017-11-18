@@ -4,12 +4,12 @@ title: "Curriculum Vitæ"
 ---
 
 # Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I study the perception and processing of speech sounds by humans, especially as it relates to [distinctive feature theory](https://en.wikipedia.org/wiki/Distinctive_feature), auditory attention, and speech intelligibility.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I study the perception and representation of speech sounds, especially as it relates to [distinctive feature theory](https://en.wikipedia.org/wiki/Distinctive_feature), auditory attention, and speech intelligibility.
 
 # Current position
 Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]^N^_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. Current research projects:
 
-- Characterizing speech sound (mis)perception using EEG
+- Characterizing speech sound perception using EEG
 - Measuring effort-related pupillary response in auditory attention tasks
 
 # Education
@@ -21,9 +21,10 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 - BS in Neurobiology (University of Washington, 2002).
 
 ## Other education / training
+- Computational Perspectives on Language Prediction in the Brain; Computational Perspectives on the Brain in Psychiatric and Neurological Disorders ([Kavli Summer Institute in Cognitive Neuroscience](http://sicn.cmb.ucdavis.edu/), UC Santa Barbara, 2017).
 - [Machine Learning](https://www.coursera.org/account/accomplishments/records/FY94856VBP3Q) (Stanford University / Coursera, 2016).
 - [Software Carpentry](https://software-carpentry.org/team/) instructor certification (2016).
-- [Biomedical Research Integrity Program](http://depts.washington.edu/uwbri/attendance-records/attendance-records) (University of Washington, 2013, 2016).
+- [Biomedical Research Integrity Program](http://depts.washington.edu/uwbri/attendance-records/attendance-records) (University of Washington, 2013, 2016, 2017).
 - Protection of Human Research Subjects: Biomedical, Social/Behavioral, HIPAA (University of Washington / CITI, 2011, 2013).
 - [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
 
@@ -50,6 +51,7 @@ Reference information for all listed research products is available in [this Bib
 <!-- ## Manuscripts & work in progress -->
 
 ## Invited lectures
+- [@McCloy2017-bu] ([slides](../pubs/McCloyLarsonLee2017_BUslides.pdf))
 - [@McCloy2016-ucsb]
 
 ## Conference presentations
@@ -87,6 +89,7 @@ Reference information for all listed research products is available in [this Bib
 - Co-facilitator: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
 
 ## Tutorials & guest lectures
+- “Diphthong plotting in python and R” ([repo](https://github.com/drammock/diphthong-plotting-tutorial)). UW Phonetics Lab (2017).
 - “Psycholinguistics & Neurolinguistics.” LING 400: Survey of linguistic method and theory (2017).
 - “Spectrograms.” SPHSC 261: The nature of sound (2017).
 - “The Unix shell.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2017).
@@ -101,6 +104,11 @@ Reference information for all listed research products is available in [this Bib
 - “Effective Team Teaching.”  TA Training Workshop, UW Department of Linguistics (2009).
 - “Linguistics, Cognitive Science, and Philosophy of Mind.” PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
+## Mentorship
+- Mentor: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
+- Mentor: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
+- Member: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
+
 ## Other instructional activities
 - Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
 - Discussion leader: Biomedical Research Integrity Program (2013, 2016).
@@ -110,23 +118,20 @@ Reference information for all listed research products is available in [this Bib
 
 # Academic service
 
-## Mentorship
-- Mentor: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
-- Mentor: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
-- Member: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
-
-## Conferences & Reviews
-- Session organizer/chair: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
-- Conference referee: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
-- _ad hoc_ journal reviewer: _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016, 2017), _UW Working Papers in Linguistics_ (2007, 2012), _Nature_ (2017).
-- Co-chair: 24th Northwest Linguistics Conference, Seattle (2008).
+## Conferences
+- **Session organizer**: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
+- **Conference chair**: 24th Northwest Linguistics Conference, Seattle (2008).
+- **Referee**: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
 
 ## Committee service
-- Member: LSA Committee on Scholarly Communication in Linguistics (2014–present).
-- Member: LSA Technology Advisory Committee (2013–2014).
+- LSA Committee on Scholarly Communication in Linguistics (2014–present)
+- LSA Technology Advisory Committee (2013–2014).
+
+## _Ad hoc_ journal reviews
+_Nature_ (2017), _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016, 2017), _UW Working Papers in Linguistics_ (2007, 2012).
 
 # Awards and fellowships
-- Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2017).
+- Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
 - NIH LRP award (2014–2016).
 - Postdoctoral fellowship (NIH T32), UW Department of Speech and Hearing Sciences (2013–2014).
 - “Research Excellence Award,” UW Department of Linguistics (2013).
@@ -135,16 +140,14 @@ Reference information for all listed research products is available in [this Bib
 - “Outstanding Undergraduate Scholar,” UW Department of Philosophy (2001).
 - _Phi Beta Kappa_ scholarship (2000).
 
-# Languages
+# Languages & technologies
 - English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
-- Python, R (advanced); Octave/MATLAB (intermediate but rusty); Praat, Git, Bash, GNU Make, LaTeX, Markdown, HTML, CSS, CSL, BST.
+- Python, R, Git (advanced); Octave/MATLAB, Praat (intermediate); Bash, GNU Make, LaTeX, Markdown, HTML, CSS (familiar).
+- Eye tracking, pupillometry, EEG, MEG.
 
 # Professional and scholarly affiliations
-- Member, Association for Research in Otolaryngology (2014–present).
-- Member, International Phonetic Association (2014–present).
-- Member, Acoustical Society of America (2011–present).
-- Member, Linguistic Society of America (2009–present).
-- Member, _Phi Beta Kappa_ (2002–present).
+
+Association for Research in Otolaryngology (2014–present), International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), _Phi Beta Kappa_ (2002–present).
 
 # Other relevant skills
 - Solid grasp of experimental design, statistical analysis, and model interpretation.
