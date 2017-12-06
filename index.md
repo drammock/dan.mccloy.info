@@ -7,7 +7,7 @@ title: "About me"
 I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience.
 </p>
 
-Currently I work as a postdoctoral researcher in the [Laboratory for Auditory Brain Science & Neuroengineering][labsn], part of the [Institute for Learning & Brain Sciences][ilabs] at the University of Washington. I got my PhD from the [UW Department of Linguistics][ling] under [Richard Wright][raw] as a member of the [phonetics lab][phonlab].  Before starting my graduate studies I was a graphic designer for four years<!--, and during graduate school I maintained a part-time freelance design company called [Boomslang Design][bsd]-->.  I also spent some time as Vice President of Northwest Tree Alliance, a start-up educational non-profit focused on sustainable urban ecologies.  Before that, I did my undergraduate work in Neurobiology and Philosophy, also at UW Seattle.
+Currently I work as a postdoctoral researcher in the [Laboratory for Auditory Brain Science & Neuroengineering][labsn], part of the [Institute for Learning & Brain Sciences][ilabs] at the University of Washington. I got my PhD from the [UW Department of Linguistics][ling] under [Richard Wright][raw] as a member of the [phonetics lab][phonlab].  Before starting my graduate studies I was a graphic designer for four years.  I also spent some time as Vice President of Northwest Tree Alliance, a start-up educational non-profit focused on sustainable urban ecologies.  Before that, I did my undergraduate work in Neurobiology and Philosophy, also at UW Seattle.
 
 ## About this website
 
