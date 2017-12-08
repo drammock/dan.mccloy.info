@@ -4,12 +4,12 @@ title: "Curriculum Vitæ"
 ---
 
 # Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I study the perception and representation of speech sounds, especially as it relates to [distinctive feature theory](https://en.wikipedia.org/wiki/Distinctive_feature), auditory attention, and speech intelligibility.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I study the perception and representation of speech sounds, especially as it relates to distinctive feature theory, auditory attention, and speech intelligibility.
 
 # Current position
 Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]^N^_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. Current research projects:
 
-- Characterizing speech sound perception using EEG
+- Characterizing speech sound representation using EEG
 - Measuring effort-related pupillary response in auditory attention tasks
 
 # Education
@@ -29,7 +29,7 @@ Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroe
 - [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
 
 # Research products
-Reference information for all listed research products is available in [this BibTeX file](../bib/McCloy_CV.bib).
+Structured bibliographic information for all items is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles
 - [@McCloyEtAl-PupilVocodeReverb] ([published version](../pubs/McCloyEtAl2017_PupillometryAttnSwitching.pdf "© 2017 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
@@ -50,10 +50,6 @@ Reference information for all listed research products is available in [this Bib
 
 <!-- ## Manuscripts & work in progress -->
 
-## Invited lectures
-- [@McCloy2017-bu] ([slides](../pubs/McCloyLarsonLee2017_BUslides.pdf))
-- [@McCloy2016-ucsb]
-
 ## Conference presentations
 - [@McCloyLee2016-ASAposter] ([poster](../pubs/McCloyLee2016-ASA-EEG.pdf))
 - [@McCloyLee2016-NWAVRMposter] ([poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
@@ -69,24 +65,28 @@ Reference information for all listed research products is available in [this Bib
 - [@McCloy2011-asaIndo] ([poster](http://hdl.handle.net/1773/25271))
 - [@McCloy2010-nwlcPres] ([institutional repo](http://hdl.handle.net/1773/25270))
 
+## Invited lectures
+- [@McCloy2017-bu] ([slides](../pubs/McCloyLarsonLee2017_BUslides.pdf))
+- [@McCloy2016-ucsb]
+
 ## Software & corpora
-- Co-editor: PHOIBLE, a database of over 1600 phonological inventories. ([repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/) | [web](http://phoible.org/)).
-- Co-developer: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- Co-developer: python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
-- Developer: R package “phonR: Tools for Phoneticians and Phonologists.” ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
-- Developer: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
+- **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/) | [web](http://phoible.org/)).
+- **Co-developer**: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Co-developer**: python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
+- **Developer**: R package “phonR: Tools for phoneticians and phonologists.” ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
+- **Developer**: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
 
 ## Other research activities
-- Participant: BrainHack Global (2017).
-- Participant: Mozilla Open Science Global Code Sprint (2016).
-- Workshop participant: [Probabilistic Transcription team](http://www.ee.washington.edu/student/jsalt2015/ResearchGroupPTpeople.html), [JSALT 2015](http://www.ee.washington.edu/news/2015JelinekSummerWorkshopinSpeechandLanguageTechnology.html).
+- **Participant**: BrainHack Global (2017).
+- **Participant**: Mozilla Open Science Global Code Sprint (2016).
+- **Participant**: Probabilistic Transcription team, Jelenik Speech and Language Technology Workshop (2015).
 
 # Teaching experience
 
 ## Courses taught
-- Instructor: Introduction to Phonetics (LING 450), five-week intensive summer course (2010, 2011).
-- Teaching Assistant: Introduction to Linguistics (LING 200), four sections (2008–2009).
-- Co-facilitator: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
+- **Instructor**: Introduction to Phonetics (LING 450), five-week intensive summer course (2010, 2011).
+- **Teaching Assistant**: Introduction to Linguistics (LING 200), four sections (2008–2009).
+- **Co-facilitator**: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
 
 ## Tutorials & guest lectures
 - “Diphthong plotting in python and R” ([repo](https://github.com/drammock/diphthong-plotting-tutorial)). UW Phonetics Lab (2017).
@@ -105,20 +105,20 @@ Reference information for all listed research products is available in [this Bib
 - “Linguistics, Cognitive Science, and Philosophy of Mind.” PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
 ## Mentorship
-- Mentor: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
-- Mentor: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
-- Member: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
+- **Mentor**: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
+- **Mentor**: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
+- **Member**: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
 
 ## Other instructional activities
-- Volunteer: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
-- Discussion leader: Biomedical Research Integrity Program (2013, 2016).
-- Curriculum Development Associate: Department of Linguistics (2009–2010).
-- Tutor: UW Center for Learning and Undergraduate Enrichment (2009).
-- Tutor: UW Philosophy Writing Center (2001–2002).
+- **Volunteer**: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
+- **Discussion leader**: Biomedical Research Integrity Program (2013, 2016).
+- **Curriculum Development Associate**: Department of Linguistics (2009–2010).
+- **Tutor**: UW Center for Learning and Undergraduate Enrichment (2009).
+- **Tutor**: UW Philosophy Writing Center (2001–2002).
 
 # Academic service
 
-## Conferences
+## Conference service
 - **Session organizer**: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - **Conference chair**: 24th Northwest Linguistics Conference, Seattle (2008).
 - **Referee**: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
@@ -143,7 +143,7 @@ _Nature_ (2017), _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The
 # Languages & technologies
 - English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
 - Python, R, Git (advanced); Octave/MATLAB, Praat (intermediate); Bash, GNU Make, LaTeX, Markdown, HTML, CSS (familiar).
-- Eye tracking, pupillometry, EEG, MEG.
+- Pupillometry, EEG, MEG.
 
 # Professional and scholarly affiliations
 
