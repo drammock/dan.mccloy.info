@@ -6,11 +6,9 @@ title: "Curriculum Vitæ"
 # Overview
 I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I study the perception and representation of speech sounds, especially as it relates to distinctive feature theory, auditory attention, and speech intelligibility.
 
-# Current position
-Postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]<sup>N</sup>_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington. Current research projects:
+**Current position:** postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]<sup>N</sup>_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington.
 
-- Characterizing speech sound representation using EEG
-- Measuring effort-related pupillary response in auditory attention tasks
+**Current projects:** Characterizing speech sound representation using EEG; measuring effort-related pupillary response in auditory attention tasks.
 
 # Education
 
@@ -66,6 +64,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - {% reference McCloy2010-nwlcPres %} ([institutional repo](http://hdl.handle.net/1773/25270))
 
 ## Invited lectures
+- {% reference McCloy2018-ubc %}
 - {% reference McCloy2017-bu %} ([slides](../pubs/McCloyLarsonLee2017_BUslides.pdf))
 - {% reference McCloy2016-ucsb %}
 
@@ -73,22 +72,21 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/) | [web](http://phoible.org/)).
 - **Co-developer**: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 - **Co-developer**: python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
-- **Developer**: R package “phonR: Tools for phoneticians and phonologists.” ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
+- **Developer**: R package “phonR” (vowel normalization and plotting). ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
 - **Developer**: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
 
 ## Other research activities
-- **Participant**: BrainHack Global (2017).
-- **Participant**: Mozilla Open Science Global Code Sprint (2016).
-- **Participant**: Probabilistic Transcription team, Jelenik Speech and Language Technology Workshop (2015).
+BrainHack Global (2017), Mozilla Open Science Global Code Sprint (2016), Probabilistic Transcription team: Jelenik Speech and Language Technology Workshop (2015).
 
 # Teaching experience
 
 ## Courses taught
-- **Instructor**: Introduction to Phonetics (LING 450), five-week intensive summer course (2010, 2011).
+- **Instructor**: Introduction to Phonetics (LING 450), five-week intensive course (2010, 2011).
 - **Teaching Assistant**: Introduction to Linguistics (LING 200), four sections (2008–2009).
 - **Co-facilitator**: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
 
 ## Tutorials & guest lectures
+- “Programming with python.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2018).
 - “Diphthong plotting in python and R” ([repo](https://github.com/drammock/diphthong-plotting-tutorial)). UW Phonetics Lab (2017).
 - “Psycholinguistics & Neurolinguistics.” LING 400: Survey of linguistic method and theory (2017).
 - “Spectrograms.” SPHSC 261: The nature of sound (2017).
@@ -104,14 +102,14 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - “Effective Team Teaching.”  TA Training Workshop, UW Department of Linguistics (2009).
 - “Linguistics, Cognitive Science, and Philosophy of Mind.” PHIL 464: Philosophical Issues in the Cognitive Sciences (2009).
 
-## Mentorship
-- **Mentor**: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
-- **Mentor**: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).
-- **Member**: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
+<!--## Mentorship
+- **Mentor**: graduate student L. Kishline, UW Department of Speech & Hearing Sciences (2014–present); graduate student J. Crowgey, UW Department of Linguistics (2009–2013); undergraduate student A. McGrath, UW Department of Linguistics (2011–2012).-->
 
 ## Other instructional activities
+- **Mentor**: Tesla STEM High School, [2017 Central Sound Regional Engineering and Science Fair](http://www.bellevuecollege.edu/sciencefair/).
 - **Volunteer**: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
 - **Discussion leader**: Biomedical Research Integrity Program (2013, 2016).
+- **Member**: Doctor of Audiology capstone commitee for N. Gehani, Northwestern University Department of Communication Sciences & Disorders (2011–2012).
 - **Curriculum Development Associate**: Department of Linguistics (2009–2010).
 - **Tutor**: UW Center for Learning and Undergraduate Enrichment (2009).
 - **Tutor**: UW Philosophy Writing Center (2001–2002).

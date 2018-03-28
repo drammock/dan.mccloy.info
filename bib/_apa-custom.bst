@@ -105,7 +105,7 @@ FUNCTION {output.check}
   if$
 }
 FUNCTION {fin.entry}
-{ add.period$ 
+{ add.period$
   write$
   newline$
 }
@@ -328,7 +328,7 @@ FUNCTION {format.names}
   numnames 'namesleft :=
     { namesleft #0 > }
     { s nameptr
-      "{vv~}{ll}{ f.}{ jj}"
+      "{vv~}{ll}{ jj}" % insert { .f} before { jj} to get first initial
       format.name$
       bibinfo bibinfo.check
       't :=
@@ -462,9 +462,9 @@ FUNCTION {format.doi}
 
 FUNCTION {format.status}
 { status empty$
-    { 
+    {
       "empty year in " cite$ * "; set to n.d." * warning$
-      "n.d." 
+      "n.d."
     }
     { status }
   if$
@@ -514,7 +514,7 @@ FUNCTION {format.full.names}
                     { "," * }
                     'skip$
                   if$
-                  "and" 
+                  "and"
                   %%"\&"
                   space.word * t *
                 }
@@ -1128,7 +1128,7 @@ FUNCTION {mastersthesis}
 }
 
 FUNCTION {format.event}
-{ 
+{
   type
   capitalize
   " presented at the " * event *
