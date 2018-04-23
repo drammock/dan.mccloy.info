@@ -29,6 +29,10 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 # Research products
 Structured bibliographic information for all items is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
+## Preprints
+
+- [@OBrienEtAl-preprint]
+
 ## Peer-reviewed articles
 - [@McCloyEtAl-PupilVocodeReverb] ([published version](../pubs/McCloyEtAl2017_PupillometryAttnSwitching.pdf "© 2017 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
 - [@HasegawaJohnsonEtAl2017-UnderresourcedASR]  ([preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
@@ -76,7 +80,9 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - **Developer**: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
 
 ## Other research activities
-BrainHack Global (2017), Mozilla Open Science Global Code Sprint (2016), Probabilistic Transcription team: Jelenik Speech and Language Technology Workshop (2015).
+- BrainHack Global (2017)
+- Mozilla Open Science Global Code Sprint (2016)
+-  Probabilistic Transcription team: Jelenik Speech and Language Technology Workshop (2015)
 
 # Teaching experience
 
