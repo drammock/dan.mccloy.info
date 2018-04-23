@@ -8,7 +8,7 @@ html: cv
 
 pdf:
 	# convert markdown to latex source
-	pandoc --natbib --no-tex-ligatures --template=_pandoc/template-cv.tex \
+	pandoc --natbib --from markdown-smart --template=_pandoc/template-cv.tex \
 	--output=_pandoc/cv.tex _cv.md
 	# clean up vestiges of markdown in latex source
 	cd _pandoc; python latex-postprocessor.py cv.tex McCloy_CV.tex
