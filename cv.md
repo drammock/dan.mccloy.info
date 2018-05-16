@@ -31,6 +31,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 
 ## Preprints
 
+- {% reference McCloyLeeEEGPF-preprint %}
 - {% reference OBrienEtAl-preprint %}
 
 ## Peer-reviewed articles
@@ -132,7 +133,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - LSA Technology Advisory Committee (2013–2014).
 
 ## _Ad hoc_ journal reviews
-_Nature_ (2017), _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016, 2017), _UW Working Papers in Linguistics_ (2007, 2012).
+_Nature_ (2017), _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016, 2017, 2018), _UW Working Papers in Linguistics_ (2007, 2012).
 
 # Awards and fellowships
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
