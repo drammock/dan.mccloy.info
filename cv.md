@@ -31,6 +31,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 
 ## Preprints
 
+- {% reference McCloyLeePupilLisdiff-preprint %}
 - {% reference McCloyLeeEEGPF-preprint %}
 - {% reference OBrienEtAl-preprint %}
 
@@ -132,8 +133,8 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - LSA Committee on Scholarly Communication in Linguistics (2014–present)
 - LSA Technology Advisory Committee (2013–2014).
 
-## _Ad hoc_ journal reviews
-_Nature_ (2017), _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The Journal of the Acoustical Society of America_ (2016, 2017, 2018), _UW Working Papers in Linguistics_ (2007, 2012).
+## Journal and conference reviews
+_The Journal of the Acoustical Society of America_ (3), _JASA Express Letters_ (2), _Nature_ (1), _Phonology_ (2), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2), Annual meeting of the Linguistic Society of America (2 years).
 
 # Awards and fellowships
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
@@ -147,7 +148,7 @@ _Nature_ (2017), _Phonology_ (2012, 2013, 2016), _Psychophysiology_ (2016), _The
 
 # Languages & technologies
 - English (native), Modern Standard Chinese (intermediate), Spanish (limited reading knowledge).
-- Python, R, Git (advanced); Octave/MATLAB, Praat (intermediate); Bash, GNU Make, LaTeX, Markdown, HTML, CSS (familiar).
+- Python, R, git (advanced); Octave/MATLAB, Praat, Bash, GNU Make, LaTeX, Markdown, HTML, CSS (familiar).
 - Pupillometry, EEG, MEG.
 
 # Professional and scholarly affiliations
@@ -157,4 +158,4 @@ Association for Research in Otolaryngology (2014–present), International Phone
 # Other relevant skills
 - Solid grasp of experimental design, statistical analysis, and model interpretation.
 - Knowledge of and contribution to open-source tools for scientific research.
-- More than ten years’ experience as a graphic designer & web developer. Strong skills in data visualization, color correction, and information structure and flow.
+- More than ten years’ experience as a graphic designer & web developer.
