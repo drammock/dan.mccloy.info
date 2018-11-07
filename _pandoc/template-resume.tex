@@ -1,0 +1,114 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+\documentclass[12pt, oneside]{article}
+\usepackage{color, url, fontspec, calc, paralist, enumitem, fancyhdr, natbib, bibentry, tabu, booktabs}
+\usepackage[letterpaper, margin=2cm]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage[compact]{titlesec}
+\usepackage[xetex]{hyperref}
+\hypersetup{
+    pdftitle={Curriculum Vitæ - Daniel McCloy},
+    pdfauthor={Daniel R. McCloy},
+    pdfsubject={Linguistics},
+    pdfkeywords={linguistics, phonetics, speech perception},
+%    bookmarksnumbered=true,
+%    bookmarksopen=true,
+%    bookmarksopenlevel=0,
+    colorlinks=true,
+%    anchorcolor=black
+%    citecolor=black,
+    filecolor=urlGreen,
+    linkcolor=black,
+%    menucolor=black,
+%    runcolor=black,
+    urlcolor=urlGreen,
+    pdfstartview=Fit,
+%    pdfpagemode=UseOutlines,
+    unicode=true
+}
+
+$if(linestretch)$
+\usepackage{setspace}
+\setstretch{$linestretch$}
+$endif$
+\usepackage{amssymb,amsmath}
+\usepackage{fixltx2e} % provides \textsubscript
+
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[$for(microtypeoptions)$$microtypeoptions$$sep$,$endfor$]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+
+% FONTS
+\setmainfont[Numbers={Lining}]{Linux Libertine O}
+\newfontfamily\tit[Scale=1.2]{Linux Libertine O Semibold}%{Linux Libertine O Semibold}
+\newfontfamily\osf[Scale=1.1, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
+\newfontfamily\disp[Scale=2]{Linux Libertine Display O}
+\newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
+\newfontfamily\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}
+%\newcommand{\supc}[1]{\textsc{#1}}
+% COLORS
+\definecolor{lightGray}{gray}{0.75}
+\definecolor{midGray}{gray}{0.4}
+\definecolor{darkGray}{gray}{0.25}
+\definecolor{urlGreen}{rgb}{0.1,0.5,0.1}
+% FORMATTING
+\renewcommand{\labelitemi}{◦}
+\renewcommand{\labelitemii}{•}
+\renewcommand{\labelitemiii}{—}
+\renewcommand{\url}{\begingroup \def\UrlLeft{}\def\UrlRight{}\urlstyle{same}\Url}
+\newcommand{\furl}[1]{\urlstyle{same}\url{#1}}
+\newcommand{\gurl}[1]{{\color{urlGreen}\urlstyle{same}\url{#1}}}
+\newcommand{\fref}[2]{\urlstyle{same}\href{#1}{#2}}
+
+\titlespacing{\section}{0pt}{*2}{*-0.5}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0} %{command}{L-margin}{aboveskip}{belowskip}
+\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+\titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+
+
+$if(numbersections)$
+\setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+
+\setlength{\topmargin}{-0.3in}
+\setlength{\headheight}{0.3in}
+%\setlength{\headsep}{0.1in}
+%\setlength{\textheight}{8in}
+%\setlength{\footskip}{0in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrule}{}
+
+\chead[]{\fancyplain{}{%
+	\begin{tabu} to \textwidth {@{}l X r@{}}
+		\everyrow{\rowfont{\color{midGray}}}
+		\color{midGray}\cvpg{résumé} & & \color{midGray}\disp{DANIEL R. M\kern-1pt\supc{\raisebox{\heightof{M}-\heightof{c}}{c}}\kern0.5pt CLOY} \\ \taburulecolor{lightGray}\midrule
+        & & 206.890.0194\quad•\quad\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:dan.mccloy@gmail.com}{dan.mccloy@gmail.com}\quad•\quad\furl{http://dan.mccloy.info}\endgroup
+	\end{tabu}
+}}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+\raggedright
+
+$body$
+
+\end{document}
