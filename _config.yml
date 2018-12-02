@@ -38,4 +38,4 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "highlight", "strikethrough", "superscript"]
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
