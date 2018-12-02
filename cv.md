@@ -31,11 +31,12 @@ Structured bibliographic information for all items is available in [this BibTeX 
 
 ## Preprints
 
-- {% reference McCloyLeePupilLisdiff-preprint %}
+- {% reference OBrienEtAl-duration-preprint %}
 - {% reference McCloyLeeEEGPF-preprint %}
-- {% reference OBrienEtAl-preprint %}
 
 ## Peer-reviewed articles
+- {% reference McCloyLee2018-PupilLisdiff %} ([published version](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching.pdf "© 2018 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) | [preprint](https://psyarxiv.com/2ubyj/) | [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
+- {% reference OBrienEtAl2018-staticDynamicCue %} ([published version](https://www.nature.com/articles/s41598-018-34823-8.pdf) | [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) | [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
 - {% reference McCloyEtAl-PupilVocodeReverb %} ([published version](../pubs/McCloyEtAl2017_PupillometryAttnSwitching.pdf "© 2017 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
 - {% reference HasegawaJohnsonEtAl2017-UnderresourcedASR %}  ([preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
 - {% reference McCloyEtAl2016-PupilMethods %}  ([published version](../pubs/McCloyEtAl2016_PupillometryDeconvolution.pdf "© 2016 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
@@ -133,8 +134,8 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - LSA Committee on Scholarly Communication in Linguistics (2014–present)
 - LSA Technology Advisory Committee (2013–2014).
 
-## Journal and conference reviews
-_The Journal of the Acoustical Society of America_ (3), _JASA Express Letters_ (2), _Nature_ (1), _Phonology_ (2), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2), Annual meeting of the Linguistic Society of America (2 years).
+## Journal reviews
+_The Journal of the Acoustical Society of America_ (3), _JASA Express Letters_ (3), _Nature_ (1), _Phonology_ (2), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2).
 
 # Awards and fellowships
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
@@ -152,7 +153,6 @@ _The Journal of the Acoustical Society of America_ (3), _JASA Express Letters_ (
 - Pupillometry, EEG, MEG.
 
 # Professional and scholarly affiliations
-
 Association for Research in Otolaryngology (2014–present), International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), _Phi Beta Kappa_ (2002–present).
 
 # Other relevant skills
