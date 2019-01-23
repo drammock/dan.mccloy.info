@@ -4,11 +4,9 @@ title: "Curriculum Vitæ"
 ---
 
 # Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I study the perception and representation of speech sounds, especially as it relates to distinctive feature theory, auditory attention, and speech intelligibility.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I am interested in the perception and representation of speech sounds, especially as it relates to distinctive feature theory, auditory attention, and speech intelligibility.
 
-**Current position:** postdoctoral research associate, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]^N^_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/)), part of the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/) at the University of Washington.
-
-**Current projects:** Characterizing speech sound representation using EEG; measuring effort-related pupillary response in auditory attention tasks.
+**Current position:** Research Engineer, [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/), University of Washington.
 
 # Education
 
@@ -19,6 +17,7 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 - BS in Neurobiology (University of Washington, 2002).
 
 ## Other education / training
+- Postdoctoral research training in psychophysics and auditory neuroscience, [Laboratory for Auditory Brain Science & Neuroengineering](http://depts.washington.edu/labsn/) (_[LABS]^N^_, PI: [Adrian KC Lee](http://faculty.washington.edu/akclee/), 2013-2018).
 - Computational Perspectives on Language Prediction in the Brain; Computational Perspectives on the Brain in Psychiatric and Neurological Disorders ([Kavli Summer Institute in Cognitive Neuroscience](http://sicn.cmb.ucdavis.edu/), UC Santa Barbara, 2017).
 - [Machine Learning](https://www.coursera.org/account/accomplishments/records/FY94856VBP3Q) (Stanford University / Coursera, 2016).
 - [Software Carpentry](https://software-carpentry.org/team/) instructor certification (2016).
@@ -32,9 +31,9 @@ Structured bibliographic information for all items is available in [this BibTeX 
 ## Preprints
 
 - [@OBrienEtAl-duration-preprint]
-- [@McCloyLeeEEGPF-preprint]
 
 ## Peer-reviewed articles
+- [@McCloyLee2019-EEGPF]  ([published version](http://dx.doi.org/10.1080/23273798.2019.1569246) | [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) | [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) | [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
 - [@McCloyLee2018-PupilLisdiff] ([published version](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching.pdf "© 2018 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) | [preprint](https://psyarxiv.com/2ubyj/) | [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
 - [@OBrienEtAl2018-staticDynamicCue] ([published version](https://www.nature.com/articles/s41598-018-34823-8.pdf) | [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) | [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
 - [@McCloyEtAl-PupilVocodeReverb] ([published version](../pubs/McCloyEtAl2017_PupillometryAttnSwitching.pdf "© 2017 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
@@ -52,8 +51,6 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - [@McCloy2013-er]  ([published version](http://hdl.handle.net/1773/25273))
 - [@McCloy2012-phonR]  ([original PDF](../pubs/McCloy2012_phonR.pdf) | [updated web version](http://drammock.github.io/phonR/))
 - [@McCloy2010-nwlcProc]  ([published version](http://hdl.handle.net/1773/25270))
-
-<!-- ## Manuscripts & work in progress -->
 
 ## Conference presentations
 - [@McCloyLee2016-ASAposter] ([poster](../pubs/McCloyLee2016-ASA-EEG.pdf))
@@ -95,7 +92,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - **Co-facilitator**: New Majors Seminar (PHIL 199), proseminar for incoming Philosophy students (2001, 2002).
 
 ## Tutorials & guest lectures
-- “Programming with python.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2018).
+- “Programming with python.” [Software Carpentry](http://software-carpentry.org/) Workshop, UW eScience Institute (2018, 2019).
 - “Diphthong plotting in python and R” ([repo](https://github.com/drammock/diphthong-plotting-tutorial)). UW Phonetics Lab (2017).
 - “Psycholinguistics & Neurolinguistics.” LING 400: Survey of linguistic method and theory (2017).
 - “Spectrograms.” SPHSC 261: The nature of sound (2017).
@@ -153,7 +150,7 @@ _The Journal of the Acoustical Society of America_ (3), _JASA Express Letters_ (
 - Pupillometry, EEG, MEG.
 
 # Professional and scholarly affiliations
-Association for Research in Otolaryngology (2014–present), International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), _Phi Beta Kappa_ (2002–present).
+International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), Association for Research in Otolaryngology (2014–2018), _Phi Beta Kappa_ (2002–present).
 
 # Other relevant skills
 - Solid grasp of experimental design, statistical analysis, and model interpretation.

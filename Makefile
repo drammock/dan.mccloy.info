@@ -21,8 +21,8 @@ pdf:
 cv: _cv.md
 	python _pandoc/jekyll-preprocessor.py _cv.md cv.md
 
-resume: _resume.md
-	@pandoc _resume.md \
+resume: _resume/resume.md
+	@pandoc _resume/resume.md \
 	--from markdown-smart \
 	--pdf-engine=xelatex \
 	--template=_pandoc/template-resume.tex \
