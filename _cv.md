@@ -6,7 +6,7 @@ title: "Curriculum Vitæ"
 # Overview
 I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I am interested in the perception and representation of speech sounds, especially as it relates to distinctive feature theory, auditory attention, and speech intelligibility.
 
-**Current position:** Research Engineer, [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/), University of Washington.
+**Current position:** Research Engineer working on [MNE-Python](https://mne.tools/dev/index.html) software, [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/), University of Washington.
 
 # Education
 
@@ -28,11 +28,12 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 # Research products
 Structured bibliographic information for all items is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
-## Preprints
-
-- [@OBrienEtAl-duration-preprint]
+<!--## Preprints-->
 
 ## Peer-reviewed articles
+
+- [@OBrienEtAl2019-duration]  ([published version](../pubs/OBrienEtAl2019_-_DyslexiaPhonemeDuration.pdf "© 2019 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [preprint](https://psyarxiv.com/urd7w) | [repo](https://github.com/YeatmanLab/Parametric_speech_public))
+
 - [@McCloyLee2019-EEGPF]  ([published version](http://dx.doi.org/10.1080/23273798.2019.1569246) | [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) | [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) | [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
 - [@McCloyLee2018-PupilLisdiff] ([published version](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching.pdf "© 2018 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.") | [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) | [preprint](https://psyarxiv.com/2ubyj/) | [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
 - [@OBrienEtAl2018-staticDynamicCue] ([published version](https://www.nature.com/articles/s41598-018-34823-8.pdf) | [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) | [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
@@ -77,9 +78,11 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - **Co-developer**: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 - **Co-developer**: python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
 - **Developer**: R package “phonR” (vowel normalization and plotting). ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
-- **Developer**: Praat script library “Praat Semi-Auto,” a set of scripts designed to streamline manual acoustic measurements for cases where forced alignment and automatic measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
+- **Developer**: “Praat Semi-Auto” scripts to streamline manual acoustic measurements when forced alignment and automated measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
+- **Contributor**: [MNE-Python](https://mne.tools) analysis and visualization software for EEG & MEG ([repo](https://github.com/mne-tools/mne-python)).
 
-## Other research activities
+## Other scientific activities
+- MNE-Python code sprint (2019)
 - BrainHack Global (2017)
 - Mozilla Open Science Global Code Sprint (2016)
 -  Probabilistic Transcription team: Jelenik Speech and Language Technology Workshop (2015)
