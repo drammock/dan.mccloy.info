@@ -28,4 +28,12 @@ resume: _resume/resume.md
 	--template=_pandoc/template-resume.tex \
 	--output=McCloy_resume.pdf
 
+datascience: _resume/resume_datascience.md
+	@pandoc _resume/resume_datascience.md \
+	--from markdown-smart \
+	--pdf-engine=xelatex \
+	--template=_pandoc/template-resume.tex \
+	--output=McCloy_datascience_resume.pdf
+
+
 all: pdf html
