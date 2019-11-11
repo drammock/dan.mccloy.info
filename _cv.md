@@ -134,7 +134,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 - LSA Technology Advisory Committee (2013–2014).
 
 ## Journal reviews
-_The Journal of the Acoustical Society of America_ (3), _JASA Express Letters_ (3), _Nature_ (1), _Phonology_ (2), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2).
+_The Journal of the Acoustical Society of America_ (4), _JASA Express Letters_ (3), _Nature_ (1), _Phonology_ (2), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2).
 
 # Awards and fellowships
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
