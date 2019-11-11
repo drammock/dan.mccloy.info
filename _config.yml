@@ -6,8 +6,8 @@ permalink: pretty
 
 # Setup
 title:       Dan McCloy
-tagline:     'Research Engineer (<a href="http://ilabs.washington.edu/" target="_blank">I-LABS</a>, <a href="http://www.washington.edu/" target="_blank">University of Washington</a>)'
-description: 'Research Engineer, Institute for Learning and Brain Sciences, University of Washington'
+tagline:     'Research Scientist (<a href="http://ilabs.washington.edu/" target="_blank">I-LABS</a>, <a href="http://www.washington.edu/" target="_blank">University of Washington</a>)'
+description: 'Research Scientist, Institute for Learning and Brain Sciences, University of Washington'
 url:         'http://dan.mccloy.info'
 baseurl:     ''
 paginate:    5

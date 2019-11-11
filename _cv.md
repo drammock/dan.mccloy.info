@@ -4,9 +4,9 @@ title: "Curriculum Vitæ"
 ---
 
 # Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I am interested in the perception and representation of speech sounds, especially as it relates to distinctive feature theory, auditory attention, and speech intelligibility.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. I am broadly interested in the perception and representation of speech sounds.
 
-**Current position:** Research Engineer working on [MNE-Python](https://mne.tools/dev/index.html) software, [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/), University of Washington.
+**Current position:** Research Scientist at the [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/), University of Washington. Analyzing MEG data relating to literacy and dyslexia; working on [MNE-Python](https://mne.tools/dev/index.html) software.
 
 # Education
 
