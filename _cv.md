@@ -74,7 +74,7 @@ Structured bibliographic information for all items is available in [this BibTeX 
 
 ## Software & corpora
 - **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/) | [web](http://phoible.org/)).
-- **Co-developer**: [PN/NC Corpus](http://depts.washington.edu/phonlab/resources/pnnc/), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Co-developer**: [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 - **Co-developer**: python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
 - **Developer**: R package “phonR” (vowel normalization and plotting). ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
 - **Developer**: “Praat Semi-Auto” scripts to streamline manual acoustic measurements when forced alignment and automated measurement are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
