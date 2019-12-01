@@ -137,10 +137,9 @@
       <else>
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix="doi: http://dx.doi.org/"/>
+            <text variable="DOI" prefix="(https://doi.org/" suffix=" | "/>
             <!--
-            <text variable="DOI" prefix="doi:&lt;a href='http://dx.doi.org/" suffix="'&gt;"/>
-            <text variable="DOI" suffix="&lt;/a&gt;"/>
+            <text variable="DOI" prefix="( &lt;a href=&quot;https://doi.org/" suffix="&quot;&gt; doi &lt;/a&gt; |"/>
             -->
           </if>
           <else>
