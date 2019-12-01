@@ -456,7 +456,8 @@ FUNCTION {format.doi}
     {}
 %    { new.block "\doi{" doi * "}" * }
 %    { new.block "\textsc{doi}: \doi{" doi * "}" * }
-    { new.block "\textsc{doi}:\thinspace\href{http://dx.doi.org/" doi * "}{" * doi * "}" * }
+%    { new.block "\textsc{doi}:\thinspace\href{http://dx.doi.org/" doi * "}{" * doi * "}" * }
+    { new.block "(\href{http://dx.doi.org/" doi * "}{" * "\textsc{doi}" * "} |" * }
   if$
 }
 
@@ -1131,7 +1132,7 @@ FUNCTION {format.event}
 {
   type
   capitalize
-  " presented at the " * event *
+  " at the " * event *
 }
 
 FUNCTION {misc}

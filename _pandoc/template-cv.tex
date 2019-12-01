@@ -1,8 +1,8 @@
 % !TEX TS-program = xelatex
 % !TEX encoding = UTF-8
 \documentclass[12pt, oneside]{article}
-\usepackage{color, url, fontspec, calc, paralist, enumitem, fancyhdr, natbib, bibentry, tabu, booktabs}
-\usepackage[letterpaper, margin=0.875in]{geometry}
+\usepackage{color, url, fontspec, calc, paralist, enumitem, fancyhdr, natbib, bibentry, tabu, booktabs, graphicx}
+\usepackage[letterpaper, margin=2cm]{geometry}
 \usepackage[shortcuts]{extdash}
 \usepackage[parfill]{parskip}
 \usepackage[compact]{titlesec}
@@ -27,14 +27,43 @@
 %    pdfpagemode=UseOutlines,
     unicode=true
 }
+$if(linestretch)$
+\usepackage{setspace}
+\setstretch{$linestretch$}
+$endif$
+\usepackage{amssymb,amsmath}
+
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[$for(microtypeoptions)$$microtypeoptions$$sep$,$endfor$]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+
 % FONTS
-\setmainfont[Numbers={Lining}]{Linux Libertine O}
-\newfontfamily\tit[Scale=1.2]{Linux Libertine O Semibold}%{Linux Libertine O Semibold}
-\newfontfamily\osf[Scale=1.1, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
-\newfontfamily\disp[Scale=2]{Linux Libertine Display O}
-\newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
-\newfontfamily\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}
+\setmainfont[
+ BoldFont={Linux Libertine O Bold},
+ ItalicFont={Linux Libertine O Italic},
+ BoldItalicFont={Linux Libertine O Bold Italic}
+ ]{Linux Libertine O}
+
+\newfontfamily\tit[Scale=1.3]{Linux Libertine O Semibold}% section titles
+\newfontfamily\disp[Scale=2]{Linux Libertine Display O}% my name
+\newfontfamily\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}% superscript C in my name
+\newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}% "cv (page 1)"
 %\newcommand{\supc}[1]{\textsc{#1}}
+%\defaultfontfeatures{Path=/home/drmccloy/.fonts/fontawesome-free-5.11.2-desktop/otfs/}
+%\usepackage{fontawesome5}
+\newfontfamily\FA[Path=/home/drmccloy/.fonts/fontawesome-free-5.11.2-desktop/otfs/]{Font Awesome 5 Free-Regular-400}
+
 % COLORS
 \definecolor{lightGray}{gray}{0.75}
 \definecolor{midGray}{gray}{0.4}
@@ -46,63 +75,73 @@
 \renewcommand{\labelitemii}{•}
 \renewcommand{\labelitemiii}{—}
 \renewcommand{\url}{\begingroup \def\UrlLeft{}\def\UrlRight{}\urlstyle{same}\Url}
-\newcommand{\furl}[1]{\urlstyle{same}\url{#1}}
+\newcommand{\furl}[1]{\url{#1}}
 \newcommand{\gurl}[1]{{\color{urlGreen}\urlstyle{same}\url{#1}}}
 \newcommand{\fref}[2]{\urlstyle{same}\href{#1}{#2}}
 
-\titlespacing{\section}{0pt}{*3}{*-0.5}
-\titlespacing{\subsection}{0pt}{*0}{*0}
-\titlespacing{\subsubsection}{0pt}{*0}{*0} %{command}{L-margin}{aboveskip}{belowskip}
-\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
-\titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
-%\titleformat{\subsection}[hang]{\textbf\color{darkGray}}{\thesubsection}{*0}{}%
-%\titleformat{\subsection}[hang]{\textbf\color{darkGray}}{\thesubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
-%\titleformat{\subsubsection}[hang]{}{\thesubsubsection}{*0}{\begin{itemize}}[\end{itemize}] %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+% SCHEMATIC:
+%\titlespacing{command}{L-margin}{aboveskip}{belowskip}
+%\titleformat{command}[]{format}{}{spacing}{beforecode}[aftercode]
 
-\setlength{\topmargin}{-0.3in}
-\setlength{\headheight}{0.8in}
-\setlength{\headsep}{0.125in}
-\setlength{\textheight}{7.875in}
-\setlength{\footskip}{0.375in}
+\titlespacing{\section}{0pt}{*1.5}{*-0.5}
+\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{}
+%\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{}
+
+\titlespacing{\subsection}{0pt}{*0}{*-0.75}
+\titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{}
+
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+%\titleformat{\subsubsection}[runin]{\cvpg\bfseries\MakeLowercase}{\thesubsubsection}{*0}{}[\setlength{\parindent}{0.5em}\indent]
+
+\setlength{\topmargin}{-1.5cm}
+\setlength{\headheight}{2cm}
+\setlength{\headsep}{0.25cm}
+\setlength{\textheight}{23cm}
+%\setlength{\footskip}{0.5cm}
 
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrule}{}
 
 \chead[]{\fancyplain{}{%
-	\begin{tabu} to \textwidth {@{}l X r@{}}
-		\everyrow{\rowfont{\color{midGray}}}
-		\color{midGray}\cvpg{curriculum vit\kern-0.9pt æ (page \thepage)} & & \color{midGray}\disp{DANIEL R. M\kern-1pt\supc{\raisebox{\heightof{M}-\heightof{c}}{c}}\kern0.5pt CLOY} \\ \taburulecolor{lightGray}\midrule
-		Research Scientist & & Institute for Learning \& Brain Sciences\\
-	\end{tabu}
+    \begin{tabu} to \textwidth {@{}l X r@{}}
+		\rowfont{\color{midGray}}
+        \cvpg{curriculum vit\kern-0.9pt æ (page \thepage)} & & \color{midGray}\disp{DANIEL R. M\kern-1pt\supc{\raisebox{\heightof{M}-\heightof{c}}{c}}\kern0.5pt CLOY} \\ \taburulecolor{lightGray}\midrule
+    \end{tabu}
+    \begin{tabu} to \textwidth {@{}l X r@{}}
+		\rowfont{\color{midGray}}
+        & & 206.890.0194\enskip•\enskip\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:dan@mccloy.info}{dan@mccloy.info}\enskip•\enskip\fref{http://dan.mccloy.info}{dan.mccloy.info}\endgroup
+    \end{tabu}
 }}
+%\enskip•\enskip\fref{mailto:dan@mccloy.info}{\faicon{envelope}}
+%\enskip•\enskip\fref{http://dan.mccloy.info}{\faicon{globe}}
+%\enskip•\enskip\fref{https://github.com/drammock}{\faicon{github}}
+%\enskip•\enskip\fref{https://orcid.org/0000-0002-7572-3241}{\faicon{orcid}}
+%\enskip•\enskip\fref{http://www.linkedin.com/pub/dan-mccloy/5/33a/89}{\faicon{linkedin}}
+%\enskip•\enskip\fref{https://keybase.io/drammock}{\faicon{keybase}}
 
-\cfoot[]{%
-	\fancyplain{}{\color{midGray}%
-	\begin{tabu} to \textwidth {@{}l X r@{}}
-		\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:drmccloy@uw.edu}{drmccloy@uw.edu}\endgroup & & \begingroup\hypersetup{urlcolor=midGray}\furl{http://dan.mccloy.info}\endgroup \\ \taburulecolor{lightGray}\midrule
-		University of Washington & & 1715 NE Columbia Rd • Portage Bay Bldg • Rm 368\\
-		Institute for Learning \& Brain Sciences & & Box 357988 • Seattle WA • 98195-7988\\  %  • (206) 685 4662
-	\end{tabu}
-}}
+
+%\cfoot[]{%
+%	\fancyplain{}{\color{midGray}%
+%	\begin{tabu} to \textwidth {@{}l X r@{}}
+%		\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:drmccloy@uw.edu}{drmccloy@uw.edu}\endgroup & & \begingroup\hypersetup{urlcolor=midGray}\furl{http://dan.mccloy.info}\endgroup \\ \taburulecolor{lightGray}\midrule
+%		University of Washington & & 1715 NE Columbia Rd • Portage Bay Bldg • Rm 368\\
+%		Institute for Learning \& Brain Sciences & & Box 357988 • Seattle WA • 98195-7988\\
+%	\end{tabu}
+%}}
 
 \errorcontextlines 10000
 \raggedbottom{}
 
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
+\raggedright{}
 \nobibliography{../bib/McCloy_CV}
 \bibliographystyle{../bib/_apa-custom}
-\raggedright{}
-%\color{darkGray}
 
 $body$
 
 \end{document}
-
-%\begingroup\hypersetup{urlcolor=darkGray}
-%\input{job}
-%\input{education}
-%\endgroup
