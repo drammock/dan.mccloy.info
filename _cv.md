@@ -37,12 +37,12 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - [@OBrienEtAl2018-staticDynamicCue] [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) | [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
 - [@McCloyEtAl-PupilVocodeReverb] [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
 - [@HasegawaJohnsonEtAl2017-UnderresourcedASR] [preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
-- [@McCloyEtAl2016-PupilMethods] [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods)).
-- [@McCloyLee2015-DivAttnSem] [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic)).
+- [@McCloyEtAl2016-PupilMethods] [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods))
+- [@McCloyLee2015-DivAttnSem] [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic))
 - [@McCloyEtAl2014-crossDialect] [preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - [@BarrackEtAl2014-murmur] [preprint](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
 - [@SouzaEtAl2013-familiarity] [preprint](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
-- [@MoranEtAl2012-language] [preprint](http://hdl.handle.net/1773/25269) | [Data and R script (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+- [@MoranEtAl2012-language] [preprint](http://hdl.handle.net/1773/25269) | [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
 ## Invited talks (3)
 - [@McCloy2018-ubc]
@@ -61,22 +61,22 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - [@McCloyLee2016-NWAVRMposter] ([poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
 - [@McCloyEtAl2016-ChaharDevoicing] ([poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
 - [@McCloyEtAl2014-GordonConfPoster] ([poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
-- [@McCloyLee2014-dasCogLoad] ([poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
+- [@McCloyLee2014-dasCogLoad] [poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
 - [@KishlineEtAl2014-TempOrder] ([poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
-- [@McCloyLee2013-divAttnSem] ([poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
+- [@McCloyLee2013-divAttnSem] [poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
 - [@McCloy2013-summerschool] ([poster](http://hdl.handle.net/1773/25274))
 - [@McCloyEtAl2013-cuny] ([slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-- [@McCloyEtAl2012-asaIntel] ([poster](http://hdl.handle.net/1773/25272))
-- [@MoranEtAl2012-lsa] ([slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
-- [@McCloy2011-asaIndo] ([poster](http://hdl.handle.net/1773/25271))
+- [@McCloyEtAl2012-asaIntel] [poster](http://hdl.handle.net/1773/25272))
+- [@MoranEtAl2012-lsa] [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
+- [@McCloy2011-asaIndo] [poster](http://hdl.handle.net/1773/25271))
 - [@McCloy2010-nwlcPres] ([paper](http://hdl.handle.net/1773/25270))
 
 ## Software & corpora
-- **Developer**: R package “phonR” (vowel normalization and plotting). ([CRAN](https://cran.r-project.org/package=phonR) | [repo](https://github.com/drammock/phonR) | [tutorial](http://drammock.github.io/phonR/) | [DOI](http://dx.doi.org/10.5281/zenodo.60926)).
-- **Developer**: “Praat Semi-Auto” scripts to streamline manual acoustic measurements when automated methods are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/)).
-- **Co-developer**: Python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun) | [DOI](http://dx.doi.org/10.5281/zenodo.11640)).
+- **Developer**: R package “phonR” for visualization and analysis of vowel spaces. ([tutorial](http://drammock.github.io/phonR/) | [repo](https://github.com/drammock/phonR) | [CRAN](https://cran.r-project.org/package=phonR))
+- **Developer**: “Praat Semi-Auto” scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/))
+- **Co-developer**: Python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun))
 - **Contributor**: [MNE-Python](https://mne.tools) analysis and visualization software for EEG & MEG ([repo](https://github.com/mne-tools/mne-python)). [Ranked #18](https://github.com/mne-tools/mne-python/graphs/contributors?type=c) out of 192 contributors by number of commits, and [ranked #5](https://github.com/mne-tools/mne-python/graphs/contributors?type=a) by lines changed.
-- **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([web](http://phoible.org/) | [repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/)).
+- **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([web](http://phoible.org/) | [repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/))
 - **Co-developer**: [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 
 

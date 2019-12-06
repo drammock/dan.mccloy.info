@@ -453,10 +453,7 @@ FUNCTION {format.note}
 
 FUNCTION {format.doi}
 { doi empty$
-    {}
-%    { new.block "\doi{" doi * "}" * }
-%    { new.block "\textsc{doi}: \doi{" doi * "}" * }
-%    { new.block "\textsc{doi}:\thinspace\href{http://dx.doi.org/" doi * "}{" * doi * "}" * }
+    { new.block "." }
     { new.block "(\href{http://dx.doi.org/" doi * "}{" * "\textsc{doi}" * "} |" * }
   if$
 }
@@ -886,8 +883,7 @@ FUNCTION {format.organization.address}
 
 FUNCTION {format.address}
 {
-  %address "address" bibinfo.check output
-  address  ". " *
+  address "address" bibinfo.check output
 }
 
 FUNCTION {article}
@@ -1149,6 +1145,7 @@ FUNCTION {misc}
     { format.event output }
   if$
   format.address output
+  format.doi output
   new.block
   format.note output
   fin.entry
@@ -1221,6 +1218,8 @@ FUNCTION {techreport}
   format.tr.number output.nonnull
   institution "institution" bibinfo.warn output
   format.address output
+  new.block
+  format.doi output
   new.block
   format.note output
   fin.entry
