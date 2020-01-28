@@ -35,5 +35,17 @@ datascience: _resume/resume_datascience.md
 	--template=_pandoc/template-resume.tex \
 	--output=McCloy_datascience_resume.pdf
 
+short: _cv-short.md
+	# convert markdown to latex source
+	pandoc --natbib --from markdown-smart \
+	--template=_pandoc/template-cv-short.tex \
+	--output=_pandoc/cv-short.tex _cv-short.md
+	# clean up vestiges of markdown in latex source
+	cd _pandoc; python latex-postprocessor.py cv-short.tex McCloy_CV_short.tex
+	# compile PDF
+	cd _pandoc; bash compile-pdf.bash McCloy_CV_short.tex
+	mv _pandoc/McCloy_CV_short.pdf .
+	# clean up
+	rm _pandoc/cv-short.tex
 
 all: pdf html
