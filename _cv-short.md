@@ -32,25 +32,25 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 *Omitted here:* invited talks (3), conference proceedings (4), technical reports (1), conference presentations (13).
 
 ## Peer-reviewed articles (12 total, 7 first-authored)
-- [@OBrienEtAl2019-duration] [preprint](https://psyarxiv.com/urd7w) | [repo](https://github.com/YeatmanLab/Parametric_speech_public))
-- [@McCloyLee2019-EEGPF] [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) | [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) | [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
-- [@McCloyLee2018-PupilLisdiff] [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) | [preprint](https://psyarxiv.com/2ubyj/) | [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
-- [@OBrienEtAl2018-staticDynamicCue] [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) | [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
-- [@McCloyEtAl-PupilVocodeReverb] [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
-- [@HasegawaJohnsonEtAl2017-UnderresourcedASR] [preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
-- [@McCloyEtAl2016-PupilMethods] [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods))
-- [@McCloyLee2015-DivAttnSem] [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic))
+- [@OBrienEtAl2019-duration] [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
+- [@McCloyLee2019-EEGPF] [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
+- [@McCloyLee2018-PupilLisdiff] [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) \| [preprint](https://psyarxiv.com/2ubyj/) \| [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
+- [@OBrienEtAl2018-staticDynamicCue] [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) \| [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
+- [@McCloyEtAl-PupilVocodeReverb] [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) \| [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
+- [@HasegawaJohnsonEtAl2017-UnderresourcedASR] [preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) \| [repo](https://github.com/ws15code/prob-trans))
+- [@McCloyEtAl2016-PupilMethods] [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods))
+- [@McCloyLee2015-DivAttnSem] [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) \| [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic))
 - [@McCloyEtAl2014-crossDialect] [preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - [@BarrackEtAl2014-murmur] [preprint](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
 - [@SouzaEtAl2013-familiarity] [preprint](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
-- [@MoranEtAl2012-language] [preprint](http://hdl.handle.net/1773/25269) | [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+- [@MoranEtAl2012-language] [preprint](http://hdl.handle.net/1773/25269) \| [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
 ## Software & corpora
-- **Developer**: R package “phonR”: visualize & analyze vowels. ([tutorial](http://drammock.github.io/phonR/) | [repo](https://github.com/drammock/phonR) | [CRAN](https://cran.r-project.org/package=phonR))
+- **Developer**: R package “phonR”: visualize & analyze vowels. ([tutorial](http://drammock.github.io/phonR/) \| [repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
 - **Developer**: “Praat Semi-Auto”: streamline manual acoustic measurements. ([repo](http://github.com/drammock/praat-semiauto/))
 - **Co-developer**: Python library “expyfun”: run psychophysics experiments. ([repo](http://github.com/LABSN/expyfun))
-- **Core contributor**: MNE-Python: analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python) | [docs](https://mne.tools))
-- **Co-editor**: PHOIBLE: a database of over 1600 phonological inventories. ([web](http://phoible.org/) | [repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/))
+- **Core contributor**: MNE-Python: analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python) \| [docs](https://mne.tools))
+- **Co-editor**: PHOIBLE: a database of over 1600 phonological inventories. ([web](http://phoible.org/) \| [repo](https://github.com/phoible/dev) \| [docs](http://phoible.github.io/))
 - **Co-developer**: [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 
 

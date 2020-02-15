@@ -3,7 +3,7 @@ layout: post
 title:  "Git submodules"
 date: 2015-06-12 00:00:00
 ---
-Recently I set up the [PHOIBLE development repos](https://github.com/phoible) to be a bit more flexible and extensible for future needs. This required setting up [submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules) in git.<more /> Here are some notes on how that works:
+Recently I set up the [PHOIBLE development repos](https://github.com/phoible) to be a bit more flexible and extensible for future needs. This required setting up [submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules) in git.<!--more--> Here are some notes on how that works:
 
 1. **Both repos must already exist.** If either the parent or the child module doesn’t exist yet, create it first. Here the two repos are called “dev” and “data”, and we’ll be nesting “data” inside of “dev”.
 

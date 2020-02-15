@@ -31,18 +31,18 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 Structured bibliographic information is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 ## Peer-reviewed articles (12 total, 7 first-authored)
-- {% reference OBrienEtAl2019-duration %} [preprint](https://psyarxiv.com/urd7w) | [repo](https://github.com/YeatmanLab/Parametric_speech_public))
-- {% reference McCloyLee2019-EEGPF %} [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) | [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) | [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
-- {% reference McCloyLee2018-PupilLisdiff %} [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) | [preprint](https://psyarxiv.com/2ubyj/) | [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
-- {% reference OBrienEtAl2018-staticDynamicCue %} [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) | [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
-- {% reference McCloyEtAl-PupilVocodeReverb %} [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) | [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
-- {% reference HasegawaJohnsonEtAl2017-UnderresourcedASR %} [preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) | [repo](https://github.com/ws15code/prob-trans))
-- {% reference McCloyEtAl2016-PupilMethods %} [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) | [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods))
-- {% reference McCloyLee2015-DivAttnSem %} [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) | [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic))
+- {% reference OBrienEtAl2019-duration %} [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
+- {% reference McCloyLee2019-EEGPF %} [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
+- {% reference McCloyLee2018-PupilLisdiff %} [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) \| [preprint](https://psyarxiv.com/2ubyj/) \| [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
+- {% reference OBrienEtAl2018-staticDynamicCue %} [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) \| [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
+- {% reference McCloyEtAl-PupilVocodeReverb %} [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) \| [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
+- {% reference HasegawaJohnsonEtAl2017-UnderresourcedASR %} [preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) \| [repo](https://github.com/ws15code/prob-trans))
+- {% reference McCloyEtAl2016-PupilMethods %} [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods))
+- {% reference McCloyLee2015-DivAttnSem %} [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) \| [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic))
 - {% reference McCloyEtAl2014-crossDialect %} [preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - {% reference BarrackEtAl2014-murmur %} [preprint](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
 - {% reference SouzaEtAl2013-familiarity %} [preprint](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
-- {% reference MoranEtAl2012-language %} [preprint](http://hdl.handle.net/1773/25269) | [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+- {% reference MoranEtAl2012-language %} [preprint](http://hdl.handle.net/1773/25269) \| [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
 ## Invited talks (3)
 - {% reference McCloy2018-ubc %}
@@ -53,7 +53,7 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - {% reference McCloyEtAl2014-poma %} [proceedings](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
 - {% reference McCloy2014-indo %} [proceedings](../pubs/McCloy2014_IndoMorphophonetics.pdf))
 - {% reference McCloy2013-er %}  ([proceedings](http://depts.washington.edu/uwwpl/editions/vol31.html))
-- {% reference McCloy2012-phonR %}  ([PDF](../pubs/McCloy2012_phonR.pdf) | [updated web version](http://drammock.github.io/phonR/))
+- {% reference McCloy2012-phonR %}  ([PDF](../pubs/McCloy2012_phonR.pdf) \| [updated web version](http://drammock.github.io/phonR/))
 - {% reference McCloy2010-nwlcProc %}  ([proceedings](http://www.sfu.ca/gradlings/working-papers/wp_3.html))
 
 ## Conference presentations (13)
@@ -67,22 +67,22 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - {% reference McCloy2013-summerschool %} ([poster](http://hdl.handle.net/1773/25274))
 - {% reference McCloyEtAl2013-cuny %} ([slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
 - {% reference McCloyEtAl2012-asaIntel %} [poster](http://hdl.handle.net/1773/25272))
-- {% reference MoranEtAl2012-lsa %} [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) | [extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
+- {% reference MoranEtAl2012-lsa %} [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) \| [extended abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
 - {% reference McCloy2011-asaIndo %} [poster](http://hdl.handle.net/1773/25271))
 - {% reference McCloy2010-nwlcPres %} ([paper](http://hdl.handle.net/1773/25270))
 
 ## Software & corpora
-- **Developer**: R package “phonR” for visualization and analysis of vowel spaces. ([tutorial](http://drammock.github.io/phonR/) | [repo](https://github.com/drammock/phonR) | [CRAN](https://cran.r-project.org/package=phonR))
+- **Developer**: R package “phonR” for visualization and analysis of vowel spaces. ([tutorial](http://drammock.github.io/phonR/) \| [repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
 - **Developer**: “Praat Semi-Auto” scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/))
 - **Co-developer**: Python library “expyfun: Experimental paradigm functions.” ([repo](http://github.com/LABSN/expyfun))
 - **Contributor**: [MNE-Python](https://mne.tools) analysis and visualization software for EEG & MEG ([repo](https://github.com/mne-tools/mne-python)). [Ranked #18](https://github.com/mne-tools/mne-python/graphs/contributors?type=c) out of 192 contributors by number of commits, and [ranked #5](https://github.com/mne-tools/mne-python/graphs/contributors?type=a) by lines changed.
-- **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([web](http://phoible.org/) | [repo](https://github.com/phoible/dev) | [docs](http://phoible.github.io/))
+- **Co-editor**: PHOIBLE, a database of over 1600 phonological inventories. ([web](http://phoible.org/) \| [repo](https://github.com/phoible/dev) \| [docs](http://phoible.github.io/))
 - **Co-developer**: [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php), a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 
 
 # Teaching experience
 
-- **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute; 2016, 2017, 2018, 2019).
+- **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute: 2016, 2017, 2018, 2019; Benaroya Research Institute: 2020).
 - **Instructor**: Introduction to Phonetics (2010, 2011).
 - **Teaching Assistant**: Introduction to Linguistics, four sections (2008–2009).
 - **Co-facilitator**: “New Majors” proseminar for incoming Philosophy students (2001, 2002).
@@ -97,7 +97,7 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - **Referee**: LSA Annual meeting (2014, 2016), Northwest Linguistics Conference (2008, 2012).
 
 ## Journal reviews
-_The Journal of the Acoustical Society of America_ (4), _JASA Express Letters_ (3), _Nature_ (1), _Phonology_ (2), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2).
+_The Journal of the Acoustical Society of America_ (4), _JASA Express Letters_ (3), _Phonology_ (3), _Nature_ (1), _Psychophysiology_ (1), _UW Working Papers in Linguistics_ (2).
 
 ## Mentorship & Outreach
 - **Mentor**: 2 graduate students, 1 undergraduate, and 3 high school students (2011-2017).

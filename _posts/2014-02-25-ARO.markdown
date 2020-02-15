@@ -4,6 +4,6 @@ title:  "My first ARO"
 date: 2014-02-25 09:19:18
 ---
 
-Yesterday Lindsey and I presented our poster “Can you divide attention across two streams or are you rapidly switching between them?” at the 37th Annual MidWinter Meeting of the Association for Research in Otolaryngology in San Diego. <more /> There was a lot of interest — for a while both Lindsey and I were presenting simultaneously from the same poster — and we got more than 30 requests for copies. You can get your copy [here][tempo].
+Yesterday Lindsey and I presented our poster “Can you divide attention across two streams or are you rapidly switching between them?” at the 37th Annual MidWinter Meeting of the Association for Research in Otolaryngology in San Diego.<!--more--> There was a lot of interest — for a while both Lindsey and I were presenting simultaneously from the same poster — and we got more than 30 requests for copies. You can get your copy [here][tempo].
 
 [tempo]: http://dan.mccloy.info/pubs/KishlineEtAl2014_TempOrder.pdf

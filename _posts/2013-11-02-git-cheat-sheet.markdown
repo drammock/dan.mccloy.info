@@ -4,7 +4,7 @@ title:  "Git cheat sheet"
 date: 2013-11-02 22:22:22
 ---
 
-For my first blog post, I’m sharing the Git commands I use most often when setting up a new project.  This is mostly here for my own benefit in forgetful moments, but others might find it useful too.
+For my first blog post, I’m sharing the Git commands I use most often when setting up a new project.<!--more--> This is mostly here for my own benefit in forgetful moments, but others might find it useful too.
 
 # Initial setup
 {% highlight bash %}

@@ -30,8 +30,8 @@ with open(infile, 'r') as f, open(outfile, 'w') as g:
         # convert relative to absolute paths
         if '../' in line:
             line = line.replace('../bib/McCloy_CV.bib',
-                                'http://dan.mccloy.info/bib/McCloy_CV.bib')
-            line = line.replace('../pubs', 'http://dan.mccloy.info/pubs')
+                                'https://dan.mccloy.info/bib/McCloy_CV.bib')
+            line = line.replace('../pubs', 'https://dan.mccloy.info/pubs')
         # suppress the line about the BibTeX file
         # if not line.startswith('Structured bibliographic information'):
         #     continue
