@@ -4,9 +4,9 @@ title: "Curriculum Vitæ"
 ---
 
 # Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience. My research centers broadly on the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor and committed to open and reproducible research.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience, and a developer of open-source scientific software. My interest broadly centers on the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor.
 
-**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/). <!--I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.-->
+**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/). <!-- , where I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.-->
 
 # Education
 
@@ -46,12 +46,12 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - [@MoranEtAl2012-language] [preprint](http://hdl.handle.net/1773/25269) \| [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
 ## Software & corpora
-- **Developer**: R package “phonR”: visualize & analyze vowels. ([tutorial](http://drammock.github.io/phonR/) \| [repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
-- **Developer**: “Praat Semi-Auto”: streamline manual acoustic measurements. ([repo](http://github.com/drammock/praat-semiauto/))
-- **Co-developer**: Python library “expyfun”: run psychophysics experiments. ([repo](http://github.com/LABSN/expyfun))
-- **Core contributor**: MNE-Python: analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python) \| [docs](https://mne.tools))
-- **Co-editor**: PHOIBLE: a database of over 1600 phonological inventories. ([web](http://phoible.org/) \| [repo](https://github.com/phoible/dev) \| [docs](http://phoible.github.io/))
-- **Co-developer**: [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Core developer** of [MNE-Python](https://mne.tools): analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python))
+- **Co-developer** of [PHOIBLE](http://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev) \| [docs](http://phoible.github.io/))
+- **Co-developer** of [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Co-developer** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](http://github.com/LABSN/expyfun))
+- **Developer** of [phonR](http://drammock.github.io/phonR/): visualize & analyze vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
+- **Developer** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/))
 
 
 # Teaching experience
@@ -73,7 +73,8 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 - **Mentor**: 2 graduate students, 1 undergraduate, and 3 high school students (2011-2019).
 - **Volunteer**: Pacific Science Center’s [Paws On Science Weekend](https://www.pacificsciencecenter.org/paws-on-science-husky-weekend/) (2016).
 
-# Awards and fellowships
+# Grants, fellowships, and awards
+- [“Improving Usability of Core Neuroscience Analysis Tools with MNE-Python”](https://chanzuckerberg.com/eoss/proposals/improving-usability-of-core-neuroscience-analysis-tools-with-mne-python/), CZI Essential Open Source Software for Science (2020-2021).
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
 - NIH LRP award (2014–2016).
 - Postdoctoral fellowship (NIH T32), UW Department of Speech and Hearing Sciences (2013–2014).
@@ -83,5 +84,7 @@ Structured bibliographic information is available in [this BibTeX file](../bib/M
 # Professional and scholarly affiliations
 International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), Association for Research in Otolaryngology (2014–2018), _Phi Beta Kappa_ (2002–present).
 
+<!--
 # Languages
 English (native), Modern Standard Chinese (intermediate), Spanish (reading knowledge).
+-->
