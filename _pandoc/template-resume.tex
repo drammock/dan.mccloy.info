@@ -10,7 +10,7 @@
     pdftitle={Résumé - Daniel McCloy},
     pdfauthor={Daniel R. McCloy},
     pdfsubject={Linguistics},
-    pdfkeywords={linguistics, phonetics, speech perception},
+    pdfkeywords={linguistics, phonetics, speech perception, auditory neuroscience},
 %    bookmarksnumbered=true,
 %    bookmarksopen=true,
 %    bookmarksopenlevel=0,
@@ -50,13 +50,18 @@ $endif$
 }
 
 % FONTS
-\setmainfont[Numbers={Lining}]{Linux Libertine O}
-\newfontfamily\tit[Scale=1.2]{Linux Libertine O Semibold}%{Linux Libertine O Semibold}
-\newfontfamily\osf[Scale=1.1, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
-\newfontfamily\disp[Scale=2]{Linux Libertine Display O}
-\newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}
-\newfontfamily\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}
+\setmainfont[
+ BoldFont={Linux Libertine O Bold},
+ ItalicFont={Linux Libertine O Italic},
+ BoldItalicFont={Linux Libertine O Bold Italic}
+ ]{Linux Libertine O}
+
+\newfontfamily\tit[Scale=1.2]{Linux Libertine O Semibold}% section titles
+\newfontfamily\disp[Scale=2]{Linux Libertine Display O}% my name
+\newfontfamily\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}% superscript C in my name
+\newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}% "cv (page 1)"
 %\newcommand{\supc}[1]{\textsc{#1}}
+
 % COLORS
 \definecolor{lightGray}{gray}{0.75}
 \definecolor{midGray}{gray}{0.4}
@@ -71,36 +76,46 @@ $endif$
 \newcommand{\gurl}[1]{{\color{urlGreen}\urlstyle{same}\url{#1}}}
 \newcommand{\fref}[2]{\urlstyle{same}\href{#1}{#2}}
 
-\titlespacing{\section}{0pt}{*2}{*-0.5}
-\titlespacing{\subsection}{0pt}{*0}{*0}
-\titlespacing{\subsubsection}{0pt}{*0}{*0} %{command}{L-margin}{aboveskip}{belowskip}
-\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
-\titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{} %{command}[]{format}{}{spacing}{beforecode}[aftercode]
+% SCHEMATIC:
+%\titlespacing{command}{L-margin}{aboveskip}{belowskip}
+%\titleformat{command}[]{format}{}{spacing}{beforecode}[aftercode]
 
+\titlespacing{\section}{0pt}{*1}{*-1}
+\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{}
+%\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{}
 
-$if(numbersections)$
-\setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
-$else$
-\setcounter{secnumdepth}{0}
-$endif$
+\titlespacing{\subsection}{0pt}{*0}{*-0.75}
+\titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{}
+
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+%\titleformat{\subsubsection}[runin]{\cvpg\bfseries\MakeLowercase}{\thesubsubsection}{*0}{}[\setlength{\parindent}{0.5em}\indent]
 
 \setlength{\topmargin}{-1.25cm}
 \setlength{\headheight}{1.25cm}
 \setlength{\headsep}{0.5cm}
-%\setlength{\textheight}{8in}
-%\setlength{\footskip}{0in}
+%\setlength{\textheight}{23cm}
+%\setlength{\footskip}{0.5cm}
 
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrule}{}
 
 \chead[]{\fancyplain{}{%
-	\begin{tabu} to \textwidth {@{}l X r@{}}
-		\everyrow{\rowfont{\color{midGray}}}
-		\color{midGray}\cvpg{résumé} & & \color{midGray}\disp{DANIEL R. M\kern-1pt\supc{\raisebox{\heightof{M}-\heightof{c}}{c}}\kern0.5pt CLOY} \\ \taburulecolor{lightGray}\midrule
-        & & 206.890.0194\quad•\quad\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:dan.mccloy@gmail.com}{dan.mccloy@gmail.com}\quad•\quad\furl{http://dan.mccloy.info}\endgroup
-	\end{tabu}
+    \begin{tabu} to \textwidth {@{}l X r@{}}
+		\rowfont{\color{midGray}}
+        \cvpg{résumé} & & \disp{DANIEL R. M\kern-1pt\supc{\raisebox{\heightof{M}-\heightof{c}}{c}}\kern0.5pt CLOY} \\ \taburulecolor{lightGray}\midrule
+    \end{tabu}
+    \begin{tabu} to \textwidth {@{}l X r@{}}
+		\rowfont{\color{midGray}}
+        & & 206.890.0194\enskip•\enskip\begingroup\hypersetup{urlcolor=midGray}\fref{mailto:dan@mccloy.info}{dan@mccloy.info}\enskip•\enskip\fref{https://dan.mccloy.info}{https://dan.mccloy.info}\endgroup
+    \end{tabu}
 }}
+
+$if(numbersections)$
+\setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
 
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
