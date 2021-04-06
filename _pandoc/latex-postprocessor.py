@@ -22,8 +22,8 @@ with open(infile, 'r') as f, open(outfile, 'w') as g:
         line = line.replace('re-Proto-Indo-European',
                             r're\-/Proto\-/Indo\-/European')
         # avoid italics crashing in LABS^N
-        line = line.replace(r'\textsuperscript{N}',
-                            r'\thinspace\textsuperscript{N}')
+        # line = line.replace(r'\textsuperscript{N}',
+        #                     r'\thinspace\textsuperscript{N}')
         # remove indent before bullets
         line = line.replace(r'\begin{itemize}',
                             r'\begin{itemize}[leftmargin=*]')
