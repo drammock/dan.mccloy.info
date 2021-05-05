@@ -41,7 +41,7 @@ Structured bibliographic information for my research products is available in [t
 
 ## Software & corpora
 - **Core developer** of [MNE-Python](https://mne.tools): analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python))
-- **Co-developer** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev) \| [docs](https://phoible.github.io/))
+- **Co-developer** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev))
 - **Co-developer** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 - **Co-developer** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
 - **Developer** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
