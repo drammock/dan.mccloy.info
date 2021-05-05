@@ -6,22 +6,22 @@ title: "Curriculum Vitæ"
 ## Overview
 I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience, and a developer of open-source scientific software. My interest broadly centers on the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor.
 
-**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](http://ilabs.washington.edu/), where I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
+**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](https://ilabs.washington.edu/), where I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
 
 Structured bibliographic information for my research products is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 
 ## Academic degrees
-- PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](http://hdl.handle.net/1773/23472)).
-- MA in Linguistics (University of Washington, 2009): “The semantics of implicitly relational predicates” ([PDF](http://hdl.handle.net/1773/24799)).
+- PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](https://hdl.handle.net/1773/23472)).
+- MA in Linguistics (University of Washington, 2009): “The semantics of implicitly relational predicates” ([PDF](https://hdl.handle.net/1773/24799)).
 - BS in Neurobiology, BA in Philosophy (University of Washington, 2002).
 
 
 ## Other education
-- Postdoctoral training in psychophysics and auditory neuroscience ([LABS^N^](http://depts.washington.edu/labsn/), 2013-2018).
-- [Kavli Summer Institute in Cognitive Neuroscience](http://sicn.cmb.ucdavis.edu/) (UC Santa Barbara, 2017).
+- Postdoctoral training in psychophysics and auditory neuroscience ([LABS^N^](https://depts.washington.edu/labsn/), 2013-2018).
+- [Kavli Summer Institute in Cognitive Neuroscience](https://sicn.cmb.ucdavis.edu/) (UC Santa Barbara, 2017).
 - [Machine Learning](https://www.coursera.org/account/accomplishments/records/FY94856VBP3Q) (Stanford University / Coursera, 2016).
-- [International Chinese Language Program](http://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
+- [International Chinese Language Program](https://iclp.ntu.edu.tw/) (National Taiwan University, 2008).
 
 
 ## Teaching experience
@@ -41,16 +41,16 @@ Structured bibliographic information for my research products is available in [t
 
 ## Software & corpora
 - **Core developer** of [MNE-Python](https://mne.tools): analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python))
-- **Co-developer** of [PHOIBLE](http://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev) \| [docs](http://phoible.github.io/))
-- **Co-developer** of [UW/NU Corpus](http://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- **Co-developer** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](http://github.com/LABSN/expyfun))
-- **Developer** of [phonR](http://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
-- **Developer** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](http://github.com/drammock/praat-semiauto/))
+- **Co-developer** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev) \| [docs](https://phoible.github.io/))
+- **Co-developer** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Co-developer** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
+- **Developer** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
+- **Developer** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
 
 
 ## Peer-reviewed articles (12 total, 6 first-authored)
 - [@OBrienEtAl2019-duration] [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
-- [@McCloyLee2019-EEGPF] [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](http://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
+- [@McCloyLee2019-EEGPF] [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](https://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
 - [@McCloyLee2018-PupilLisdiff] [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) \| [preprint](https://psyarxiv.com/2ubyj/) \| [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
 - [@OBrienEtAl2018-staticDynamicCue] [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) \| [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
 - [@McCloyEtAl-PupilVocodeReverb] [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) \| [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
@@ -60,7 +60,7 @@ Structured bibliographic information for my research products is available in [t
 - [@McCloyEtAl2014-crossDialect] [preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
 - [@BarrackEtAl2014-murmur] [preprint](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
 - [@SouzaEtAl2013-familiarity] [preprint](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
-- [@MoranEtAl2012-language] [preprint](http://hdl.handle.net/1773/25269) \| [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+- [@MoranEtAl2012-language] [preprint](https://hdl.handle.net/1773/25269) \| [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
 
 
 ## Invited talks (3)
@@ -72,9 +72,9 @@ Structured bibliographic information for my research products is available in [t
 ## Conference proceedings, working papers & technical reports (5)
 - [@McCloyEtAl2014-poma] [proceedings](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
 - [@McCloy2014-indo] [proceedings](../pubs/McCloy2014_IndoMorphophonetics.pdf))
-- [@McCloy2013-er]  ([proceedings](http://depts.washington.edu/uwwpl/editions/vol31.html))
-- [@McCloy2012-phonR]  ([PDF](../pubs/McCloy2012_phonR.pdf) \| [updated web version](http://drammock.github.io/phonR/))
-- [@McCloy2010-nwlcProc]  ([proceedings](http://www.sfu.ca/gradlings/working-papers/wp_3.html))
+- [@McCloy2013-er]  ([proceedings](https://depts.washington.edu/uwwpl/editions/vol31.html))
+- [@McCloy2012-phonR]  ([PDF](../pubs/McCloy2012_phonR.pdf) \| [updated web version](https://drammock.github.io/phonR/))
+- [@McCloy2010-nwlcProc]  ([proceedings](https://www.sfu.ca/gradlings/working-papers/wp_3.html))
 
 
 ## Conference presentations (13)
@@ -85,12 +85,12 @@ Structured bibliographic information for my research products is available in [t
 - [@McCloyLee2014-dasCogLoad] [poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
 - [@KishlineEtAl2014-TempOrder] ([poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
 - [@McCloyLee2013-divAttnSem] [poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
-- [@McCloy2013-summerschool] ([poster](http://hdl.handle.net/1773/25274))
+- [@McCloy2013-summerschool] ([poster](https://hdl.handle.net/1773/25274))
 - [@McCloyEtAl2013-cuny] ([slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-- [@McCloyEtAl2012-asaIntel] [poster](http://hdl.handle.net/1773/25272))
-- [@MoranEtAl2012-lsa] [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) \| [abstract](http://dx.doi.org/10.3765/exabs.v0i0.601))
-- [@McCloy2011-asaIndo] [poster](http://hdl.handle.net/1773/25271))
-- [@McCloy2010-nwlcPres] ([paper](http://hdl.handle.net/1773/25270))
+- [@McCloyEtAl2012-asaIntel] [poster](https://hdl.handle.net/1773/25272))
+- [@MoranEtAl2012-lsa] [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) \| [abstract](https://dx.doi.org/10.3765/exabs.v0i0.601))
+- [@McCloy2011-asaIndo] [poster](https://hdl.handle.net/1773/25271))
+- [@McCloy2010-nwlcPres] ([paper](https://hdl.handle.net/1773/25270))
 
 
 ## Academic service: conferences & committees
@@ -119,8 +119,10 @@ _The Journal of the Acoustical Society of America_ (5), _JASA Express Letters_ (
 - “Research Excellence Award,” UW Department of Linguistics (2013).
 - Foreign Language and Area Studies (FLAS) fellowship for study of Modern Standard Chinese, U.S. Department of Education (2007–2008).
 
+
 ## Professional and scholarly affiliations
 International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), Association for Research in Otolaryngology (2014–2018), _Phi Beta Kappa_ (2002–present).
+
 
 ## Languages
 English (native), Modern Standard Chinese (intermediate), Spanish (reading knowledge).
