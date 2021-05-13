@@ -4,7 +4,7 @@ title: "Curriculum Vitæ"
 ---
 
 ## Overview
-I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience, and a developer of open-source scientific software. My interest broadly centers on the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor and a skilled writer of tutorials and documentation.
+I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience, and a developer of open-source scientific software. My interest is the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor and a skilled writer of tutorials and documentation.
 
 **Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](https://ilabs.washington.edu/), where I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
 
@@ -37,19 +37,20 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 
 
 ## Software & corpora
-- **Core developer** of [MNE-Python](https://mne.tools): analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python))
-- **Co-developer** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev))
-- **Co-developer** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- **Co-developer** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
-- **Developer** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
-- **Developer** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
+- **Core developer** on **Steering Council** of [MNE-Python](https://mne.tools): human neurophysiology analysis. ([repo](https://github.com/mne-tools/mne-python))
+- **Co-creator** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev))
+- **Co-creator** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Co-creator** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
+- **Creator** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
+- **Creator** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
 
 
-## Peer-reviewed articles (12 total, 6 first-authored)
+## Peer-reviewed articles (13 total, 6 first-authored)
 
-Structured bibliographic information is available in [this BibTeX file](../bib/McCloy_CV.bib).
-*Omitted here:* invited talks (3), conference proceedings (4), technical reports (1), conference presentations (13).
+*Omitted here:* 3 invited talks, 4 conference proceedings, 1 technical report, 13 conference presentations.
+[BibTeX version available here](../bib/McCloy_CV.bib).
 
+- [@EmmonsEtAl2021] [preprint](https://dan.mccloy.info/pubs/EmmonsEtAl2021_AudAttnASD.pdf))
 - [@OBrienEtAl2019-duration] [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
 - [@McCloyLee2019-EEGPF] [suppl.](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](https://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
 - [@McCloyLee2018-PupilLisdiff] [suppl.](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) \| [preprint](https://psyarxiv.com/2ubyj/) \| [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
@@ -92,9 +93,10 @@ _The Journal of the Acoustical Society of America_ (5), _JASA Express Letters_ (
 - “Research Excellence Award,” UW Department of Linguistics (2013).
 - FLAS fellowship, Modern Standard Chinese, U.S. Department of Education (2007–2008).
 
-
+<!--
 ## Professional and scholarly affiliations
 International Phonetic Association (2014–present), Acoustical Society of America (2011–present), Linguistic Society of America (2009–present), Association for Research in Otolaryngology (2014–2018), _Phi Beta Kappa_ (2002–present).
+-->
 
 <!--
 ## Languages

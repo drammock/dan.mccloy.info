@@ -40,15 +40,16 @@ Structured bibliographic information for my research products is available in [t
 
 
 ## Software & corpora
-- **Core developer** of [MNE-Python](https://mne.tools): analyze & visualize EEG & MEG data. ([repo](https://github.com/mne-tools/mne-python))
-- **Co-developer** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev))
-- **Co-developer** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
-- **Co-developer** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
-- **Developer** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
-- **Developer** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
+- **Core developer** on **Steering Council** of [MNE-Python](https://mne.tools): human neurophysiology analysis. ([repo](https://github.com/mne-tools/mne-python))
+- **Co-creator** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev))
+- **Co-creator** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
+- **Co-creator** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
+- **Creator** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
+- **Creator** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
 
 
-## Peer-reviewed articles (12 total, 6 first-authored)
+## Peer-reviewed articles (13 total, 6 first-authored)
+- {% reference EmmonsEtAl2021 %} [preprint](https://dan.mccloy.info/pubs/EmmonsEtAl2021_AudAttnASD.pdf))
 - {% reference OBrienEtAl2019-duration %} [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
 - {% reference McCloyLee2019-EEGPF %} [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](https://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
 - {% reference McCloyLee2018-PupilLisdiff %} [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) \| [preprint](https://psyarxiv.com/2ubyj/) \| [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
