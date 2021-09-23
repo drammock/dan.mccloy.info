@@ -113,6 +113,7 @@ _The Journal of the Acoustical Society of America_ (5), _JASA Express Letters_ (
 
 
 ## Grants, fellowships, and awards
+- [“Building Pediatric and Clinical Data Pipelines for MNE-Python”](https://chanzuckerberg.com/eoss/proposals/building-pediatric-and-clinical-data-pipelines-for-mne-python/), CZI Essential Open Source Software for Science (2021-2023).
 - [“Improving Usability of Core Neuroscience Analysis Tools with MNE-Python”](https://chanzuckerberg.com/eoss/proposals/improving-usability-of-core-neuroscience-analysis-tools-with-mne-python/), CZI Essential Open Source Software for Science (2020-2021).
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
 - NIH LRP award (2014–2016).
