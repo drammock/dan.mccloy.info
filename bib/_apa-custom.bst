@@ -736,19 +736,19 @@ FUNCTION {format.pages}
   if$
 }
 FUNCTION {format.journal.pages}
-{ pages duplicate$ empty$ 'pop$
-    { swap$ duplicate$ empty$
-        { pop$ pop$ format.pages }
-        {
-          ", " *
-          swap$
-          n.dashify
-          "pages" bibinfo.check
-          *
-        }
-      if$
-    }
-  if$
+{ % pages duplicate$ empty$ 'pop$
+  %   { swap$ duplicate$ empty$
+  %       { pop$ pop$ format.pages }
+  %       {
+  %         ", " *
+  %         swap$
+  %         n.dashify
+  %         "pages" bibinfo.check
+  %         *
+  %       }
+  %     if$
+  %   }
+  % if$
 }
 FUNCTION {format.vol.num.pages}
 { volume field.or.null
