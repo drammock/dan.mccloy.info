@@ -6,12 +6,16 @@ html: cv
 	python _pandoc/html-postprocessor.py _site/cv/index.html _site/cv/tmp.html
 	mv _site/cv/tmp.html _site/cv/index.html
 
-pdf:
+_pandoc/cv.tex: _cv.md
 	# convert markdown to latex source
 	pandoc --natbib --from markdown-smart --template=_pandoc/template-cv.tex \
 	--output=_pandoc/cv.tex _cv.md
+
+_pandoc/McCloy_CV.tex: _pandoc/cv.tex
 	# clean up vestiges of markdown in latex source
 	cd _pandoc; python latex-postprocessor.py cv.tex McCloy_CV.tex
+
+pdf: _pandoc/McCloy_CV.tex
 	# compile PDF
 	cd _pandoc; bash compile-pdf.bash McCloy_CV.tex
 	mv _pandoc/McCloy_CV.pdf .
