@@ -38,6 +38,9 @@ ENTRY
     booktitle
     chapter
     doi
+    supplement
+    preprint
+    repo
     edition
     editor
     event
@@ -451,12 +454,84 @@ FUNCTION {format.note}
   if$
 }
 
-FUNCTION {format.doi}
+
+
+FUNCTION {doi.supplement.preprint.repo}
 { doi empty$
-    { new.block "." }
-    { new.block "(\href{http://dx.doi.org/" doi * "}{" * "\textsc{doi}" * "} |" * }
+  supplement empty$
+  preprint empty$
+  repo empty$
+  and and and
+    { new.block "" }
+    { new.block "(" }
+  if$
+  doi empty$
+  { skip$ }
+  { format.doi *
+    insert.pipe
+  }
+if$
+supplement empty$
+  { skip$ }
+  { merge.pipe
+    format.supplement *
+    insert.pipe
+  }
+if$
+preprint empty$
+  { skip$ }
+  { merge.pipe
+    format.preprint *
+    insert.pipe
+  }
+if$
+repo empty$
+  { skip$ }
+  { merge.pipe
+    format.repo *
+    insert.pipe
+  }
+if$
+doi empty$
+supplement empty$
+preprint empty$
+repo empty$
+and and and
+  { skip$ }
+  { % remove trailing pipe
+    insert.pipe =
+    pop$
+    % add parentheses
+    ")" *
+  }
+if$
+}
+
+FUNCTION {insert.pipe}
+{ duplicate$ empty$
+  { skip$ }
+  { " | " }
+if$
+}
+
+FUNCTION {merge.pipe}
+{ duplicate$ insert.pipe =
+  { * }
+  { skip$ }
   if$
 }
+
+FUNCTION {format.doi}
+{ "\href{https://doi.org/" doi * "}{\textsc{doi}}" * }
+
+FUNCTION {format.supplement}
+{ "\href{" supplement * "}{supplement}" * }
+
+FUNCTION {format.preprint}
+{ "\href{" preprint * "}{preprint}" * }
+
+FUNCTION {format.repo}
+{ "\href{" repo * "}{repo}" * }
 
 FUNCTION {format.status}
 { status empty$
@@ -906,7 +981,7 @@ FUNCTION {article}
       format.pages output
     }
   if$
-  format.doi output
+  doi.supplement.preprint.repo output
   %new.block
   %format.note output
   fin.entry
@@ -945,7 +1020,7 @@ FUNCTION {book}
     }
   if$
   format.edition output
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -964,7 +1039,7 @@ FUNCTION {booklet}
   new.block
   howpublished "howpublished" bibinfo.check output
   format.address output
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1006,7 +1081,7 @@ FUNCTION {inbook}
     }
   if$
   format.edition output
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1037,7 +1112,7 @@ FUNCTION {incollection}
       format.chapter.pages output
     }
   if$
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1073,7 +1148,7 @@ FUNCTION {inproceedings}
       format.pages output
     }
   if$
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1145,7 +1220,7 @@ FUNCTION {misc}
     { format.event output }
   if$
   format.address output
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1196,7 +1271,7 @@ FUNCTION {proceedings}
       format.publisher.address output
     }
   if$
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1219,7 +1294,7 @@ FUNCTION {techreport}
   institution "institution" bibinfo.warn output
   format.address output
   new.block
-  format.doi output
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
