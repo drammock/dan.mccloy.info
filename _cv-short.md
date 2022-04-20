@@ -6,7 +6,7 @@ title: "Curriculum Vitæ"
 ## Overview
 I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience, and a developer of open-source scientific software. My interest is the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor and a skilled writer of tutorials and documentation.
 
-**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](https://ilabs.washington.edu/), where I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
+**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](https://ilabs.washington.edu/), where I analyze infant and adult magnetoencephalography (MEG) data, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
 
 
 ## Academic degrees
@@ -25,9 +25,9 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 ## Teaching experience
 
 - **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute: 2016, 2017, 2018, 2019; Benaroya Research Institute: 2020).
-- **Instructor**: Introduction to Phonetics (2010, 2011).
-- **Teaching Assistant**: Introduction to Linguistics, four sections (2008–2009).
-- **Co-facilitator**: “New Majors” proseminar for incoming Philosophy students (2001, 2002).
+- **Instructor**: Introduction to Phonetics (UW: 2010, 2011).
+- **Teaching Assistant**: Introduction to Linguistics, four sections (UW: 2008–2009).
+- **Co-facilitator**: “New Majors” proseminar for incoming Philosophy students (UW: 2001, 2002).
 
 ## Technical skills
 - **Programming**: Python, R, praat, Bash, GNU Make, Octave/MATLAB.
@@ -45,11 +45,12 @@ I am a scientist trained in acoustic phonetics, speech perception, and auditory 
 - **Creator** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
 
 
-## Peer-reviewed articles (13 total, 6 first-authored)
+## Peer-reviewed articles (14 total, 6 first-authored)
 
 *Omitted here:* 3 invited talks, 4 conference proceedings, 1 technical report, 13 conference presentations.
-[BibTeX version available here](../bib/McCloy_CV.bib).
+[Comprehensive BibTeX available here](../bib/McCloy_CV.bib).
 
+- [@ClarkeEtAl2022] [article](https://www.frontiersin.org/articles/10.3389/fneur.2022.827529/full))
 - [@EmmonsEtAl2021] [preprint](https://dan.mccloy.info/pubs/EmmonsEtAl2021_AudAttnASD.pdf))
 - [@OBrienEtAl2019-duration] [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
 - [@McCloyLee2019-EEGPF] [suppl.](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](https://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
@@ -86,6 +87,7 @@ _The Journal of the Acoustical Society of America_ (5), _JASA Express Letters_ (
 
 
 ## Grants, fellowships, and awards
+- [“Building Pediatric and Clinical Data Pipelines for MNE-Python”](https://chanzuckerberg.com/eoss/proposals/building-pediatric-and-clinical-data-pipelines-for-mne-python/), CZI Essential Open Source Software for Science (2021-2023).
 - [“Improving Usability of Core Neuroscience Analysis Tools with MNE-Python”](https://chanzuckerberg.com/eoss/proposals/improving-usability-of-core-neuroscience-analysis-tools-with-mne-python/), CZI Essential Open Source Software for Science (2020-2021).
 - Postdoctoral fellowship (NIH T32), UW Auditory Neuroscience Training Program (2016–2018).
 - NIH LRP award (2014–2016).
