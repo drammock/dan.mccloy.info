@@ -223,11 +223,11 @@ FUNCTION {bbl.in}
 { "in" }
 
 FUNCTION {bbl.pages}
-{""}
+{ "" }
 %{ "pp." }
 
 FUNCTION {bbl.page}
-{""}
+{ "" }
 %{ "p." }
 
 FUNCTION {bbl.chapter}
@@ -453,8 +453,8 @@ FUNCTION {format.note}
 
 FUNCTION {format.doi}
 { doi empty$
-    { new.block "." }
-    { new.block "(\href{http://dx.doi.org/" doi * "}{" * "\textsc{doi}" * "} |" * }
+    { "" }
+    { "(\href{http://doi.org/" doi * "}{" * "\textsc{doi}" * "} |" * }
   if$
 }
 
@@ -736,19 +736,19 @@ FUNCTION {format.pages}
   if$
 }
 FUNCTION {format.journal.pages}
-{ % pages duplicate$ empty$ 'pop$
-  %   { swap$ duplicate$ empty$
-  %       { pop$ pop$ format.pages }
-  %       {
-  %         ", " *
-  %         swap$
-  %         n.dashify
-  %         "pages" bibinfo.check
-  %         *
-  %       }
-  %     if$
-  %   }
-  % if$
+{ pages duplicate$ empty$ 'pop$
+    { swap$ duplicate$ empty$
+        { pop$ pop$ format.pages }
+        {
+          ", " *
+          swap$
+          n.dashify
+          "pages" bibinfo.check
+          *
+        }
+      if$
+    }
+  if$
 }
 FUNCTION {format.vol.num.pages}
 { volume field.or.null
@@ -883,7 +883,7 @@ FUNCTION {format.organization.address}
 
 FUNCTION {format.address}
 {
-  address "address" bibinfo.check output
+  address "address" bibinfo.check
 }
 
 FUNCTION {article}
@@ -906,14 +906,13 @@ FUNCTION {article}
       format.pages output
     }
   if$
+  new.sentence
   format.doi output
-  %new.block
-  %format.note output
   fin.entry
-  %doi missing$
-  %  { write.url }
-  %  {}
-  %if$
+  % doi missing$
+  %   { write.url }
+  %   {}
+  % if$
 }
 FUNCTION {book}
 { output.bibitem
@@ -1054,20 +1053,18 @@ FUNCTION {inproceedings}
   date.block
   format.title "title" output.check
   new.block
-  howpublished "howpublished" bibinfo.check output
-  new.block
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
       format.bvolume output
       format.number.series output
       format.pages output
       new.sentence
-%      publisher empty$
-%        { format.organization.address output }
-%        { organization "organization" bibinfo.check output
-%          format.publisher.address output
-%        }
-%      if$
+      publisher empty$
+        { format.organization.address output }
+        { organization "organization" bibinfo.check output
+          format.publisher.address output
+        }
+      if$
     }
     { format.incoll.inproc.crossref output.nonnull
       format.pages output
@@ -1145,16 +1142,19 @@ FUNCTION {misc}
     { format.event output }
   if$
   format.address output
-  format.doi output
+  doi missing$
+    {}
+    { new.block format.doi output }
+  if$
   new.block
   format.note output
   fin.entry
   event missing$
     {
-	  doi missing$
+      doi missing$
         { write.url }
         {}
-	  if$
+      if$
     }
     {}
   if$
@@ -1223,10 +1223,10 @@ FUNCTION {techreport}
   new.block
   format.note output
   fin.entry
-  %doi missing$
-  %  { write.url }
-  %  {}
-  %if$
+  % doi missing$
+  %   { write.url }
+  %   {}
+  % if$
 }
 
 FUNCTION {unpublished}
