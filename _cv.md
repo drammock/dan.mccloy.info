@@ -29,7 +29,7 @@ Structured bibliographic information for my research products is available in [t
 - **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute: 2016, 2017, 2018, 2019; Benaroya Research Institute: 2020).
 - **Instructor**: Introduction to Phonetics (UW: 2010, 2011).
 - **Teaching Assistant**: Introduction to Linguistics, four sections (UW: 2008–2009).
-- **Co-facilitator**: “New Majors” proseminar for incoming Philosophy students (UW: 2001, 2002).
+- **Co-instructor**: “New Majors” proseminar for incoming Philosophy students (UW: 2001, 2002).
 
 
 ## Technical skills
