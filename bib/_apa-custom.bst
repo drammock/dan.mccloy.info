@@ -460,7 +460,7 @@ FUNCTION {format.arbitrary.link}
 { "\href{" swap$ * "}{" * swap$ * "}" * }
 
 FUNCTION {insert.pipe}
-{ " | " }
+{ "~| " }
 
 FUNCTION {merge.pipe}
 { duplicate$ insert.pipe =
