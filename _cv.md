@@ -67,32 +67,32 @@ Structured bibliographic information for my research products is available in [t
 
 ## Invited talks (3)
 - [@McCloy2018-ubc]
-- [@McCloy2017-bu] ([slides](../pubs/McCloyLarsonLee2017_BUslides.pdf))
+- [@McCloy2017-bu]
 - [@McCloy2016-ucsb]
 
 
 ## Conference proceedings, working papers & technical reports (5)
-- [@McCloyEtAl2014-poma] [proceedings](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
-- [@McCloy2014-indo] [proceedings](../pubs/McCloy2014_IndoMorphophonetics.pdf))
-- [@McCloy2013-er]  ([proceedings](https://depts.washington.edu/uwwpl/editions/vol31.html))
-- [@McCloy2012-phonR]  ([PDF](../pubs/McCloy2012_phonR.pdf) \| [updated web version](https://drammock.github.io/phonR/))
-- [@McCloy2010-nwlcProc]  ([proceedings](https://www.sfu.ca/gradlings/working-papers/wp_3.html))
+- [@McCloyEtAl2014-poma]
+- [@McCloy2014-indo]
+- [@McCloy2013-er]
+- [@McCloy2012-phonR]
+- [@McCloy2010-nwlcProc]
 
 
 ## Conference presentations (13)
-- [@McCloyLee2016-ASAposter] ([poster](../pubs/McCloyLee2016-ASA-EEG.pdf))
-- [@McCloyLee2016-NWAVRMposter] ([poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
-- [@McCloyEtAl2016-ChaharDevoicing] ([poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
-- [@McCloyEtAl2014-GordonConfPoster] ([poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
-- [@McCloyLee2014-dasCogLoad] [poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
-- [@KishlineEtAl2014-TempOrder] ([poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
-- [@McCloyLee2013-divAttnSem] [poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
-- [@McCloy2013-summerschool] ([poster](https://hdl.handle.net/1773/25274))
-- [@McCloyEtAl2013-cuny] ([slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-- [@McCloyEtAl2012-asaIntel] [poster](https://hdl.handle.net/1773/25272))
-- [@MoranEtAl2012-lsa] [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) \| [abstract](https://dx.doi.org/10.3765/exabs.v0i0.601))
-- [@McCloy2011-asaIndo] [poster](https://hdl.handle.net/1773/25271))
-- [@McCloy2010-nwlcPres] ([paper](https://hdl.handle.net/1773/25270))
+- [@McCloyLee2016-ASAposter]
+- [@McCloyLee2016-NWAVRMposter]
+- [@McCloyEtAl2016-ChaharDevoicing]
+- [@McCloyEtAl2014-GordonConfPoster]
+- [@McCloyLee2014-dasCogLoad]
+- [@KishlineEtAl2014-TempOrder]
+- [@McCloyLee2013-divAttnSem]
+- [@McCloy2013-summerschool]
+- [@McCloyEtAl2013-cuny]
+- [@McCloyEtAl2012-asaIntel]
+- [@MoranEtAl2012-lsa]
+- [@McCloy2011-asaIndo]
+- [@McCloy2010-nwlcPres]
 
 
 ## Academic service: conferences & committees
