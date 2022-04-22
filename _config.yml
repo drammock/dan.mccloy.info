@@ -4,6 +4,8 @@
 permalink: pretty
 #relative_permalinks: true
 
+plugins: ['jekyll/scholar']
+
 # Setup
 title:       Dan McCloy
 tagline:     'Research Scientist (<a href="http://ilabs.washington.edu/" target="_blank">I-LABS</a>, <a href="http://www.washington.edu/" target="_blank">University of Washington</a>)'
