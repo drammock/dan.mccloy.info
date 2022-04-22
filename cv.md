@@ -6,15 +6,15 @@ title: "Curriculum Vitæ"
 ## Overview
 I am a scientist trained in acoustic phonetics, speech perception, and auditory neuroscience, and a developer of open-source scientific software. My interest broadly centers on the perception and representation of speech sounds. I am a certified [Software Carpentry](https://software-carpentry.org/team/) instructor.
 
-**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](https://ilabs.washington.edu/), where I analyze magnetoencephalography (MEG) data relating to literacy and dyslexia, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
+**Current position:** Research Scientist at the University of Washington’s [Institute for Learning & Brain Sciences](https://ilabs.washington.edu/), where I analyze infant and adult magnetoencephalography (MEG) data, and contribute to the development of [MNE-Python](https://mne.tools/dev/index.html) neuroscience analysis software.
 
 Structured bibliographic information for my research products is available in [this BibTeX file](../bib/McCloy_CV.bib).
 
 
 ## Academic degrees
-- PhD in Linguistics (University of Washington, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](https://hdl.handle.net/1773/23472)).
-- MA in Linguistics (University of Washington, 2009): “The semantics of implicitly relational predicates” ([PDF](https://hdl.handle.net/1773/24799)).
-- BS in Neurobiology, BA in Philosophy (University of Washington, 2002).
+- PhD in Linguistics (UW, 2013): “Prosody, intelligibility and familiarity in speech perception” ([PDF](https://hdl.handle.net/1773/23472)).
+- MA in Linguistics (UW, 2009): “The semantics of implicitly relational predicates” ([PDF](https://hdl.handle.net/1773/24799)).
+- BS in Neurobiology, BA in Philosophy (UW, 2002).
 
 
 ## Other education
@@ -27,9 +27,9 @@ Structured bibliographic information for my research products is available in [t
 ## Teaching experience
 
 - **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute: 2016, 2017, 2018, 2019; Benaroya Research Institute: 2020).
-- **Instructor**: Introduction to Phonetics (2010, 2011).
-- **Teaching Assistant**: Introduction to Linguistics, four sections (2008–2009).
-- **Co-facilitator**: “New Majors” proseminar for incoming Philosophy students (2001, 2002).
+- **Instructor**: Introduction to Phonetics (UW: 2010, 2011).
+- **Teaching Assistant**: Introduction to Linguistics, four sections (UW: 2008–2009).
+- **Co-instructor**: “New Majors” proseminar for incoming Philosophy students (UW: 2001, 2002).
 
 
 ## Technical skills
@@ -45,53 +45,54 @@ Structured bibliographic information for my research products is available in [t
 - **Co-creator** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
 - **Co-creator** of [expyfun](https://labsn.github.io/expyfun/): run psychophysics experiments in Python. ([repo](https://github.com/LABSN/expyfun))
 - **Creator** of [phonR](https://drammock.github.io/phonR/): analyze & visualize vowels in R. ([repo](https://github.com/drammock/phonR) \| [CRAN](https://cran.r-project.org/package=phonR))
-- **Creator** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not precise enough. ([repo](https://github.com/drammock/praat-semiauto/))
+- **Creator** of “Praat Semi-Auto”: scripts to streamline manual measurements in acoustic phonetics, when automated methods are not good enough. ([repo](https://github.com/drammock/praat-semiauto/))
 
 
-## Peer-reviewed articles (13 total, 6 first-authored)
-- {% reference EmmonsEtAl2021 %} [preprint](https://dan.mccloy.info/pubs/EmmonsEtAl2021_AudAttnASD.pdf))
-- {% reference OBrienEtAl2019-duration %} [preprint](https://psyarxiv.com/urd7w) \| [repo](https://github.com/YeatmanLab/Parametric_speech_public))
-- {% reference McCloyLee2019-EEGPF %} [supplement](https://www.tandfonline.com/doi/suppl/10.1080/23273798.2019.1569246) \| [preprint](https://dx.doi.org/10.17605/osf.io/f3mwp) \| [repo](https://github.com/LABSN-pubs/2018-lcn-eeg-phonological-features))
-- {% reference McCloyLee2018-PupilLisdiff %} [supplement](../pubs/McCloyEtAl2018_PupillometryListeningDifficultyAttentionSwitching_supplement.pdf) \| [preprint](https://psyarxiv.com/2ubyj/) \| [repo](https://github.com/LABSN-pubs/2018-pupil-lisdiff))
-- {% reference OBrienEtAl2018-staticDynamicCue %} [preprint](https://www.biorxiv.org/content/early/2018/04/22/305748) \| [repo](https://github.com/YeatmanLab/Speech_contrasts_public))
-- {% reference McCloyEtAl-PupilVocodeReverb %} [supplement](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_supplement.pdf) \| [preprint](../pubs/McCloyEtAl2017_PupillometryAttnSwitching_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2017-JASA-pupil-attn-switch))
-- {% reference HasegawaJohnsonEtAl2017-UnderresourcedASR %} [preprint](../pubs/HasegawaJohnsonEtAl2017_UnderresourcedASR.pdf) \| [repo](https://github.com/ws15code/prob-trans))
-- {% reference McCloyEtAl2016-PupilMethods %} [preprint](../pubs/McCloyEtAl2016_PupillometryDeconvolution_preprint.pdf) \| [repo](https://github.com/LABSN-pubs/2016-JASA-pupil-deconv-methods))
-- {% reference McCloyLee2015-DivAttnSem %} [preprint](../pubs/McCloyLee2015_DividedAttentionSemanticPhonetic_prepub.pdf) \| [repo](https://github.com/LABSN-pubs/2015-JASA-divided-attn-phonetic-semantic))
-- {% reference McCloyEtAl2014-crossDialect %} [preprint](../pubs/McCloyEtAl_CrossDialectIntelligibility.pdf))
-- {% reference BarrackEtAl2014-murmur %} [preprint](../pubs/BarrackEtAl2014_PIEmurmur.pdf))
-- {% reference SouzaEtAl2013-familiarity %} [preprint](../pubs/SouzaEtAl2013_FamiliarTalkerPrepub.pdf))
-- {% reference MoranEtAl2012-language %} [preprint](https://hdl.handle.net/1773/25269) \| [data and code (.zip)](../pubs/MoranMcCloyWright2012-DataAndScript.zip))
+## Peer-reviewed articles (14 total, 6 first-authored)
+- {% reference ClarkeEtAl2022 %}
+- {% reference EmmonsEtAl2021 %}
+- {% reference OBrienEtAl2019-duration %}
+- {% reference McCloyLee2019-EEGPF %}
+- {% reference McCloyLee2018-PupilLisdiff %}
+- {% reference OBrienEtAl2018-staticDynamicCue %}
+- {% reference McCloyEtAl2017-PupilVocodeReverb %}
+- {% reference HasegawaJohnsonEtAl2017-UnderresourcedASR %}
+- {% reference McCloyEtAl2016-PupilMethods %}
+- {% reference McCloyLee2015-DivAttnSem %}
+- {% reference McCloyEtAl2014-crossDialect %}
+- {% reference BarrackEtAl2014-murmur %}
+- {% reference SouzaEtAl2013-familiarity %}
+- {% reference MoranEtAl2012-language %}
 
 
 ## Invited talks (3)
 - {% reference McCloy2018-ubc %}
-- {% reference McCloy2017-bu %} ([slides](../pubs/McCloyLarsonLee2017_BUslides.pdf))
+- {% reference McCloy2017-bu %}
 - {% reference McCloy2016-ucsb %}
 
 
 ## Conference proceedings, working papers & technical reports (5)
-- {% reference McCloyEtAl2014-poma %} [proceedings](../pubs/McCloyEtAl2014_WithinDialectIntelligibility.pdf))
-- {% reference McCloy2014-indo %} [proceedings](../pubs/McCloy2014_IndoMorphophonetics.pdf))
-- {% reference McCloy2013-er %}  ([proceedings](https://depts.washington.edu/uwwpl/editions/vol31.html))
-- {% reference McCloy2012-phonR %}  ([PDF](../pubs/McCloy2012_phonR.pdf) \| [updated web version](https://drammock.github.io/phonR/))
-- {% reference McCloy2010-nwlcProc %}  ([proceedings](https://www.sfu.ca/gradlings/working-papers/wp_3.html))
+- {% reference McCloyEtAl2014-poma %}
+- {% reference McCloy2014-indo %}
+- {% reference McCloy2013-er %}
+- {% reference McCloy2012-phonR %}
+- {% reference McCloy2010-nwlcProc %}
 
 
 ## Conference presentations (13)
-- {% reference McCloyLee2016-ASAposter %} ([poster](../pubs/McCloyLee2016-ASA-EEG.pdf))
-- {% reference McCloyLee2016-NWAVRMposter %} ([poster](../pubs/McCloyLee2016-ConsonantClassifierEEG.pdf))
-- {% reference McCloyEtAl2016-ChaharDevoicing %} ([poster](../pubs/McCloyYurongPuthuval2016_ChaharDevoicing.pdf))
-- {% reference McCloyEtAl2014-GordonConfPoster %} ([poster](../pubs/McCloyEtAl2014_GordonConfPoster.pdf))
-- {% reference McCloyLee2014-dasCogLoad %} [poster](../pubs/McCloyLee2014_DivAttnCogLoad.pdf))
-- {% reference KishlineEtAl2014-TempOrder %} ([poster](../pubs/KishlineEtAl2014_TempOrder.pdf))
-- {% reference McCloyLee2013-divAttnSem %} [poster](../pubs/McCloyLee2013_DivAttnSem.pdf))
-- {% reference McCloy2013-summerschool %} ([poster](https://hdl.handle.net/1773/25274))
-- {% reference McCloyEtAl2013-cuny %} ([slides](../pubs/McCloyEtAl2013_cunyFeatureConf.pdf))
-- {% reference McCloyEtAl2012-asaIntel %} [poster](https://hdl.handle.net/1773/25272))
-- {% reference MoranEtAl2012-lsa %} [slides](../pubs/MoranMcCloyWright2012_LSAslides.pdf) \| [abstract](https://dx.doi.org/10.3765/exabs.v0i0.601))
-- {% reference McCloy2011-asaIndo %} [poster](https://hdl.handle.net/1773/25271))
-- {% reference McCloy2010-nwlcPres %} ([paper](https://hdl.handle.net/1773/25270))
+- {% reference McCloyLee2016-ASAposter %}
+- {% reference McCloyLee2016-NWAVRMposter %}
+- {% reference McCloyEtAl2016-ChaharDevoicing %}
+- {% reference McCloyEtAl2014-GordonConfPoster %}
+- {% reference McCloyLee2014-dasCogLoad %}
+- {% reference KishlineEtAl2014-TempOrder %}
+- {% reference McCloyLee2013-divAttnSem %}
+- {% reference McCloy2013-summerschool %}
+- {% reference McCloyEtAl2013-cuny %}
+- {% reference McCloyEtAl2012-asaIntel %}
+- {% reference MoranEtAl2012-lsa %}
+- {% reference McCloy2011-asaIndo %}
+- {% reference McCloy2010-nwlcPres %}
 
 
 ## Academic service: conferences & committees
