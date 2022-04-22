@@ -25,7 +25,7 @@
     <contributor>
       <name>Daniel McCloy</name>
       <email>drmccloy@uw.edu</email>
-      <uri>http://dan.mccloy.info/</uri>
+      <uri>https://dan.mccloy.info/</uri>
     </contributor>
     <category field="psychology"/>
     <category field="generic-base"/>
@@ -136,38 +136,54 @@
       </if>
       <else>
         <choose>
-          <if variable="DOI">
-            <text variable="DOI" prefix="(https://doi.org/" suffix=" | "/>
+          <if match="any" variable="DOI supplement preprint repo URL alturl">
+            <group prefix=" (" suffix="&#8288;)" delimiter="&nbsp;| ">
+              <choose>
+                <if variable="DOI">
+                  <text variable="DOI" prefix="[DOI](https://doi.org/" suffix=")"/>
+                </if>
+                <else-if variable="URL">
+                  <!-- only add URL if DOI is missing (an exception to this is handled below) -->
+                  <choose>
+                    <if variable="urltype">
+                      <text variable="urltype" prefix="[" suffix="]"/>
+                    </if>
+                    <else>
+                      <text value="[URL]"/>
+                    </else>
+                  </choose>
+                  <text variable="URL" prefix="(" suffix=")"/>
+                </else-if>
+              </choose>
+              <choose>
+                <if variable="supplement">
+                  <text variable="supplement" prefix="[supplement](" suffix=")"/>
+                </if>
+              </choose>
+              <choose>
+                <if variable="preprint">
+                  <text variable="preprint" prefix="[preprint](" suffix=")"/>
+                </if>
+              </choose>
+              <choose>
+                <if variable="repo">
+                  <text variable="repo" prefix="[repo](" suffix=")"/>
+                </if>
+              </choose>
+              <!-- if DOI present and "urltype" is defined, add URL anyway (will be link to poster or slides) -->
+              <choose>
+                <if variable="DOI URL urltype" match="all">
+                  <text variable="urltype" prefix="[" suffix="]"/>
+                  <text variable="URL" prefix="(" suffix=")"/>
+                </if>
+              </choose>
+              <choose>
+                <if variable="alturl">
+                  <text variable="alturl" prefix="[updated web version](" suffix=")"/>
+                </if>
+              </choose>
+            </group>
           </if>
-          <else>
-            <choose>
-              <if type="webpage">
-	          <!--
-                <group delimiter=" ">
-                  <text term="retrieved" text-case="capitalize-first" suffix=" "/>
-                  <group>
-                    <date variable="accessed" suffix=", ">
-                      <date-part name="month" suffix=" "/>
-                      <date-part name="day" suffix=", "/>
-                      <date-part name="year"/>
-                    </date>
-                  </group>
-                  <text term="from"/>
-                  <text variable="URL"/>
-                </group>
-	          -->
-              </if>
-              <else>
-	          <!--
-                <group>
-                  <text term="retrieved" text-case="capitalize-first" suffix=" "/>
-                  <text term="from" suffix=" "/>
-                  <text variable="URL"/>
-                </group>
-	          -->
-              </else>
-            </choose>
-          </else>
         </choose>
       </else>
     </choose>
