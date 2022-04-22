@@ -42,6 +42,7 @@ ENTRY
     edition
     editor
     event
+    eventtype
     howpublished
     institution
     journal
@@ -61,6 +62,7 @@ ENTRY
     title
     type
     url
+    urltype
     volume
     version
     year
@@ -479,14 +481,10 @@ FUNCTION {remove.pipe}
 }
 
 FUNCTION {poster.slides.url}
-{ type "poster" =
-  { "poster" }
-  { type "talk" =
-      { "slides" }
-      { "\textsc{url}" }
-    if$
-  }
-if$
+{ urltype empty$
+    { "\textsc{url}" }
+    { urltype }
+  if$
 }
 
 FUNCTION {doi.supplement.preprint.repo}
@@ -510,7 +508,7 @@ FUNCTION {doi.supplement.preprint.repo}
   doi empty$
     { url empty$
         {}
-        { type empty$
+        { urltype empty$
             { "\textsc{url}" }
             { poster.slides.url }
           if$
@@ -519,7 +517,7 @@ FUNCTION {doi.supplement.preprint.repo}
         }
       if$
     }
-    { type empty$ not url empty$ not and
+    { urltype empty$ not url empty$ not and
         { merge.pipe
             poster.slides.url url format.arbitrary.link *
             insert.pipe
@@ -1239,7 +1237,7 @@ FUNCTION {mastersthesis}
 
 FUNCTION {format.event}
 {
-  type
+  eventtype
   capitalize
   " at the " * event *
 }
