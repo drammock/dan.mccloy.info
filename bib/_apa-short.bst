@@ -34,6 +34,7 @@
 
 ENTRY
   { address
+    alturl
     author
     booktitle
     chapter
@@ -41,22 +42,28 @@ ENTRY
     edition
     editor
     event
+    eventtype
     howpublished
     institution
-    shortjournal
+    journal
     key
     month
     note
     number
     organization
     pages
+    preprint
     publisher
+    repo
     school
     series
+    shortjournal
     status
+    supplement
     title
     type
     url
+    urltype
     volume
     version
     year
@@ -309,8 +316,6 @@ FUNCTION {write.url}
 { url empty$
     { skip$ }
 %    { "\newline\urlprefix\href{" url * "}{" * url * "}" * write$ newline$ }
-%    { "\urlprefix\href{" url * "}{" * url * "}" * write$ newline$ }
-%    { new.block "\textsc{url}:\thinspace\href{" url * "}{" * url * "}" * write$ newline$ }
     { new.block "\href{" url * "}{" * url * "}" * write$ newline$ }
   if$
 }
@@ -452,10 +457,115 @@ FUNCTION {format.note}
 }
 
 FUNCTION {format.doi}
-{ doi empty$
-    { new.block "." }
-    { new.block "(\href{http://dx.doi.org/" doi * "}{" * "\textsc{doi}" * "} |" * }
+{ "\href{https://doi.org/" doi * "}{\textsc{doi}}" * }
+
+FUNCTION {format.arbitrary.link}
+{ "\href{" swap$ * "}{" * swap$ * "}" * }
+
+FUNCTION {insert.pipe}
+{ "~| " }
+
+FUNCTION {merge.pipe}
+{ duplicate$ insert.pipe =
+  { * }
+  {}
   if$
+}
+
+FUNCTION {remove.pipe}
+{ duplicate$ insert.pipe =
+    { pop$   % remove orig. pipe
+      ")" *  % close parentheses
+    }
+    {}
+  if$
+}
+
+FUNCTION {poster.slides.url}
+{ urltype empty$
+    { "\textsc{url}" }
+    { urltype }
+  if$
+}
+
+FUNCTION {doi.supplement.preprint.repo}
+{ doi empty$
+  url empty$
+  supplement empty$
+  preprint empty$
+  repo empty$
+  alturl empty$
+  and and and and and
+    { "" }
+    { "(" }
+  if$
+  doi empty$
+    {}
+    { format.doi *
+      insert.pipe
+    }
+  if$
+  % if DOI missing, add a URL. if URL is a poster, add even if DOI given.
+  doi empty$
+    { url empty$
+        {}
+        { urltype empty$
+            { "\textsc{url}" }
+            { poster.slides.url }
+          if$
+          url format.arbitrary.link *
+          insert.pipe
+        }
+      if$
+    }
+    { urltype empty$ not url empty$ not and
+        { merge.pipe
+            poster.slides.url url format.arbitrary.link *
+            insert.pipe
+        }
+        {}
+      if$
+    }
+  if$
+  supplement empty$
+    {}
+    { merge.pipe
+      "supplement" supplement format.arbitrary.link *
+      insert.pipe
+    }
+  if$
+  preprint empty$
+    {}
+    { merge.pipe
+      "preprint" preprint format.arbitrary.link *
+      insert.pipe
+    }
+  if$
+  repo empty$
+    {}
+    { merge.pipe
+      "repo" repo format.arbitrary.link *
+      insert.pipe
+    }
+  if$
+  alturl empty$
+    {}
+    { merge.pipe
+      "updated \textsc{html} version" alturl format.arbitrary.link *
+      insert.pipe
+    }
+  if$
+% finalize
+doi empty$
+url empty$
+supplement empty$
+preprint empty$
+repo empty$
+alturl empty$
+and and and and and
+  { "." * }
+  { remove.pipe }
+if$
 }
 
 FUNCTION {format.status}
@@ -906,14 +1016,13 @@ FUNCTION {article}
       format.pages output
     }
   if$
-  format.doi output
-  %new.block
-  %format.note output
+  new.sentence
+  doi.supplement.preprint.repo output
   fin.entry
-  %doi missing$
-  %  { write.url }
-  %  {}
-  %if$
+  % doi missing$
+  %   { write.url }
+  %   {}
+  % if$
 }
 FUNCTION {book}
 { output.bibitem
@@ -945,7 +1054,8 @@ FUNCTION {book}
     }
   if$
   format.edition output
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -964,7 +1074,8 @@ FUNCTION {booklet}
   new.block
   howpublished "howpublished" bibinfo.check output
   format.address output
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1006,7 +1117,8 @@ FUNCTION {inbook}
     }
   if$
   format.edition output
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1037,7 +1149,8 @@ FUNCTION {incollection}
       format.chapter.pages output
     }
   if$
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1073,7 +1186,8 @@ FUNCTION {inproceedings}
       format.pages output
     }
   if$
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1126,7 +1240,7 @@ FUNCTION {mastersthesis}
 
 FUNCTION {format.event}
 {
-  type
+  eventtype
   capitalize
   " at the " * event *
 }
@@ -1145,7 +1259,8 @@ FUNCTION {misc}
     { format.event output }
   if$
   format.address output
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1196,7 +1311,8 @@ FUNCTION {proceedings}
       format.publisher.address output
     }
   if$
-  format.doi output
+  new.sentence
+  doi.supplement.preprint.repo output
   new.block
   format.note output
   fin.entry
@@ -1219,9 +1335,9 @@ FUNCTION {techreport}
   institution "institution" bibinfo.warn output
   format.address output
   new.block
-  format.doi output
-  new.block
   format.note output
+  new.sentence
+  doi.supplement.preprint.repo output
   fin.entry
   %doi missing$
   %  { write.url }

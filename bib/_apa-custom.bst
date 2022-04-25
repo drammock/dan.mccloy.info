@@ -57,6 +57,7 @@ ENTRY
     repo
     school
     series
+    shortjournal
     status
     supplement
     title
@@ -1005,7 +1006,7 @@ FUNCTION {article}
   new.block
   crossref missing$
     {
-      journal
+      journal  % shortjournal
       "journal" bibinfo.check
       emphasize
       "journal" output.check
