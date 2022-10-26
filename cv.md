@@ -26,7 +26,7 @@ Structured bibliographic information for my research products is available in [t
 
 ## Teaching experience
 
-- **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute: 2016, 2017, 2018, 2019; Benaroya Research Institute: 2020).
+- **Instructor**: Software Carpentry Workshops “The Unix shell”, “Version control with git”, “Programming with Python”, “R for reproducible scientific analysis” (UW eScience Institute: 2016, 2017, 2018, 2019; Benaroya Research Institute: 2020; U. Minnesota: 2022).
 - **Instructor**: Introduction to Phonetics (UW: 2010, 2011).
 - **Teaching Assistant**: Introduction to Linguistics, four sections (UW: 2008–2009).
 - **Co-instructor**: “New Majors” proseminar for incoming Philosophy students (UW: 2001, 2002).
@@ -36,7 +36,7 @@ Structured bibliographic information for my research products is available in [t
 - **Programming**: Python, R, praat, Bash, GNU Make, Octave/MATLAB.
 - **Scientific computing**: git/GitHub, cloud deployment, machine learning, data visualization.
 - **Research hardware**: Pupillometry, eye tracking, EEG, MEG, microphones, audio processors.
-- **Document generation**: Sphinx, Jupyter, Pandoc, Markdown, R Markdown, reStructuredText, LaTeX, Beamer, HTML, CSS, Javascript.
+- **Document generation**: Sphinx, Jupyter, Pandoc, Markdown, R Markdown, reStructuredText, LaTeX, Beamer, HTML, (S)CSS, Javascript.
 
 
 ## Software & corpora
@@ -95,7 +95,8 @@ Structured bibliographic information for my research products is available in [t
 - {% reference McCloy2010-nwlcPres %}
 
 
-## Academic service: conferences & committees
+## Academic service: panels, conferences & committees
+- **Review Panelist**: NSF POSE (2022).
 - **Member**: LSA Committee on Scholarly Communication in Linguistics (2014–2018).
 - **Session organizer**: “Quantitative Methodology in Physiological and Psychophysical Data Analysis,” 171st Meeting of the Acoustical Society of America, Salt Lake City (2016).
 - **Member**: LSA Technology Advisory Committee (2013–2014).
