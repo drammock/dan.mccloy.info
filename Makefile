@@ -1,11 +1,18 @@
-serve: cv
+all: pdf html
+
+# HTML stream
+cv.md: _cv.md
+	python _pandoc/jekyll-preprocessor.py _cv.md cv.md
+
+serve: cv.md
 	bundle exec jekyll serve
 
-html: cv
+html: cv.md
 	bundle exec jekyll build
 	python _pandoc/html-postprocessor.py _site/cv/index.html _site/cv/tmp.html
 	mv _site/cv/tmp.html _site/cv/index.html
 
+# PDF stream
 _pandoc/cv.tex: _cv.md
 	# convert markdown to latex source
 	pandoc --natbib --from markdown-smart --template=_pandoc/template-cv.tex \
@@ -22,9 +29,7 @@ pdf: _pandoc/McCloy_CV.tex
 	# clean up
 	rm _pandoc/cv.tex
 
-cv: _cv.md
-	python _pandoc/jekyll-preprocessor.py _cv.md cv.md
-
+# alternate versions
 resume: _resume/resume.md
 	@pandoc _resume/resume.md \
 	--from markdown-smart \
@@ -55,5 +60,3 @@ short: _pandoc/McCloy_CV_short.tex
 	mv _pandoc/McCloy_CV_short.pdf .
 	# clean up
 	rm _pandoc/cv-short.tex
-
-all: pdf html
