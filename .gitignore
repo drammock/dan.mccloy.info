@@ -5,7 +5,8 @@ _refs
 _plugins
 _extras
 .ruby-version
-_pandoc/McCloy_CV.tex
+.jekyll-cache
+.vscode
 
 # Numerous always-ignore extensions
 *.diff

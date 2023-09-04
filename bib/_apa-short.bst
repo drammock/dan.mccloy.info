@@ -1007,10 +1007,13 @@ FUNCTION {article}
   crossref missing$
     {
       shortjournal
+      add.period$
       "journal" bibinfo.check
       emphasize
       "journal" output.check
-      format.vol.num.pages output
+      %format.vol.num.pages output
+      before.all 'output.state :=  % dirty hack to avoid double periods (not a problem if pages shown)
+      " " *
     }
     { format.article.crossref output.nonnull
       format.pages output
