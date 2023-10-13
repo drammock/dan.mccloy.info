@@ -1,60 +1,63 @@
 all: html McCloy_CV.pdf McCloy_CV_short.pdf
 
 clean:
-	@cd _parts; rm N_ART N_FIRST N_INV N_PROC N_TECHREP N_PRES N_CP_WP_TR article-title.md invited-title.md conf-pres-title.md cp-wp-tr-title.md article-omitted.md cp-wp-tr-list.md
+	@rm -r _auto
 	@rm _cv.md _cv_short.md
 
 # computed values
 
-_parts/N_ART: _parts/article-list.md
-	@cd _parts; wc -l article-list.md | cut -d " " -f 1 > N_ART
+_auto/:
+	@mkdir -p _auto
 
-_parts/N_FIRST: _parts/article-list.md
-	@cd _parts; grep -c "@McCloy" article-list.md > N_FIRST
+_auto/N_ART: _parts/article-list.md _auto/
+	@cd _parts; wc -l article-list.md | cut -d " " -f 1 > ../_auto/N_ART
 
-_parts/N_INV: _parts/invited-list.md
-	@cd _parts; wc -l invited-list.md | cut -d " " -f 1 > N_INV
+_auto/N_FIRST: _parts/article-list.md _auto/
+	@cd _parts; grep -c "@McCloy" article-list.md > ../_auto/N_FIRST
 
-_parts/N_PROC: _parts/conf-proc-list.md
-	@cd _parts; wc -l conf-proc-list.md | cut -d " " -f 1 > N_PROC
+_auto/N_INV: _parts/invited-list.md _auto/
+	@cd _parts; wc -l invited-list.md | cut -d " " -f 1 > ../_auto/N_INV
 
-_parts/N_TECHREP: _parts/tech-rep-list.md
-	@cd _parts; wc -l tech-rep-list.md | cut -d " " -f 1 > N_TECHREP
+_auto/N_PROC: _parts/conf-proc-list.md _auto/
+	@cd _parts; wc -l conf-proc-list.md | cut -d " " -f 1 > ../_auto/N_PROC
 
-_parts/N_PRES: _parts/conf-pres-list.md
-	@cd _parts; wc -l conf-pres-list.md | cut -d " " -f 1 > N_PRES
+_auto/N_TECHREP: _parts/tech-rep-list.md _auto/
+	@cd _parts; wc -l tech-rep-list.md | cut -d " " -f 1 > ../_auto/N_TECHREP
 
-_parts/N_CP_WP_TR: _parts/cp-wp-tr-list.md
-	@cd _parts; wc -l cp-wp-tr-list.md | cut -d " " -f 1 > N_CP_WP_TR
+_auto/N_PRES: _parts/conf-pres-list.md _auto/
+	@cd _parts; wc -l conf-pres-list.md | cut -d " " -f 1 > ../_auto/N_PRES
+
+_auto/N_CP_WP_TR: _auto/cp-wp-tr-list.md _auto/
+	@cd _parts; wc -l cp-wp-tr-list.md | cut -d " " -f 1 > ../_auto/N_CP_WP_TR
 
 
 # content (mostly section titles) that includes computed values
 
-_parts/article-title.md: _parts/N_ART _parts/N_FIRST
-	@cd _parts; echo "\n## Peer-reviewed articles ($$(cat N_ART;) total, $$(cat N_FIRST;) first-authored)" > article-title.md
+_auto/article-title.md: _auto/N_ART _auto/N_FIRST
+	@cd _auto; echo "\n## Peer-reviewed articles ($$(cat N_ART;) total, $$(cat N_FIRST;) first-authored)" > article-title.md
 
-_parts/invited-title.md: _parts/N_INV
-	@cd _parts; echo "\n## Invited talks ($$(cat N_INV;))" > invited-title.md
+_auto/invited-title.md: _auto/N_INV
+	@cd _auto; echo "\n## Invited talks ($$(cat N_INV;))" > invited-title.md
 
-_parts/conf-pres-title.md: _parts/N_PRES
-	@cd _parts; echo "\n## Conference presentations ($$(cat N_PRES;))" > conf-pres-title.md
+_auto/conf-pres-title.md: _auto/N_PRES
+	@cd _auto; echo "\n## Conference presentations ($$(cat N_PRES;))" > conf-pres-title.md
 
-_parts/cp-wp-tr-title.md: _parts/N_CP_WP_TR
-	@cd _parts; echo "\n## Conference proceedings, working papers & technical reports ($$(cat N_CP_WP_TR;))" > cp-wp-tr-title.md
+_auto/cp-wp-tr-title.md: _auto/N_CP_WP_TR
+	@cd _auto; echo "\n## Conference proceedings, working papers & technical reports ($$(cat N_CP_WP_TR;))" > cp-wp-tr-title.md
 
-_parts/article-omitted.md: _parts/N_INV _parts/N_PROC _parts/N_TECHREP _parts/N_PRES
-	@cd _parts; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations. [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
+_auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES
+	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations. [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
 
 
 # aggregated lists
 
-_parts/cp-wp-tr-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/working-paper-list.md
-	@cd _parts; cat conf-proc-list.md tech-rep-list.md working-paper-list.md | sort -n -r -t 2 -k 2 > cp-wp-tr-list.md
+_auto/cp-wp-tr-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/working-paper-list.md
+	@cd _parts; cat conf-proc-list.md tech-rep-list.md working-paper-list.md | sort -n -r -t 2 -k 2 > ../_auto/cp-wp-tr-list.md
 
 
 # whole document
 
-_cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degrees.md _parts/other-education.md _parts/teaching.md _parts/tech-skills.md _parts/software-corpora.md _parts/article-title.md _parts/article-list.md _parts/invited-title.md _parts/invited-list.md _parts/cp-wp-tr-title.md _parts/cp-wp-tr-list.md _parts/conf-pres-title.md _parts/conf-pres-list.md _parts/service-conf-comm.md _parts/service-journal-rev.md _parts/service-mentor-outreach.md _parts/grant-fellow-award.md _parts/affil.md
+_cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degrees.md _parts/other-education.md _parts/teaching.md _parts/tech-skills.md _parts/software-corpora.md _auto/article-title.md _parts/article-list.md _auto/invited-title.md _parts/invited-list.md _auto/cp-wp-tr-title.md _auto/cp-wp-tr-list.md _auto/conf-pres-title.md _parts/conf-pres-list.md _parts/service-conf-comm.md _parts/service-journal-rev.md _parts/service-mentor-outreach.md _parts/grant-fellow-award.md _parts/affil.md
 	@cd _parts; cat frontmatter.md \
 					overview.md \
 					biblink.md \
@@ -63,13 +66,13 @@ _cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degree
 					teaching.md \
 					tech-skills.md \
 					software-corpora.md \
-					article-title.md \
+					../_auto/article-title.md \
 					article-list.md \
-					invited-title.md \
+					../_auto/invited-title.md \
 					invited-list.md \
-					cp-wp-tr-title.md \
-					cp-wp-tr-list.md \
-					conf-pres-title.md \
+					../_auto/cp-wp-tr-title.md \
+					../_auto/cp-wp-tr-list.md \
+					../_auto/conf-pres-title.md \
 					conf-pres-list.md \
 					service-conf-comm.md \
 					service-journal-rev.md \
@@ -78,7 +81,7 @@ _cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degree
 					affil.md \
 					lang.md > ../_cv.md
 
-_cv_short.md: _parts/article-omitted.md _cv.md
+_cv_short.md: _auto/article-omitted.md _cv.md
 	@cd _parts; cat frontmatter.md \
 					overview.md \
 					degrees.md \
@@ -87,8 +90,8 @@ _cv_short.md: _parts/article-omitted.md _cv.md
 					tech-skills.md \
 					software-corpora.md \
 					clearpage \
-					article-title.md \
-					article-omitted.md \
+					../_auto/article-title.md \
+					../_auto/article-omitted.md \
 					article-list.md \
 					service-conf-comm.md \
 					service-mentor-outreach.md \
