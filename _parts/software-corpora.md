@@ -1,6 +1,6 @@
 
 ## Software & corpora
-- **Core developer** on **Steering Council** of [MNE-Python](https://mne.tools): human neurophysiology analysis. ([repo](https://github.com/mne-tools/mne-python))
+- **Leader ([BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life))** of [MNE-Python](https://mne.tools): human neurophysiology analysis. ([repo](https://github.com/mne-tools/mne-python))
 - **Maintainer** of [PyData Sphinx Theme](https://pydata-sphinx-theme.readthedocs.io): theme for software documentation websites. ([repo](https://github.com/pydata/pydata-sphinx-theme))
 - **Co-creator** of [PHOIBLE](https://phoible.org/): a database of over 3000 phonological inventories. ([repo](https://github.com/phoible/dev))
 - **Co-creator** of [UW/NU Corpus](https://depts.washington.edu/phonlab/projects/uwnu.php): a 2-dialect, 20-talker corpus of 200 parallel sentences of English.
