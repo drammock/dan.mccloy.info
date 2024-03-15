@@ -60,10 +60,6 @@ $endif$
 \newfontface\disp[Scale=2]{Linux Libertine Display O}% my name
 \newfontface\supc[Scale=2, Letters=SmallCaps]{Linux Libertine O}% superscript C in my name
 \newfontfamily\cvpg[Scale=1.2, Numbers={OldStyle}, Letters=SmallCaps]{Linux Libertine O}% "cv (page 1)"
-%\newcommand{\supc}[1]{\textsc{#1}}
-%\defaultfontfeatures{Path=/home/drmccloy/.fonts/fontawesome-free-5.11.2-desktop/otfs/}
-%\usepackage{fontawesome5}
-%\newfontfamily\FA[Path=/home/drmccloy/.fonts/fontawesome-free-5.11.2-desktop/otfs/]{Font Awesome 5 Free-Regular-400}
 
 % COLORS
 \definecolor{lightGray}{gray}{0.75}
@@ -71,7 +67,6 @@ $endif$
 \definecolor{darkGray}{gray}{0.25}
 \definecolor{urlGreen}{rgb}{0.1,0.5,0.1}
 % FORMATTING
-%\newenvironment{itm}{\begin{itemize}[leftmargin=*]}{\end{itemize}}
 \renewcommand{\labelitemi}{◦}
 \renewcommand{\labelitemii}{•}
 \renewcommand{\labelitemiii}{—}
@@ -86,11 +81,8 @@ $endif$
 
 \titlespacing{\section}{0pt}{*1.5}{*-0.5}
 \titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{}
-%\titleformat{\section}[hang]{\tit\color{darkGray}\MakeUppercase}{\thesection}{*0}{}
-
 \titlespacing{\subsection}{0pt}{*1}{*0}
 \titleformat{\subsection}[hang]{\cvpg\bfseries\MakeLowercase}{\thesubsection}{*0}{}
-
 \titlespacing{\subsubsection}{0pt}{*0}{*0}
 \titleformat{\subsubsection}[runin]{\itshape\bfseries}{\thesubsubsection}{}{{\normalfont \labelitemi}\hspace{0.5em}}[:\enspace]
 

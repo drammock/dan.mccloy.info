@@ -2,7 +2,7 @@ all: html McCloy_CV.pdf McCloy_CV_short.pdf
 
 clean:
 	@rm -r _auto
-	@rm _cv.md _cv_short.md
+	@rm _cv.md _cv_short.md _resume.md
 
 # computed values
 
@@ -48,6 +48,8 @@ _auto/cp-wp-tr-title.md: _auto/N_CP_WP_TR
 _auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES
 	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations. [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
 
+_auto/publication-summary.md: _auto/N_ART _auto/N_FIRST _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES
+	@cd _auto; echo "\n## Scholarly output\n\n$$(cat N_ART;) Peer-reviewed articles ($$(cat N_FIRST;) first-authored), $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations. [Full list here](https://dan.mccloy.info/cv/), [comprehensive BibTeX here](../bib/McCloy_CV.bib).\n" > publication-summary.md
 
 # aggregated lists
 
@@ -97,22 +99,41 @@ _cv_short.md: _auto/article-omitted.md _cv.md
 					service-mentor-outreach.md \
 					grant-fellow-award.md > ../_cv_short.md
 
+_resume.md: _cv_short.md _parts/overview-resume.md _parts/tech-skills-resume.md _parts/jobs.md _parts/education-resume.md _parts/teaching-resume.md _auto/publication-summary.md _parts/software-corpora-resume.md _parts/service-summary-resume.md _parts/grant-fellow-award-resume.md
+	@cd _parts; cat frontmatter.md \
+					overview-resume.md \
+					tech-skills-resume.md \
+					jobs.md \
+					education-resume.md \
+					teaching-resume.md \
+					../_auto/publication-summary.md \
+					software-corpora-resume.md \
+					service-summary-resume.md \
+					grant-fellow-award-resume.md > ../_resume.md
+
+
 # PDFs
 
-McCloy_CV.pdf: _cv.md
+McCloy_CV.pdf: _cv.md _pandoc/template-cv.tex
 	@pandoc --natbib --from markdown-smart --template=_pandoc/template-cv.tex --output=_pandoc/cv.tex _cv.md
 	@cd _pandoc; python latex-postprocessor.py cv.tex McCloy_CV.tex
 	@cd _pandoc; bash compile-pdf.bash McCloy_CV.tex
 	@mv _pandoc/McCloy_CV.pdf .
 	@cd _pandoc; rm cv.tex McCloy_CV.tex
 
-McCloy_CV_short.pdf: _cv_short.md
+McCloy_CV_short.pdf: _cv_short.md _pandoc/template-cv-short.tex
 	@pandoc --natbib --from markdown-smart --template=_pandoc/template-cv-short.tex --output=_pandoc/cv-short.tex _cv_short.md
 	@cd _pandoc; python latex-postprocessor.py cv-short.tex McCloy_CV_short.tex
 	@cd _pandoc; bash compile-pdf.bash McCloy_CV_short.tex
 	@mv _pandoc/McCloy_CV_short.pdf .
 	@cd _pandoc; rm cv-short.tex McCloy_CV_short.tex
 
+McCloy_resume.pdf: _resume.md _pandoc/template-resume.tex
+	@pandoc --natbib --from markdown-smart --template=_pandoc/template-resume.tex --output=_pandoc/resume.tex _resume.md
+	@cd _pandoc; python latex-postprocessor.py resume.tex McCloy_resume.tex
+	@cd _pandoc; bash compile-pdf.bash McCloy_resume.tex
+	@mv _pandoc/McCloy_resume.pdf .
+	@cd _pandoc; rm resume.tex McCloy_resume.tex
 
 # HTML version
 
@@ -126,14 +147,6 @@ html: cv.md
 	bundle exec jekyll build
 	python _pandoc/html-postprocessor.py _site/cv/index.html _site/cv/tmp.html
 	mv _site/cv/tmp.html _site/cv/index.html
-
-# alternate versions
-resume: _resume/resume.md
-	@pandoc _resume/resume.md \
-	--from markdown-smart \
-	--pdf-engine=xelatex \
-	--template=_pandoc/template-resume.tex \
-	--output=McCloy_resume.pdf
 
 datascience: _resume/resume_datascience.md
 	@pandoc _resume/resume_datascience.md \

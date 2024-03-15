@@ -1,3 +1,9 @@
+_auto/
+_cv.md
+_cv_short.md
+_resume.md
+images/
+
 # Ignore docs files
 _gh_pages
 _site
