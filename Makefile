@@ -1,5 +1,7 @@
 all: html McCloy_CV.pdf McCloy_CV_short.pdf
 
+.PHONY: _auto/
+
 clean:
 	@rm -r _auto
 	@rm _cv.md _cv_short.md _resume.md
@@ -27,8 +29,11 @@ _auto/N_TECHREP: _parts/tech-rep-list.md _auto/
 _auto/N_PRES: _parts/conf-pres-list.md _auto/
 	@cd _parts; wc -l conf-pres-list.md | cut -d " " -f 1 > ../_auto/N_PRES
 
+_auto/N_PREPRINT: _parts/preprint-list.md _auto/
+	@cd _parts; wc -l preprint-list.md | cut -d " " -f 1 > ../_auto/N_PREPRINT
+
 _auto/N_CP_WP_TR: _auto/cp-wp-tr-list.md _auto/
-	@cd _parts; wc -l cp-wp-tr-list.md | cut -d " " -f 1 > ../_auto/N_CP_WP_TR
+	@cd _auto; wc -l cp-wp-tr-list.md | cut -d " " -f 1 > N_CP_WP_TR
 
 
 # content (mostly section titles) that includes computed values
@@ -43,18 +48,18 @@ _auto/conf-pres-title.md: _auto/N_PRES
 	@cd _auto; echo "\n## Conference presentations ($$(cat N_PRES;))" > conf-pres-title.md
 
 _auto/cp-wp-tr-title.md: _auto/N_CP_WP_TR
-	@cd _auto; echo "\n## Conference proceedings, working papers & technical reports ($$(cat N_CP_WP_TR;))" > cp-wp-tr-title.md
+	@cd _auto; echo "\n## Conf.\ proceedings, preprints, working papers & tech.\ reports ($$(cat N_CP_WP_TR;))" > cp-wp-tr-title.md
 
-_auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES
-	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations. [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
+_auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES _auto/N_PREPRINT
+	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprints. [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
 
-_auto/publication-summary.md: _auto/N_ART _auto/N_FIRST _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES
-	@cd _auto; echo "\n## Scholarly output\n\n$$(cat N_ART;) Peer-reviewed articles ($$(cat N_FIRST;) first-authored), $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations. [Full list here](https://dan.mccloy.info/cv/), [comprehensive BibTeX here](../bib/McCloy_CV.bib).\n" > publication-summary.md
+_auto/publication-summary.md: _auto/N_ART _auto/N_FIRST _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES _auto/N_PREPRINT
+	@cd _auto; echo "\n## Scholarly output\n\n$$(cat N_ART;) Peer-reviewed articles ($$(cat N_FIRST;) first-authored), $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprints. [Full list here](https://dan.mccloy.info/cv/), [comprehensive BibTeX here](../bib/McCloy_CV.bib).\n" > publication-summary.md
 
 # aggregated lists
 
-_auto/cp-wp-tr-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/working-paper-list.md
-	@cd _parts; cat conf-proc-list.md tech-rep-list.md working-paper-list.md | sort -n -r -t 2 -k 2 > ../_auto/cp-wp-tr-list.md
+_auto/cp-wp-tr-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/working-paper-list.md _parts/preprint-list.md
+	@cd _parts; cat conf-proc-list.md tech-rep-list.md working-paper-list.md preprint-list.md | sort -n -r -t 2 -k 2 > ../_auto/cp-wp-tr-list.md
 
 
 # whole document
@@ -80,8 +85,8 @@ _cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degree
 					service-journal-rev.md \
 					service-mentor-outreach.md \
 					grant-fellow-award.md \
-					affil.md \
-					lang.md > ../_cv.md
+					affil.md > ../_cv.md
+# lang.md removed from last position (temporarily?)
 
 _cv_short.md: _auto/article-omitted.md _cv.md
 	@cd _parts; cat frontmatter.md \
