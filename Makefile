@@ -1,4 +1,4 @@
-all: html McCloy_CV.pdf McCloy_CV_short.pdf
+all: html McCloy_CV.pdf McCloy_CV_short.pdf McCloy_resume.pdf
 
 .PHONY: _auto/
 
