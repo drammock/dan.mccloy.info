@@ -1,3 +1,4 @@
+- [@YeatmanEtAl2024-prek]
 - [@ClarkeEtAl2022]
 - [@EmmonsEtAl2021]
 - [@OBrienEtAl2019-duration]
