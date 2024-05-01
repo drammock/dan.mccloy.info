@@ -4,7 +4,7 @@ all: html McCloy_CV.pdf McCloy_CV_short.pdf McCloy_resume.pdf
 
 clean:
 	@rm -r _auto
-	@rm _cv.md _cv_short.md _resume.md
+	@rm cv.md _cv.md _cv_short.md _resume.md
 
 # computed values
 
