@@ -64,7 +64,7 @@ _auto/cp-wp-tr-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/
 
 # whole document
 
-_cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degrees.md _parts/other-education.md _parts/teaching.md _parts/tech-skills.md _parts/software-corpora.md _auto/article-title.md _parts/article-list.md _auto/invited-title.md _parts/invited-list.md _auto/cp-wp-tr-title.md _auto/cp-wp-tr-list.md _auto/conf-pres-title.md _parts/conf-pres-list.md _parts/service-conf-comm.md _parts/service-journal-rev.md _parts/service-mentor-outreach.md _parts/grant-fellow-award.md _parts/affil.md
+_cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degrees.md _parts/other-education.md _parts/teaching.md _parts/tech-skills.md _parts/software-corpora.md _auto/article-title.md _parts/article-list.md _auto/invited-title.md _parts/invited-list.md _auto/cp-wp-tr-title.md _auto/cp-wp-tr-list.md _auto/conf-pres-title.md _parts/conf-pres-list.md _parts/service-conf-comm.md _parts/service-journal-rev.md _parts/service-mentor-outreach.md _parts/grant-fellow-award.md _parts/affil.md _parts/lang.md
 	@cd _parts; cat frontmatter.md \
 					overview.md \
 					biblink.md \
@@ -85,7 +85,8 @@ _cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degree
 					service-journal-rev.md \
 					service-mentor-outreach.md \
 					grant-fellow-award.md \
-					affil.md > ../_cv.md
+					affil.md \
+					lang.md > ../_cv.md
 # lang.md removed from last position (temporarily?)
 
 _cv_short.md: _auto/article-omitted.md _cv.md
