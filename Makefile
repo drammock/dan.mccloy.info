@@ -51,7 +51,7 @@ _auto/cp-wp-tr-title.md: _auto/N_CP_WP_TR
 	@cd _auto; echo "\n## Conf.\ proceedings, preprints, working papers & tech.\ reports ($$(cat N_CP_WP_TR;))" > cp-wp-tr-title.md
 
 _auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES _auto/N_PREPRINT
-	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprints. [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
+	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprint$$(../plural N_PREPRINT;). [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
 
 _auto/publication-summary.md: _auto/N_ART _auto/N_FIRST _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES _auto/N_PREPRINT
 	@cd _auto; echo "\n## Scholarly output\n\n$$(cat N_ART;) Peer-reviewed articles ($$(cat N_FIRST;) first-authored), $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report$$(../plural N_TECHREP;), $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprint$$(../plural N_PREPRINT;). [Full list here](https://dan.mccloy.info/cv/), [comprehensive BibTeX here](../bib/McCloy_CV.bib).\n" > publication-summary.md
