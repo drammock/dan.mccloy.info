@@ -1,7 +1,5 @@
 all: html McCloy_CV.pdf McCloy_CV_short.pdf McCloy_resume.pdf
 
-.PHONY: _auto/
-
 clean:
 	@rm -r _auto
 	@rm cv.md _cv.md _cv_short.md _resume.md
@@ -32,9 +30,23 @@ _auto/N_PRES: _parts/conf-pres-list.md _auto/
 _auto/N_PREPRINT: _parts/preprint-list.md _auto/
 	@cd _parts; wc -l preprint-list.md | cut -d " " -f 1 > ../_auto/N_PREPRINT
 
-_auto/N_CP_WP_TR: _auto/cp-wp-tr-list.md _auto/
-	@cd _auto; wc -l cp-wp-tr-list.md | cut -d " " -f 1 > N_CP_WP_TR
+_auto/N_REVIEWS: _parts/journal-review-list.yaml _auto/
+	@yq '[.[]] | flatten | length' _parts/journal-review-list.yaml > _auto/N_REVIEWS
 
+_auto/N_JOURNALS_REVIEWED: _parts/journal-review-list.yaml _auto/
+	@yq length _parts/journal-review-list.yaml > _auto/N_JOURNALS_REVIEWED
+
+_auto/N_CONFPROC_WORKPAP_TECHREP: _auto/confproc-workpap-techrep-list.md _auto/
+	@cd _auto; wc -l confproc-workpap-techrep-list.md | cut -d " " -f 1 > N_CONFPROC_WORKPAP_TECHREP
+
+_auto/REV_YEARS: _parts/journal-review-list.yaml _auto/
+	@yq '[.[]] | flatten | map(split("-")[0] | tonumber)' _parts/journal-review-list.yaml > _auto/REV_YEARS
+
+_auto/FIRST_REV: _auto/REV_YEARS
+	@yq min _auto/REV_YEARS > _auto/FIRST_REV
+
+_auto/LAST_REV: _auto/REV_YEARS
+	@yq max _auto/REV_YEARS > _auto/LAST_REV
 
 # content (mostly section titles) that includes computed values
 
@@ -47,8 +59,8 @@ _auto/invited-title.md: _auto/N_INV
 _auto/conf-pres-title.md: _auto/N_PRES
 	@cd _auto; echo "\n## Conference presentations ($$(cat N_PRES;))" > conf-pres-title.md
 
-_auto/cp-wp-tr-title.md: _auto/N_CP_WP_TR
-	@cd _auto; echo "\n## Conf.\ proceedings, preprints, working papers & tech.\ reports ($$(cat N_CP_WP_TR;))" > cp-wp-tr-title.md
+_auto/confproc-workpap-techrep-title.md: _auto/N_CONFPROC_WORKPAP_TECHREP
+	@cd _auto; echo "\n## Conf.\ proceedings, preprints, working papers & tech.\ reports ($$(cat N_CONFPROC_WORKPAP_TECHREP;))" > confproc-workpap-techrep-title.md
 
 _auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES _auto/N_PREPRINT
 	@cd _auto; echo "*Omitted here:* $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report, $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprint$$(../plural N_PREPRINT;). [Comprehensive BibTeX available here](../bib/McCloy_CV.bib).\n" > article-omitted.md
@@ -56,15 +68,22 @@ _auto/article-omitted.md: _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES 
 _auto/publication-summary.md: _auto/N_ART _auto/N_FIRST _auto/N_INV _auto/N_PROC _auto/N_TECHREP _auto/N_PRES _auto/N_PREPRINT
 	@cd _auto; echo "\n## Scholarly output\n\n$$(cat N_ART;) Peer-reviewed articles ($$(cat N_FIRST;) first-authored), $$(cat N_INV;) invited talks, $$(cat N_PROC;) conference proceedings, $$(cat N_TECHREP;) technical report$$(../plural N_TECHREP;), $$(cat N_PRES;) conference presentations, $$(cat N_PREPRINT;) preprint$$(../plural N_PREPRINT;). [Full list here](https://dan.mccloy.info/cv/), [comprehensive BibTeX here](../bib/McCloy_CV.bib).\n" > publication-summary.md
 
+_auto/service-journal-rev.md: _parts/journal-review-list.yaml
+	@echo "\n## Academic service: journal reviews\n$$(yq -r 'to_entries | map(.value=(.value|length)) | sort_by(.key) | reverse | sort_by(.value) | reverse | map("_\(.key)_ (\(.value))") | join(", ")' _parts/journal-review-list.yaml;).\n" > _auto/service-journal-rev.md
+
+_auto/service-summary.md: _auto/N_REVIEWS _auto/N_JOURNALS_REVIEWED _auto/FIRST_REV _auto/LAST_REV
+	@cd _auto; echo "\n## Selected service, mentorship & outreach\n- **Reviewer**: $$(cat N_REVIEWS;) articles for $$(cat N_JOURNALS_REVIEWED;) different academic journals ($$(cat FIRST_REV;)-$$(cat LAST_REV;)).\n- **Review Panelist**: National Science Foundation — POSE (2022).\n- **Member**: LSA Committee on Scholarly Communication in Linguistics (2014–2018).\n- **Volunteer**: Pacific Science Center’s [Paws On Science Weekend](https://www.washington.edu/community/paws-on-science-husky-weekend-at-pacific-science-center-april-10-12/) (2016).\n" > service-summary.md
+
+
 # aggregated lists
 
-_auto/cp-wp-tr-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/working-paper-list.md _parts/preprint-list.md
-	@cd _parts; cat conf-proc-list.md tech-rep-list.md working-paper-list.md preprint-list.md | sort -n -r -t 2 -k 2 > ../_auto/cp-wp-tr-list.md
+_auto/confproc-workpap-techrep-list.md: _parts/conf-proc-list.md _parts/tech-rep-list.md _parts/working-paper-list.md _parts/preprint-list.md
+	@cd _parts; cat conf-proc-list.md tech-rep-list.md working-paper-list.md preprint-list.md | sort -n -r -t 2 -k 2 > ../_auto/confproc-workpap-techrep-list.md
 
 
 # whole document
 
-_cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degrees.md _parts/other-education.md _parts/teaching.md _parts/tech-skills.md _parts/software-corpora.md _auto/article-title.md _parts/article-list.md _auto/invited-title.md _parts/invited-list.md _auto/cp-wp-tr-title.md _auto/cp-wp-tr-list.md _auto/conf-pres-title.md _parts/conf-pres-list.md _parts/service-conf-comm.md _parts/service-journal-rev.md _parts/service-mentor-outreach.md _parts/grant-fellow-award.md _parts/affil.md _parts/lang.md
+_cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degrees.md _parts/other-education.md _parts/teaching.md _parts/tech-skills.md _parts/software-corpora.md _auto/article-title.md _parts/article-list.md _auto/invited-title.md _parts/invited-list.md _auto/confproc-workpap-techrep-title.md _auto/confproc-workpap-techrep-list.md _auto/conf-pres-title.md _parts/conf-pres-list.md _parts/service-conf-comm.md _auto/service-journal-rev.md _parts/service-mentor-outreach.md _parts/grant-fellow-award.md _parts/affil.md _parts/lang.md
 	@cd _parts; cat frontmatter.md \
 					overview.md \
 					biblink.md \
@@ -77,17 +96,16 @@ _cv.md: _parts/frontmatter.md _parts/overview.md _parts/biblink.md _parts/degree
 					article-list.md \
 					../_auto/invited-title.md \
 					invited-list.md \
-					../_auto/cp-wp-tr-title.md \
-					../_auto/cp-wp-tr-list.md \
+					../_auto/confproc-workpap-techrep-title.md \
+					../_auto/confproc-workpap-techrep-list.md \
 					../_auto/conf-pres-title.md \
 					conf-pres-list.md \
 					service-conf-comm.md \
-					service-journal-rev.md \
+					../_auto/service-journal-rev.md \
 					service-mentor-outreach.md \
 					grant-fellow-award.md \
 					affil.md \
 					lang.md > ../_cv.md
-# lang.md removed from last position (temporarily?)
 
 _cv_short.md: _auto/article-omitted.md _cv.md
 	@cd _parts; cat frontmatter.md \
@@ -105,7 +123,7 @@ _cv_short.md: _auto/article-omitted.md _cv.md
 					service-mentor-outreach.md \
 					grant-fellow-award.md > ../_cv_short.md
 
-_resume.md: _cv_short.md _parts/overview-resume.md _parts/tech-skills-resume.md _parts/jobs.md _parts/education-resume.md _parts/teaching-resume.md _auto/publication-summary.md _parts/software-corpora-resume.md _parts/service-summary-resume.md _parts/grant-fellow-award-resume.md
+_resume.md: _cv_short.md _parts/overview-resume.md _parts/tech-skills-resume.md _parts/jobs.md _parts/education-resume.md _parts/teaching-resume.md _auto/publication-summary.md _parts/software-corpora-resume.md _auto/service-summary.md _parts/grant-fellow-award-resume.md
 	@cd _parts; cat frontmatter.md \
 					overview-resume.md \
 					tech-skills-resume.md \
@@ -114,7 +132,7 @@ _resume.md: _cv_short.md _parts/overview-resume.md _parts/tech-skills-resume.md 
 					teaching-resume.md \
 					../_auto/publication-summary.md \
 					software-corpora-resume.md \
-					service-summary-resume.md \
+					../_auto/service-summary.md \
 					grant-fellow-award-resume.md > ../_resume.md
 
 
