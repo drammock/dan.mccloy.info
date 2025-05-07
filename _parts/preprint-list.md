@@ -1,1 +1,0 @@
-- [@WestnerEtAl2024-fosss]

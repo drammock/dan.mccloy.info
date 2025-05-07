@@ -1,3 +1,4 @@
+- [@WestnerEtAl2025-fosss]
 - [@YeatmanEtAl2024-prek]
 - [@ClarkeEtAl2022]
 - [@EmmonsEtAl2021]
