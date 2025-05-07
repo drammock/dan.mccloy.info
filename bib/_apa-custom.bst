@@ -530,7 +530,7 @@ FUNCTION {doi.supplement.preprint.repo}
   supplement empty$
     {}
     { merge.pipe
-      "supplement" supplement format.arbitrary.link *
+      "suppl." supplement format.arbitrary.link *
       insert.pipe
     }
   if$
@@ -1006,7 +1006,7 @@ FUNCTION {article}
   new.block
   crossref missing$
     {
-      journal  % shortjournal
+      shortjournal
       "journal" bibinfo.check
       emphasize
       "journal" output.check
