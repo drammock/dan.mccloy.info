@@ -121,7 +121,7 @@ _cv_short.md: _auto/article-omitted.md _cv.md
 					article-list.md \
 					service-conf-comm.md \
 					service-mentor-outreach.md \
-					grant-fellow-award.md > ../_cv_short.md
+					grant-fellow-award-resume.md > ../_cv_short.md
 
 _resume.md: _cv_short.md _parts/overview-resume.md _parts/tech-skills-resume.md _parts/jobs.md _parts/education-resume.md _parts/teaching-resume.md _auto/publication-summary.md _parts/software-corpora-resume.md _auto/service-summary.md _parts/grant-fellow-award-resume.md
 	@cd _parts; cat frontmatter.md \
