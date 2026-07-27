@@ -138,21 +138,21 @@ _resume.md: _cv_short.md _parts/overview-resume.md _parts/tech-skills-resume.md 
 
 # PDFs
 
-McCloy_CV.pdf: _cv.md _pandoc/template-cv.tex
+McCloy_CV.pdf: _cv.md _pandoc/template-cv.tex bib/McCloy_CV.bib
 	@pandoc --natbib --from markdown-smart --template=_pandoc/template-cv.tex --output=_pandoc/cv.tex _cv.md
 	@cd _pandoc; python latex-postprocessor.py cv.tex McCloy_CV.tex
 	@cd _pandoc; bash compile-pdf.bash McCloy_CV.tex
 	@mv _pandoc/McCloy_CV.pdf .
 	@cd _pandoc; rm cv.tex McCloy_CV.tex
 
-McCloy_CV_short.pdf: _cv_short.md _pandoc/template-cv-short.tex
+McCloy_CV_short.pdf: _cv_short.md _pandoc/template-cv-short.tex bib/McCloy_CV.bib
 	@pandoc --natbib --from markdown-smart --template=_pandoc/template-cv-short.tex --output=_pandoc/cv-short.tex _cv_short.md
 	@cd _pandoc; python latex-postprocessor.py cv-short.tex McCloy_CV_short.tex
 	@cd _pandoc; bash compile-pdf.bash McCloy_CV_short.tex
 	@mv _pandoc/McCloy_CV_short.pdf .
 	@cd _pandoc; rm cv-short.tex McCloy_CV_short.tex
 
-McCloy_resume.pdf: _resume.md _pandoc/template-resume.tex
+McCloy_resume.pdf: _resume.md _pandoc/template-resume.tex bib/McCloy_CV.bib
 	@pandoc --natbib --from markdown-smart --template=_pandoc/template-resume.tex --output=_pandoc/resume.tex _resume.md
 	@cd _pandoc; python latex-postprocessor.py resume.tex McCloy_resume.tex
 	@cd _pandoc; bash compile-pdf.bash McCloy_resume.tex
