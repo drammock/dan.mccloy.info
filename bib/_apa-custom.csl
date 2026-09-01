@@ -182,6 +182,11 @@
                   <text variable="alturl" prefix="[updated web version](" suffix=")"/>
                 </if>
               </choose>
+              <choose>
+                <if variable="video">
+                  <text variable="video" prefix="[video](" suffix=")"/>
+                </if>
+              </choose>
             </group>
           </if>
         </choose>

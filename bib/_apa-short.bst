@@ -64,8 +64,9 @@ ENTRY
     type
     url
     urltype
-    volume
     version
+    volume
+    video
     year
   }
   {}
@@ -552,6 +553,13 @@ FUNCTION {doi.supplement.preprint.repo}
     {}
     { merge.pipe
       "updated \textsc{html} version" alturl format.arbitrary.link *
+      insert.pipe
+    }
+  if$
+  video empty$
+    {}
+    { merge.pipe
+      "video" video format.arbitrary.link *
       insert.pipe
     }
   if$
