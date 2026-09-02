@@ -136,55 +136,64 @@
       </if>
       <else>
         <choose>
-          <if match="any" variable="DOI supplement preprint repo URL alturl">
-            <group prefix=" (" suffix="&#8288;)" delimiter="&nbsp;| ">
+          <if match="any" variable="DOI supplement preprint repo URL alturl video">
+            <group prefix=" (" suffix="&#8288;)" delimiter="&#0160;| ">
+              <!-- DOI or URL -->
               <choose>
                 <if variable="DOI">
                   <text variable="DOI" prefix="[DOI](https://doi.org/" suffix=")"/>
                 </if>
                 <else-if variable="URL">
                   <!-- only add URL if DOI is missing (an exception to this is handled below) -->
-                  <choose>
-                    <if variable="urltype">
-                      <text variable="urltype" prefix="[" suffix="]"/>
-                    </if>
-                    <else>
-                      <text value="[URL]"/>
-                    </else>
-                  </choose>
-                  <text variable="URL" prefix="(" suffix=")"/>
+                  <group>
+                    <choose>
+                      <if variable="urltype">
+                        <text variable="urltype" prefix="[" suffix="]"/>
+                      </if>
+                      <else>
+                        <text value="[URL]"/>
+                      </else>
+                    </choose>
+                    <text variable="URL" prefix="(" suffix=")"/>
+                  </group>
                 </else-if>
               </choose>
+              <!-- supplement -->
               <choose>
                 <if variable="supplement">
                   <text variable="supplement" prefix="[supplement](" suffix=")"/>
                 </if>
               </choose>
+              <!-- preprint -->
               <choose>
                 <if variable="preprint">
                   <text variable="preprint" prefix="[preprint](" suffix=")"/>
                 </if>
               </choose>
+              <!-- repository -->
               <choose>
                 <if variable="repo">
                   <text variable="repo" prefix="[repo](" suffix=")"/>
                 </if>
               </choose>
+              <!-- video -->
+              <choose>
+                <if variable="video">
+                  <text variable="video" prefix="[video](" suffix=")"/>
+                </if>
+              </choose>
               <!-- if DOI present and "urltype" is defined, add URL anyway (will be link to poster or slides) -->
               <choose>
                 <if variable="DOI URL urltype" match="all">
-                  <text variable="urltype" prefix="[" suffix="]"/>
-                  <text variable="URL" prefix="(" suffix=")"/>
+                  <group>
+                    <text variable="urltype" prefix="[" suffix="]"/>
+                    <text variable="URL" prefix="(" suffix=")"/>
+                  </group>
                 </if>
               </choose>
               <choose>
                 <if variable="alturl">
                   <text variable="alturl" prefix="[updated web version](" suffix=")"/>
-                </if>
-              </choose>
-              <choose>
-                <if variable="video">
-                  <text variable="video" prefix="[video](" suffix=")"/>
                 </if>
               </choose>
             </group>
@@ -197,13 +206,13 @@
     <choose>
       <if type="report thesis" match="any">
         <text variable="title" font-style="italic"/>
+        <!--
         <group prefix=" (" suffix=")">
-          <!--
           <text variable="genre"/>
           <text variable="institution"/>
           <text variable="number" prefix=" No. "/>
-          -->
         </group>
+        -->
       </if>
       <else-if type="bill book graphic legal_case motion_picture report song manuscript speech" match="any">
         <text variable="title" font-style="italic"/>
@@ -268,15 +277,15 @@
     <choose>
       <if variable="status">
         <group prefix=" (" suffix=").">
-		  <text variable="status"/>
+          <text variable="status"/>
         </group>
       </if>
       <else-if variable="issued">
         <group prefix=" (" suffix=")." delimiter=" ">
-		  <date variable="issued">
-			<date-part name="year"/>
-		  </date>
-		  <text variable="year-suffix"/>
+          <date variable="issued">
+          <date-part name="year"/>
+          </date>
+          <text variable="year-suffix"/>
           <!--
           <choose>
             <if type="bill book graphic legal_case motion_picture report song article-journal chapter paper-conference" match="none">
@@ -383,11 +392,6 @@
       <label variable="locator" form="short"/>
       <text variable="locator" prefix=" "/>
     </group>
-  </macro>
-  <macro name="zotNotes">
-  	<if type="memo" match="">
-	  	<text />
-  	</if>
   </macro>
   <citation et-al-min="6" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="false" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name">
     <sort>
