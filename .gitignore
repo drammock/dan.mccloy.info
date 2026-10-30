@@ -30,3 +30,6 @@ _extras
 
 # Contains non-public info
 _parts/journal-review-list.yaml
+# pixi environments
+.pixi/*
+!.pixi/config.toml

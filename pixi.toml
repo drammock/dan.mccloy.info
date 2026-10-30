@@ -1,0 +1,23 @@
+[workspace]
+authors = ["Daniel McCloy <dan@mccloy.info>"]
+channels = ["conda-forge"]
+name = "website"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks.gems]
+cmd = "bundle install"
+inputs = ["Gemfile", "Gemfile.lock"]
+outputs = [".gems/**/*", "Gemfile.lock"]
+
+[dependencies]
+make = "*"
+pandoc = "*"
+python = "*"
+# ↓↓↓ these are the versions that are working at system-install level.
+# ↓↓↓ Newest rb-bundler on conda-forge is 2.1.4, which pulls in ruby >=2.5.7,<2.6.0a0
+# ↓↓↓ (which won't work, because a transitive dependency needs ruby >=3.2)
+# rb-bundler = "=2.6.7"
+# ruby = "=3.4.3"
+texlive-core = "*"
+yq = "*"
