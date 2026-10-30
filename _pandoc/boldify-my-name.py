@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""Inject LaTeX formatting to bold my surname in the list of references."""
 
 import sys
 

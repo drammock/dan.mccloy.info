@@ -1027,10 +1027,6 @@ FUNCTION {article}
   new.sentence
   doi.supplement.preprint.repo output
   fin.entry
-  % doi missing$
-  %   { write.url }
-  %   {}
-  % if$
 }
 FUNCTION {book}
 { output.bibitem

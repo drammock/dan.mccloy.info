@@ -1,4 +1,4 @@
-%% This is file `apa-custom.bst' by Daniel McCloy.
+%% This is file `apa-short.bst' by Daniel McCloy.
 %% It is a hand-edited derivative of `apa-ben.bst', which was generated with the docstrip utility.  Chief innovations are the handling of "version" information for citations of software, the omission of "series" information, the display of "url" information in the citation only in cases where a value for "doi" is missing, the italicization of "et~al.", and the spelling out of the word "and" for starred versions of natbib \cite commands.
 %%
 %% The original source files were:
